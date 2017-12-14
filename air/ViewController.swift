@@ -23,7 +23,8 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        //Set up scroll view
+        
+        //Set up individual view for scroll view
         
         let xOrigin = self.view.frame.width
         
@@ -39,7 +40,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
 
         mainScroll.addSubview(now.view)
         
-       
+        // set up the size for each view
         credit.view.frame = CGRect(x: 0, y: 0, width: self.view.frame.width, height: self.view.frame.height)
 
         forcast.view.frame = CGRect(x: xOrigin, y: 0, width: self.view.frame.width, height: self.view.frame.height)
@@ -66,8 +67,6 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     //MARK: - Location Manager Delegate Methods
     /***************************************************************/
     
-    
-    //Write the didUpdateLocations method here:
     //Write the didUpdateLocations method here:
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         

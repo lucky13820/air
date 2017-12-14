@@ -30,12 +30,6 @@ class NowScreenView: UIViewController, CLLocationManagerDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-//
-//        //Set up the location manager here.
-//        locationManager.delegate = self
-//        locationManager.desiredAccuracy = kCLLocationAccuracyHundredMeters
-//        locationManager.requestWhenInUseAuthorization()
-//        locationManager.startUpdatingLocation()
 
     }
 
@@ -110,7 +104,6 @@ class NowScreenView: UIViewController, CLLocationManagerDelegate {
     
     
     func updateUIWithWeatherData() {
-
         
         cityLabel.text = "\(weatherDataModel.city)"
         nowTemp.text = "\(weatherDataModel.temperature)º"
