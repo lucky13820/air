@@ -13,8 +13,9 @@ class WeatherDataModel {
     //Declare your model variables here
     var temperature : Int = 0
     var condition : Int = 0
-    var city : String = ""
+    var city : String = "not"
     var weatherIconName : String = ""
+    var feel : Int = 0
     
     //This method turns a condition code into the name of the weather condition image
     

@@ -30,6 +30,12 @@ class NowScreenView: UIViewController, CLLocationManagerDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        feelLabel.text = "体\n感\n"
+        feelLabel.numberOfLines = 0
+        
+        cityLabel.text = "体\n感\n"
+        cityLabel.numberOfLines = 0
 
     }
 
@@ -76,13 +82,14 @@ class NowScreenView: UIViewController, CLLocationManagerDelegate {
         let status = data["status"].stringValue
         //print(json)
         if status == "ok" {
-            let tmpsNow = data["now"]["tmp"].intValue
             
-            weatherDataModel.temperature = tmpsNow
+            weatherDataModel.temperature = data["now"]["tmp"].intValue
             
             weatherDataModel.city = data["basic"]["location"].stringValue
             
             weatherDataModel.condition = data["now"]["cond_code"].intValue
+            
+            weatherDataModel.feel = data["now"]["fl"].intValue
             
             weatherDataModel.weatherIconName = weatherDataModel.updateWeatherIcon(condition: weatherDataModel.condition)
            
@@ -104,9 +111,12 @@ class NowScreenView: UIViewController, CLLocationManagerDelegate {
     
     
     func updateUIWithWeatherData() {
-        
+        print(weatherDataModel.city)
+        print(weatherDataModel.temperature)
+        print(weatherDataModel.feel)
         cityLabel.text = "\(weatherDataModel.city)"
         nowTemp.text = "\(weatherDataModel.temperature)º"
+        feelTemp.text = "\(weatherDataModel.feel)º"
         weatherIcon.image = UIImage(named: weatherDataModel.weatherIconName)!
         
     }

@@ -54,8 +54,8 @@
                     <color key="textColor" red="0.95939534900000001" green="0.95941776040000004" blue="0.95940560100000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D2X-CQ-Ogo">
-                    <rect key="frame" x="228" y="34" width="142" height="159"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D2X-CQ-Ogo">
+                    <rect key="frame" x="307" y="34" width="63" height="159"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" name="WenYue-GuDianMingChaoTi-NC-W5" family="WenYue GuDianMingChaoTi (Non-Commercial Use)" pointSize="40"/>
                     <color key="textColor" red="0.95939534900000001" green="0.95941776040000004" blue="0.95940560100000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
