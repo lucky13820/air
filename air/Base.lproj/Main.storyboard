@@ -26,14 +26,14 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="HV0-ew-NVd" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Fg4-Zn-OXt"/>
-                            <constraint firstItem="HV0-ew-NVd" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="ezj-tY-uan"/>
+                            <constraint firstItem="HV0-ew-NVd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ezj-tY-uan"/>
                             <constraint firstItem="HV0-ew-NVd" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="lAW-vX-LEU"/>
                             <constraint firstItem="HV0-ew-NVd" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="oIq-PL-lbi"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="mainScroll" destination="HV0-ew-NVd" id="l3L-nk-LsV"/>
+                        <outlet property="mainScroll" destination="HV0-ew-NVd" id="MVN-5D-E8U"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

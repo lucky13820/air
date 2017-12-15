@@ -13,11 +13,13 @@ import SwiftyJSON
 
 class NowScreenView: UIViewController, CLLocationManagerDelegate {
     
-    @IBOutlet weak var cityLabel: UILabel!
-    @IBOutlet weak var feelLabel: UILabel!
-    @IBOutlet weak var feelTemp: UILabel!
-    @IBOutlet weak var nowTemp: UILabel!
-    @IBOutlet weak var weatherIcon: UIImageView!
+    
+    @IBOutlet var nowView: UIView!
+    @IBOutlet var cityLabel: UILabel!
+    @IBOutlet var feelLabel: UILabel!
+    @IBOutlet var feelTemp: UILabel!
+    @IBOutlet var nowTemp: UILabel!
+    @IBOutlet var weatherIcon: UIImageView!
     
     let WEATHER_URL = "https://free-api.heweather.com/s6/weather"
     let APP_ID = "11f8312f8e9a4c529959b22a61a7d261"
@@ -31,11 +33,11 @@ class NowScreenView: UIViewController, CLLocationManagerDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        feelLabel.text = "体\n感\n"
         feelLabel.numberOfLines = 0
-        
-        cityLabel.text = "体\n感\n"
+
         cityLabel.numberOfLines = 0
+        cityLabel.text = "哥斯达黎加"
+    
 
     }
 
@@ -47,36 +49,36 @@ class NowScreenView: UIViewController, CLLocationManagerDelegate {
     }
     
     
-    //MARK: - Networking
-    /***************************************************************/
-    
-    //Write the getWeatherData method here:
-    func  getWeatherData(url: String, parameters: [String : String]) {
-        
-        Alamofire.request(url, method: .get, parameters: parameters).responseJSON {
-            response in
-            if response.result.isSuccess {
-                print("Success! Got the weather data")
-                
-                let weatherJSON : JSON = JSON(response.result.value!)
-                
-                print(weatherJSON)
-                
-                self.updateWeatherData(json: weatherJSON)
-            }
-            else {
-                print("Error \(String(describing: response.result.error))")
-                self.cityLabel.text = "链\n接\n不\n可\n用"
-            }
-        }
-    }
+//    //MARK: - Networking
+//    /***************************************************************/
+//    
+//    //Write the getWeatherData method here:
+//    func  getWeatherData(url: String, parameters: [String : String]) {
+//        
+//        Alamofire.request(url, method: .get, parameters: parameters).responseJSON {
+//            response in
+//            if response.result.isSuccess {
+//                print("Success! Got the weather data")
+//                
+//                let weatherJSON : JSON = JSON(response.result.value!)
+//                
+//                print(weatherJSON)
+//                
+//                self.updateWeatherData(json: weatherJSON)
+//            }
+//            else {
+//                print("Error \(String(describing: response.result.error))")
+//                self.cityLabel.text = "链\n接\n不\n可\n用"
+//            }
+//        }
+//    }
 
     
     //MARK: - JSON Parsing
     /***************************************************************/
     
     //Write the updateWeatherData method here:
-    func updateWeatherData(json : JSON) {
+    func updateNowWeatherData(json : JSON) {
         
         let data = json["HeWeather6"][0]
         let status = data["status"].stringValue
@@ -111,16 +113,14 @@ class NowScreenView: UIViewController, CLLocationManagerDelegate {
     
     
     func updateUIWithWeatherData() {
-        print(weatherDataModel.city)
-        print(weatherDataModel.temperature)
-        print(weatherDataModel.feel)
+        
+        feelLabel.text = "体\n感\n"
         cityLabel.text = "\(weatherDataModel.city)"
         nowTemp.text = "\(weatherDataModel.temperature)º"
         feelTemp.text = "\(weatherDataModel.feel)º"
         weatherIcon.image = UIImage(named: weatherDataModel.weatherIconName)!
         
     }
-    
     
     
     

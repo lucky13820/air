@@ -8,18 +8,24 @@
 
 import UIKit
 import CoreLocation
+import Alamofire
+import SwiftyJSON
 
 class ViewController: UIViewController, CLLocationManagerDelegate {
+    
+    @IBOutlet var mainScroll: UIScrollView!
     
     var cityInFull = ""
     let WEATHER_URL = "https://free-api.heweather.com/s6/weather"
     let APP_ID = "11f8312f8e9a4c529959b22a61a7d261"
-    let nowWeather = NowScreenView()
+    var nowWeather = NowScreenView()
+    var forWeather = ForcastScreenView()
+    var creditScreen = CreditScreenView()
     
     //TODO: Declare instance variables here
     let locationManager = CLLocationManager()
     
-    @IBOutlet weak var mainScroll: UIScrollView!
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,24 +34,24 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         
         let xOrigin = self.view.frame.width
         
-        let credit : CreditScreenView = CreditScreenView(nibName: "CreditScreenView", bundle: nil)
+        creditScreen = CreditScreenView(nibName: "CreditScreenView", bundle: nil)
 
-        mainScroll.addSubview(credit.view)
+        mainScroll.addSubview(creditScreen.view)
 
-        let forcast : ForcastScreenView = ForcastScreenView(nibName: "ForcastScreenView", bundle: nil)
+        forWeather = ForcastScreenView(nibName: "ForcastScreenView", bundle: nil)
 
-        mainScroll.addSubview(forcast.view)
+        mainScroll.addSubview(forWeather.view)
 
-        let now : NowScreenView = NowScreenView(nibName: "NowScreenView", bundle: nil)
+        nowWeather  = NowScreenView(nibName: "NowScreenView", bundle: nil)
 
-        mainScroll.addSubview(now.view)
+        mainScroll.addSubview(nowWeather.view)
         
         // set up the size for each view
-        credit.view.frame = CGRect(x: 0, y: 0, width: self.view.frame.width, height: self.view.frame.height)
+        creditScreen.view.frame = CGRect(x: 0, y: 0, width: self.view.frame.width, height: self.view.frame.height)
 
-        forcast.view.frame = CGRect(x: xOrigin, y: 0, width: self.view.frame.width, height: self.view.frame.height)
+        forWeather.view.frame = CGRect(x: xOrigin, y: 0, width: self.view.frame.width, height: self.view.frame.height)
 
-        now.view.frame = CGRect(x: xOrigin * 2, y: 0, width: self.view.frame.width, height: self.view.frame.height)
+        nowWeather.view.frame = CGRect(x: xOrigin * 2, y: 0, width: self.view.frame.width, height: self.view.frame.height)
         
         mainScroll.contentSize = CGSize(width: CGFloat(view.frame.width * 3), height: CGFloat(view.frame.height))
         mainScroll.contentOffset.x = view.frame.width * 3
@@ -85,7 +91,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
                 if let city = placeMark.addressDictionary!["City"] as? NSString {
                     self.cityInFull = city as String
                     let params : [String : String] = ["location" : self.cityInFull, "key" : self.APP_ID,]
-                    self.nowWeather.getWeatherData(url: self.WEATHER_URL, parameters: params)
+                    self.getWeatherData(url: self.WEATHER_URL, parameters: params)
                     self.locationManager.stopUpdatingLocation()
                 }
                 
@@ -104,6 +110,31 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
         print(error)
         nowWeather.cityLabel.text = "天\n气\n不\n可\n用"
+    }
+    
+    //MARK: - Networking
+    /***************************************************************/
+    
+    //Write the getWeatherData method here:
+    func  getWeatherData(url: String, parameters: [String : String]) {
+        
+        Alamofire.request(url, method: .get, parameters: parameters).responseJSON {
+            response in
+            if response.result.isSuccess {
+                print("Success! Got the weather data")
+                
+                let weatherJSON : JSON = JSON(response.result.value!)
+                
+                print(weatherJSON)
+                
+                self.nowWeather.updateNowWeatherData(json: weatherJSON)
+                self.forWeather.updateForcastWeatherData(json: weatherJSON)
+            }
+            else {
+                print("Error \(String(describing: response.result.error))")
+                self.nowWeather.cityLabel.text = "链\n接\n不\n可\n用"
+            }
+        }
     }
     
 
