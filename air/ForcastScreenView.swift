@@ -84,7 +84,6 @@ class ForcastScreenView: UIViewController {
         let dateNum = weatherDataModel.forcastDate1
         let weekday = getDayOfWeek(today: dateNum)
         
-        print(chineseWeek[weekday - 1]) // 4 = Wednesday
         forcastTemp1Min.text = "\(weatherDataModel.forcastTempMin1)º"
         forcastTemp1Max.text = "\(weatherDataModel.forcastTempMax1)º"
         forcastDate1.text = "\(chineseWeek[weekday - 1])"

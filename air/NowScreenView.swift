@@ -36,7 +36,7 @@ class NowScreenView: UIViewController, CLLocationManagerDelegate {
         feelLabel.numberOfLines = 0
 
         cityLabel.numberOfLines = 0
-        cityLabel.text = "哥斯达黎加"
+        cityLabel.sizeToFit()
     
 
     }

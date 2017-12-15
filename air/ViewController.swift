@@ -46,6 +46,8 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
 
         mainScroll.addSubview(nowWeather.view)
         
+        //mainScroll.translatesAutoresizingMaskIntoConstraints = true
+        
         // set up the size for each view
         creditScreen.view.frame = CGRect(x: 0, y: 0, width: self.view.frame.width, height: self.view.frame.height)
 
