@@ -80,7 +80,7 @@ class ForcastScreenView: UIViewController {
             return weekDay!
         }
         
-        let chineseWeek = ["日", "一", "二", "三", "四", "五", "六,"]
+        let chineseWeek = ["日", "一", "二", "三", "四", "五", "六"]
         let dateNum = weatherDataModel.forcastDate1
         let weekday = getDayOfWeek(today: dateNum)
         

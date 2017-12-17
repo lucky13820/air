@@ -10,8 +10,8 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
-        <array key="Bodoni72.ttc">
-            <string>BodoniSvtyTwoITCTT-Book</string>
+        <array key="Crimson-Roman.otf">
+            <string>Crimson-Roman</string>
         </array>
         <array key="WenYue-GuDianMingChaoTi-NC-W5.otf">
             <string>WenYue-GuDianMingChaoTi-NC-W5</string>
@@ -24,8 +24,7 @@
                 <outlet property="feelLabel" destination="AbA-8U-Tjo" id="Muz-Z1-YtA"/>
                 <outlet property="feelTemp" destination="bkH-Q2-ugW" id="wyr-rS-icc"/>
                 <outlet property="nowTemp" destination="LSN-SX-bQU" id="fHO-E7-zdz"/>
-                <outlet property="nowView" destination="i5M-Pr-FkT" id="CzG-f7-Jbr"/>
-                <outlet property="view" destination="i5M-Pr-FkT" id="lhC-mI-wZF"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="3MW-oQ-DV0"/>
                 <outlet property="weatherIcon" destination="fLB-4A-u86" id="d5E-vA-S8C"/>
             </connections>
         </placeholder>
@@ -37,8 +36,8 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="x7H-Ac-h6x" userLabel="top container">
                     <rect key="frame" x="0.0" y="20" width="414" height="284.66666666666669"/>
                     <subviews>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="温 歌 华" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D2X-CQ-Ogo">
-                            <rect key="frame" x="334" y="40" width="40" height="50"/>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D2X-CQ-Ogo">
+                            <rect key="frame" x="334" y="40" width="40" height="0.0"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="40" id="uXB-Wt-m6t"/>
                             </constraints>
@@ -55,8 +54,8 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="scI-ME-6t1" userLabel="middle container">
                     <rect key="frame" x="0.0" y="304.66666666666669" width="414" height="147"/>
                     <subviews>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cloudy" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fLB-4A-u86">
-                            <rect key="frame" x="144.66666666666666" y="0.0" width="123.99999999999997" height="147"/>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="air" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fLB-4A-u86">
+                            <rect key="frame" x="-49.333333333333343" y="0.0" width="512" height="147"/>
                         </imageView>
                     </subviews>
                     <constraints>
@@ -70,7 +69,7 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qcw-02-Bwn" userLabel="bottom container">
                     <rect key="frame" x="0.0" y="451" width="414" height="285"/>
                     <subviews>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="体 感" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AbA-8U-Tjo">
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AbA-8U-Tjo">
                             <rect key="frame" x="350" y="153" width="24" height="60"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="60" id="WmL-tc-9pb"/>
@@ -80,23 +79,23 @@
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="14º" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bkH-Q2-ugW">
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bkH-Q2-ugW">
                             <rect key="frame" x="338" y="219" width="50" height="30"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="30" id="CKe-JU-1kS"/>
                                 <constraint firstAttribute="width" constant="50" id="ThO-bX-BMU"/>
                             </constraints>
-                            <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="32"/>
+                            <fontDescription key="fontDescription" name="Crimson-Roman" family="Crimson" pointSize="32"/>
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12º" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LSN-SX-bQU">
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LSN-SX-bQU">
                             <rect key="frame" x="40" y="155" width="215" height="90"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="90" id="Y08-6a-jLd"/>
                                 <constraint firstAttribute="width" constant="215" id="aI8-cm-gxI"/>
                             </constraints>
-                            <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="120"/>
+                            <fontDescription key="fontDescription" name="Crimson-Roman" family="Crimson" pointSize="120"/>
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <nil key="highlightedColor"/>
                         </label>
@@ -116,8 +115,8 @@
                 <constraint firstItem="qcw-02-Bwn" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="2bx-hx-JMe"/>
                 <constraint firstItem="scI-ME-6t1" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="3r1-xS-5ha"/>
                 <constraint firstItem="scI-ME-6t1" firstAttribute="top" secondItem="x7H-Ac-h6x" secondAttribute="bottom" id="8yu-jG-I0z"/>
-                <constraint firstItem="scI-ME-6t1" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="PXo-Cg-ghL"/>
-                <constraint firstItem="x7H-Ac-h6x" firstAttribute="trailing" secondItem="i5M-Pr-FkT" secondAttribute="trailing" id="RyP-hF-Rul"/>
+                <constraint firstItem="scI-ME-6t1" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="PXo-Cg-ghL"/>
+                <constraint firstItem="x7H-Ac-h6x" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="RyP-hF-Rul"/>
                 <constraint firstItem="qcw-02-Bwn" firstAttribute="top" secondItem="scI-ME-6t1" secondAttribute="bottom" id="VEU-fm-AwJ"/>
                 <constraint firstItem="scI-ME-6t1" firstAttribute="centerY" secondItem="fnl-2z-Ty3" secondAttribute="centerY" id="dnc-TX-4YT"/>
                 <constraint firstItem="qcw-02-Bwn" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="hrk-FW-Bg2"/>
@@ -130,6 +129,6 @@
         </view>
     </objects>
     <resources>
-        <image name="cloudy" width="124" height="148"/>
+        <image name="air" width="512" height="512"/>
     </resources>
 </document>

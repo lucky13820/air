@@ -14,7 +14,6 @@ import SwiftyJSON
 class NowScreenView: UIViewController, CLLocationManagerDelegate {
     
     
-    @IBOutlet var nowView: UIView!
     @IBOutlet var cityLabel: UILabel!
     @IBOutlet var feelLabel: UILabel!
     @IBOutlet var feelTemp: UILabel!

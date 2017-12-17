@@ -32,7 +32,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         
         //Set up individual view for scroll view
         
-        let xOrigin = self.view.frame.width
+        let xOrigin = view.frame.width
         
         creditScreen = CreditScreenView(nibName: "CreditScreenView", bundle: nil)
 
@@ -46,17 +46,22 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
 
         mainScroll.addSubview(nowWeather.view)
         
-        //mainScroll.translatesAutoresizingMaskIntoConstraints = true
-        
+       
         // set up the size for each view
-        creditScreen.view.frame = CGRect(x: 0, y: 0, width: self.view.frame.width, height: self.view.frame.height)
+        creditScreen.view.frame = CGRect(x: 0, y: 0, width: xOrigin, height: self.view.frame.height)
 
-        forWeather.view.frame = CGRect(x: xOrigin, y: 0, width: self.view.frame.width, height: self.view.frame.height)
+        forWeather.view.frame = CGRect(x: xOrigin, y: 0, width: xOrigin, height: self.view.frame.height)
 
-        nowWeather.view.frame = CGRect(x: xOrigin * 2, y: 0, width: self.view.frame.width, height: self.view.frame.height)
+        nowWeather.view.frame = CGRect(x: xOrigin * 2, y: 0, width: xOrigin, height: self.view.frame.height)
         
-        mainScroll.contentSize = CGSize(width: CGFloat(view.frame.width * 3), height: CGFloat(view.frame.height))
-        mainScroll.contentOffset.x = view.frame.width * 3
+        //mainScroll.frame = CGRect(x: 0, y: 0, width: xOrigin, height: self.view.frame.height)
+        
+        mainScroll.contentSize = CGSize(width: CGFloat(xOrigin * 3), height: CGFloat(self.view.frame.height))
+        mainScroll.contentOffset.x = xOrigin * 3
+        
+        mainScroll.setContentOffset(CGPoint(x: xOrigin * 2, y: 0), animated: true)
+        mainScroll.translatesAutoresizingMaskIntoConstraints = true
+        
         
         //Set up the location manager here.
         locationManager.delegate = self

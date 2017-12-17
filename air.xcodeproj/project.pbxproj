@@ -21,6 +21,7 @@
 		AB0919501FE1CCFA0018552D /* ForcastScreenView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB09194E1FE1CCFA0018552D /* ForcastScreenView.xib */; };
 		AB0919531FE1CD0B0018552D /* NowScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0919511FE1CD0B0018552D /* NowScreenView.swift */; };
 		AB0919541FE1CD0B0018552D /* NowScreenView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB0919521FE1CD0B0018552D /* NowScreenView.xib */; };
+		AB39F77E1FE5ECC500C6F4FC /* Crimson-Roman.otf in Resources */ = {isa = PBXBuildFile; fileRef = AB39F77D1FE5ECC500C6F4FC /* Crimson-Roman.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		AB09194E1FE1CCFA0018552D /* ForcastScreenView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForcastScreenView.xib; sourceTree = "<group>"; };
 		AB0919511FE1CD0B0018552D /* NowScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowScreenView.swift; sourceTree = "<group>"; };
 		AB0919521FE1CD0B0018552D /* NowScreenView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NowScreenView.xib; sourceTree = "<group>"; };
+		AB39F77D1FE5ECC500C6F4FC /* Crimson-Roman.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Crimson-Roman.otf"; sourceTree = "<group>"; };
 		BA0E79800792E58B92AC6E6C /* Pods-air.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-air.debug.xcconfig"; path = "Pods/Target Support Files/Pods-air/Pods-air.debug.xcconfig"; sourceTree = "<group>"; };
 		BE5E0BD818991F041BE02FC5 /* Pods-air.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-air.release.xcconfig"; path = "Pods/Target Support Files/Pods-air/Pods-air.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -106,6 +108,7 @@
 				AB09194E1FE1CCFA0018552D /* ForcastScreenView.xib */,
 				AB09191C1FE1BE4B0018552D /* Assets.xcassets */,
 				AB09191E1FE1BE4B0018552D /* LaunchScreen.storyboard */,
+				AB39F77D1FE5ECC500C6F4FC /* Crimson-Roman.otf */,
 				AB07441A1FE1D82D00EB51E8 /* WenYue-GuDianMingChaoTi-NC-W5.otf */,
 				AB0919211FE1BE4B0018552D /* Info.plist */,
 			);
@@ -179,6 +182,7 @@
 				AB09191D1FE1BE4B0018552D /* Assets.xcassets in Resources */,
 				AB09191B1FE1BE4B0018552D /* Main.storyboard in Resources */,
 				AB0919541FE1CD0B0018552D /* NowScreenView.xib in Resources */,
+				AB39F77E1FE5ECC500C6F4FC /* Crimson-Roman.otf in Resources */,
 				AB0919501FE1CCFA0018552D /* ForcastScreenView.xib in Resources */,
 				AB09194A1FE1CCB30018552D /* CreditScreenView.xib in Resources */,
 			);

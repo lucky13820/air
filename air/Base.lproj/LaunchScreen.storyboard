@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="air" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fVv-cq-ozg">
-                                <rect key="frame" x="96" y="260" width="183" height="147"/>
+                                <rect key="frame" x="96" y="270" width="183" height="147"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="147" id="CgO-Ti-qgc"/>
                                     <constraint firstAttribute="width" constant="183" id="pih-YU-H5c"/>
@@ -28,8 +28,8 @@
                         </subviews>
                         <color key="backgroundColor" red="0.062745098040000002" green="0.062745098040000002" blue="0.062745098040000002" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="fVv-cq-ozg" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="5Xg-mJ-txo"/>
-                            <constraint firstItem="fVv-cq-ozg" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="UDu-da-2aT"/>
+                            <constraint firstItem="fVv-cq-ozg" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="5Xg-mJ-txo"/>
+                            <constraint firstItem="fVv-cq-ozg" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="UDu-da-2aT"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
