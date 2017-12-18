@@ -46,6 +46,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
 
         mainScroll.addSubview(nowWeather.view)
         
+        
        
         // set up the size for each view
         creditScreen.view.frame = CGRect(x: 0, y: 0, width: xOrigin, height: self.view.frame.height)
@@ -54,13 +55,15 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
 
         nowWeather.view.frame = CGRect(x: xOrigin * 2, y: 0, width: xOrigin, height: self.view.frame.height)
         
-        //mainScroll.frame = CGRect(x: 0, y: 0, width: xOrigin, height: self.view.frame.height)
+        mainScroll.frame = CGRect(x: 0, y: 0, width: xOrigin, height: self.view.frame.height)
         
         mainScroll.contentSize = CGSize(width: CGFloat(xOrigin * 3), height: CGFloat(self.view.frame.height))
         mainScroll.contentOffset.x = xOrigin * 3
         
         mainScroll.setContentOffset(CGPoint(x: xOrigin * 2, y: 0), animated: true)
         mainScroll.translatesAutoresizingMaskIntoConstraints = true
+        mainScroll.autoresizesSubviews = true
+        
         
         
         //Set up the location manager here.

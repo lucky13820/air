@@ -13,18 +13,18 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController wantsFullScreenLayout="YES" id="BYZ-38-t0r" customClass="ViewController" customModule="air" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="air" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleAspectFit" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" preservesSuperviewLayoutMargins="YES" bounces="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HV0-ew-NVd">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" layoutMarginsFollowReadableWidth="YES" bounces="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HV0-ew-NVd">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                             </scrollView>
                         </subviews>
                         <constraints>
                             <constraint firstItem="HV0-ew-NVd" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottom" id="J1v-PD-zbT"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HV0-ew-NVd" secondAttribute="trailing" id="Oa1-lU-0gL"/>
+                            <constraint firstItem="HV0-ew-NVd" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="Oa1-lU-0gL"/>
                             <constraint firstItem="HV0-ew-NVd" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="VIb-ND-IDx"/>
                             <constraint firstItem="HV0-ew-NVd" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="hNx-PF-p7f"/>
                         </constraints>
