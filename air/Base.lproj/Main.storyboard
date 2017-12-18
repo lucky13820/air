@@ -18,15 +18,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" layoutMarginsFollowReadableWidth="YES" bounces="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HV0-ew-NVd">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                            <scrollView autoresizesSubviews="NO" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="scaleAspectFill" layoutMarginsFollowReadableWidth="YES" bounces="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HV0-ew-NVd">
+                                <rect key="frame" x="0.0" y="39" width="375" height="734"/>
                             </scrollView>
                         </subviews>
                         <constraints>
-                            <constraint firstItem="HV0-ew-NVd" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottom" id="J1v-PD-zbT"/>
-                            <constraint firstItem="HV0-ew-NVd" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="Oa1-lU-0gL"/>
-                            <constraint firstItem="HV0-ew-NVd" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="VIb-ND-IDx"/>
-                            <constraint firstItem="HV0-ew-NVd" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="hNx-PF-p7f"/>
+                            <constraint firstItem="HV0-ew-NVd" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="YHe-ZO-qHC"/>
+                            <constraint firstItem="HV0-ew-NVd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pVJ-Tu-BYo"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="width" secondItem="HV0-ew-NVd" secondAttribute="width" id="t6u-kz-qnW"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="height" secondItem="HV0-ew-NVd" secondAttribute="height" id="yTR-yC-dSS"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>

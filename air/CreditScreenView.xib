@@ -35,7 +35,7 @@
                         <constraint firstAttribute="width" constant="25" id="okn-M4-XLA"/>
                     </constraints>
                 </imageView>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="气" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zLa-qY-XaI">
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="气" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.90000000000000002" translatesAutoresizingMaskIntoConstraints="NO" id="zLa-qY-XaI">
                     <rect key="frame" x="314" y="60" width="60" height="63"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="60" id="Mko-z9-Uv1"/>

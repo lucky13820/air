@@ -31,6 +31,12 @@ class WeatherDataModel {
     var forcastWeatherIcon1 : String = ""
     var forcastDate1 : String = ""
     var forcastCondition1 : Int = 0
+    var forcastWeatherIcon2 : String = ""
+    var forcastDate2 : String = ""
+    var forcastCondition2 : Int = 0
+    var forcastWeatherIcon3 : String = ""
+    var forcastDate3 : String = ""
+    var forcastCondition3 : Int = 0
     
     
     //This method turns a condition code into the name of the weather condition image
@@ -69,6 +75,68 @@ class WeatherDataModel {
     func updateWeatherIcon1(forcastCondition1: Int) -> String {
         
         switch (forcastCondition1) {
+            
+        case 101...104 :
+            return "cloudy"
+            
+        case 200...213 :
+            return "wind"
+            
+        case 300...304 :
+            return "storm"
+            
+        case 305...313 :
+            return "rain"
+            
+        case 400...407 :
+            return "snow"
+            
+        case 500...508 :
+            return "fog"
+            
+        case 100 :
+            return "sunny"
+            
+        default :
+            return "dunno"
+        }
+        
+    }
+    
+    func updateWeatherIcon3(forcastCondition3: Int) -> String {
+        
+        switch (forcastCondition3) {
+            
+        case 101...104 :
+            return "cloudy"
+            
+        case 200...213 :
+            return "wind"
+            
+        case 300...304 :
+            return "storm"
+            
+        case 305...313 :
+            return "rain"
+            
+        case 400...407 :
+            return "snow"
+            
+        case 500...508 :
+            return "fog"
+            
+        case 100 :
+            return "sunny"
+            
+        default :
+            return "dunno"
+        }
+        
+    }
+    
+    func updateWeatherIcon2(forcastCondition2: Int) -> String {
+        
+        switch (forcastCondition2) {
             
         case 101...104 :
             return "cloudy"

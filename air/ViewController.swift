@@ -25,14 +25,16 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     //TODO: Declare instance variables here
     let locationManager = CLLocationManager()
     
-
+    override var prefersStatusBarHidden: Bool {
+        return true
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         //Set up individual view for scroll view
         
-        let xOrigin = view.frame.width
+        let xOrigin = self.view.frame.width
         
         creditScreen = CreditScreenView(nibName: "CreditScreenView", bundle: nil)
 
@@ -62,7 +64,20 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         
         mainScroll.setContentOffset(CGPoint(x: xOrigin * 2, y: 0), animated: true)
         mainScroll.translatesAutoresizingMaskIntoConstraints = true
-        mainScroll.autoresizesSubviews = true
+        
+        if UIDevice().userInterfaceIdiom == .phone {
+            switch UIScreen.main.nativeBounds.height {
+            case 2436:
+                nowWeather.view.backgroundColor = UIColor.black
+                forWeather.view.backgroundColor = UIColor.black
+                creditScreen.view.backgroundColor = UIColor.black
+            default:
+                print("default")
+            }
+        }
+        
+
+
         
         
         
