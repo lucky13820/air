@@ -25,6 +25,7 @@ class NowScreenView: UIViewController, CLLocationManagerDelegate {
     
     
     
+    
     //TODO: Declare instance variables here
 //    let locationManager = CLLocationManager()
     let weatherDataModel = WeatherDataModel()
@@ -36,8 +37,10 @@ class NowScreenView: UIViewController, CLLocationManagerDelegate {
 
         cityLabel.numberOfLines = 0
         cityLabel.sizeToFit()
+        
+        self.view.accessibilityElements = [self.cityLabel, self.weatherIcon, self.nowTemp, self.feelLabel, self.feelTemp];
     
-
+        
     }
 
    
@@ -93,13 +96,17 @@ class NowScreenView: UIViewController, CLLocationManagerDelegate {
             weatherDataModel.feel = data["now"]["fl"].intValue
             
             weatherDataModel.weatherIconName = weatherDataModel.updateWeatherIcon(condition: weatherDataModel.condition)
-           
+            
+            let voiceOverCondition = data["now"]["cond_txt"].stringValue
+            
+            self.weatherIcon.accessibilityLabel = voiceOverCondition
+                       
             updateUIWithWeatherData()
             
         }
             
         else {
-            cityLabel.text = "天\n气\n不\n可\n用"
+            cityLabel.text = "天\n氣\n不\n可\n用"
         }
         
     }
@@ -113,7 +120,8 @@ class NowScreenView: UIViewController, CLLocationManagerDelegate {
     
     func updateUIWithWeatherData() {
         
-        feelLabel.text = "体\n感\n"
+        feelLabel.text = "體\n感"
+        feelLabel.numberOfLines = 0
         cityLabel.text = "\(weatherDataModel.city)"
         nowTemp.text = "\(weatherDataModel.temperature)º"
         feelTemp.text = "\(weatherDataModel.feel)º"

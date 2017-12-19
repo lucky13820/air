@@ -11,6 +11,8 @@ import UIKit
 class CreditScreenView: UIViewController {
     
 
+    @IBOutlet var appName: UILabel!
+    @IBOutlet var nameLabel: UILabel!
     @IBOutlet var weatherButton: UIButton!
     @IBOutlet var twitterButton: UIButton!
     @IBOutlet var weiboButton: UIButton!
@@ -23,7 +25,16 @@ class CreditScreenView: UIViewController {
         
         weiboButton.setTitle("微\n博", for: .normal)
         twitterButton.setTitle("推\n特", for: .normal)
-        weatherButton.setTitle("天\n气\n来\n源\n：\n和\n风\n天\n气", for: .normal)
+        weatherButton.setTitle("天\n氣\n來\n源\n：\n和\n風\n天\n氣", for: .normal)
+        nameLabel.text = "設\n計\n~\n開\n發\n \n要\n勍"
+        nameLabel.numberOfLines = 0
+        
+        appName.accessibilityLabel = "程序名：气"
+        
+        self.view.accessibilityElements = [
+            self.appName, self.nameLabel, self.weiboButton, self.twitterButton,self.weatherButton,
+        ];
+        
 
         
         

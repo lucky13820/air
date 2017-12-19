@@ -10,13 +10,15 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
-        <array key="WenYue-GuDianMingChaoTi-NC-W5.otf">
-            <string>WenYue-GuDianMingChaoTi-NC-W5</string>
+        <array key="cwTeXFangSong-zhonly.ttf">
+            <string>cwTeXFangSong</string>
         </array>
     </customFonts>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CreditScreenView" customModule="air" customModuleProvider="target">
             <connections>
+                <outlet property="appName" destination="zLa-qY-XaI" id="4lA-41-Zbp"/>
+                <outlet property="nameLabel" destination="waZ-A3-60h" id="zHL-Nz-AJW"/>
                 <outlet property="twitterButton" destination="Zdv-qq-b20" id="6KH-xM-DcB"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
                 <outlet property="weatherButton" destination="831-Co-yxd" id="w0C-0H-o4E"/>
@@ -28,30 +30,24 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="name" translatesAutoresizingMaskIntoConstraints="NO" id="d7h-Yw-aCh">
-                    <rect key="frame" x="194.66666666666666" y="250" width="25" height="236"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="236" id="hNc-mt-b4H"/>
-                        <constraint firstAttribute="width" constant="25" id="okn-M4-XLA"/>
-                    </constraints>
-                </imageView>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="气" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.90000000000000002" translatesAutoresizingMaskIntoConstraints="NO" id="zLa-qY-XaI">
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="氣" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.90000000000000002" translatesAutoresizingMaskIntoConstraints="NO" id="zLa-qY-XaI">
                     <rect key="frame" x="314" y="60" width="60" height="63"/>
+                    <accessibility key="accessibilityConfiguration" label="程序名： 气"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="60" id="Mko-z9-Uv1"/>
                         <constraint firstAttribute="height" constant="63" id="a7d-k9-35x"/>
                     </constraints>
-                    <fontDescription key="fontDescription" name="WenYue-GuDianMingChaoTi-NC-W5" family="WenYue GuDianMingChaoTi (Non-Commercial Use)" pointSize="56"/>
+                    <fontDescription key="fontDescription" name="cwTeXFangSong" family="cwTeXFangSong" pointSize="64"/>
                     <color key="textColor" red="0.95939534900000001" green="0.95941776040000004" blue="0.95940560100000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="top" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="BMk-9M-3uE" userLabel="weibo Button">
-                    <rect key="frame" x="329" y="563" width="45" height="66"/>
+                    <rect key="frame" x="329" y="559" width="45" height="70"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="45" id="c5G-Ii-f5W"/>
-                        <constraint firstAttribute="height" constant="66" id="se9-Lz-I6V"/>
+                        <constraint firstAttribute="height" constant="70" id="se9-Lz-I6V"/>
                     </constraints>
-                    <fontDescription key="fontDescription" name="WenYue-GuDianMingChaoTi-NC-W5" family="WenYue GuDianMingChaoTi (Non-Commercial Use)" pointSize="16"/>
+                    <fontDescription key="fontDescription" name="cwTeXFangSong" family="cwTeXFangSong" pointSize="20"/>
                     <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <state key="normal" title="Button">
                         <color key="titleColor" red="0.95939534900000001" green="0.95941776040000004" blue="0.95940560100000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -66,7 +62,7 @@
                         <constraint firstAttribute="height" constant="72" id="JQE-7z-UMp"/>
                         <constraint firstAttribute="width" constant="45" id="j89-Ow-eDx"/>
                     </constraints>
-                    <fontDescription key="fontDescription" name="WenYue-GuDianMingChaoTi-NC-W5" family="WenYue GuDianMingChaoTi (Non-Commercial Use)" pointSize="16"/>
+                    <fontDescription key="fontDescription" name="cwTeXFangSong" family="cwTeXFangSong" pointSize="20"/>
                     <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <state key="normal" title="Button">
                         <color key="titleColor" red="0.95939534900000001" green="0.95941776040000004" blue="0.95940560100000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -81,7 +77,7 @@
                         <constraint firstAttribute="height" constant="134" id="4b7-Z0-spv"/>
                         <constraint firstAttribute="width" constant="34" id="aq5-Xj-tmp"/>
                     </constraints>
-                    <fontDescription key="fontDescription" name="WenYue-GuDianMingChaoTi-NC-W5" family="WenYue GuDianMingChaoTi (Non-Commercial Use)" pointSize="12"/>
+                    <fontDescription key="fontDescription" name="cwTeXFangSong" family="cwTeXFangSong" pointSize="14"/>
                     <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <state key="normal" title="Button">
                         <color key="titleColor" red="0.95939534900000001" green="0.95941776040000004" blue="0.95940560100000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -90,24 +86,31 @@
                         <action selector="weatherButton:" destination="-1" eventType="touchUpInside" id="pqP-2j-u4A"/>
                     </connections>
                 </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="waZ-A3-60h">
+                    <rect key="frame" x="192" y="233.33333333333337" width="30" height="270"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="30" id="KFj-hf-KPX"/>
+                        <constraint firstAttribute="height" constant="270" id="NcF-Xm-bWA"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="cwTeXFangSong" family="cwTeXFangSong" pointSize="32"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
             </subviews>
             <color key="backgroundColor" red="0.062745098040000002" green="0.062745098040000002" blue="0.062745098040000002" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
                 <constraint firstItem="Zdv-qq-b20" firstAttribute="top" secondItem="BMk-9M-3uE" secondAttribute="bottom" constant="10" id="7Db-r8-6tf"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="Zdv-qq-b20" secondAttribute="bottom" constant="25" id="BW9-l9-3e9"/>
-                <constraint firstItem="d7h-Yw-aCh" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="H4f-Y4-YnG"/>
                 <constraint firstItem="zLa-qY-XaI" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="40" id="T2B-Om-KTh"/>
                 <constraint firstItem="831-Co-yxd" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="40" id="V1W-xc-xt4"/>
-                <constraint firstItem="d7h-Yw-aCh" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="V5o-8Z-zG0"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Zdv-qq-b20" secondAttribute="trailing" constant="40" id="YnO-Nh-gAG"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="zLa-qY-XaI" secondAttribute="trailing" constant="40" id="Ytz-rR-Rjy"/>
+                <constraint firstItem="waZ-A3-60h" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="q29-QT-TbY"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="831-Co-yxd" secondAttribute="bottom" constant="40" id="wa5-Xy-yzp"/>
+                <constraint firstItem="waZ-A3-60h" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="x5T-5L-rCl"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="BMk-9M-3uE" secondAttribute="trailing" constant="40" id="zFe-wf-Qx1"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
         </view>
     </objects>
-    <resources>
-        <image name="name" width="25" height="233"/>
-    </resources>
 </document>

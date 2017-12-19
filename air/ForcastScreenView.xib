@@ -16,8 +16,8 @@
         <array key="PingFang.ttc">
             <string>PingFangSC-Regular</string>
         </array>
-        <array key="WenYue-GuDianMingChaoTi-NC-W5.otf">
-            <string>WenYue-GuDianMingChaoTi-NC-W5</string>
+        <array key="cwTeXFangSong-zhonly.ttf">
+            <string>cwTeXFangSong</string>
         </array>
     </customFonts>
     <objects>
@@ -65,144 +65,27 @@
                     <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="10"/>
                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                 </textView>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="k5i-fx-U50" userLabel="bottm">
-                    <rect key="frame" x="40" y="441" width="295" height="367"/>
-                    <subviews>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-4º" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cl6-Yw-aqt">
-                            <rect key="frame" x="235" y="148" width="60" height="50"/>
-                            <constraints>
-                                <constraint firstAttribute="width" constant="60" id="c4W-Uw-XgS"/>
-                            </constraints>
-                            <fontDescription key="fontDescription" name="Crimson-Roman" family="Crimson" pointSize="32"/>
-                            <color key="textColor" red="0.95939534900000001" green="0.95941776040000004" blue="0.95940560100000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            <nil key="highlightedColor"/>
-                        </label>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="snow" translatesAutoresizingMaskIntoConstraints="NO" id="E9C-zK-VX8">
-                            <rect key="frame" x="247" y="74" width="36" height="38"/>
-                            <constraints>
-                                <constraint firstAttribute="width" constant="36" id="03X-WQ-cG1"/>
-                                <constraint firstAttribute="height" constant="38" id="nBE-iL-BPP"/>
-                            </constraints>
-                        </imageView>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-43º" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="31a-4X-gsx">
-                            <rect key="frame" x="118.33333333333334" y="148" width="60" height="50"/>
-                            <constraints>
-                                <constraint firstAttribute="width" constant="60" id="95S-Pa-s6V"/>
-                            </constraints>
-                            <fontDescription key="fontDescription" name="Crimson-Roman" family="Crimson" pointSize="32"/>
-                            <color key="textColor" red="0.95939534900000001" green="0.95941776040000004" blue="0.95940560100000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            <nil key="highlightedColor"/>
-                        </label>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="snow" translatesAutoresizingMaskIntoConstraints="NO" id="gOS-Ms-EJs">
-                            <rect key="frame" x="12" y="74" width="36" height="38"/>
-                            <constraints>
-                                <constraint firstAttribute="height" constant="38" id="7Yl-E5-s0h"/>
-                                <constraint firstAttribute="width" constant="36" id="oC4-tp-6jO"/>
-                            </constraints>
-                        </imageView>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="snow" translatesAutoresizingMaskIntoConstraints="NO" id="qMH-bL-UN7">
-                            <rect key="frame" x="130.33333333333334" y="74" width="36" height="38"/>
-                            <constraints>
-                                <constraint firstAttribute="width" constant="36" id="PQg-8A-SCy"/>
-                                <constraint firstAttribute="height" constant="38" id="U7d-bn-zNX"/>
-                            </constraints>
-                        </imageView>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="日" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4dE-3L-i0u">
-                            <rect key="frame" x="9" y="0.0" width="42" height="50"/>
-                            <constraints>
-                                <constraint firstAttribute="width" constant="42" id="YHh-Z4-fhs"/>
-                            </constraints>
-                            <fontDescription key="fontDescription" name="WenYue-GuDianMingChaoTi-NC-W5" family="WenYue GuDianMingChaoTi (Non-Commercial Use)" pointSize="40"/>
-                            <color key="textColor" red="0.95939534900000001" green="0.95941776040000004" blue="0.95940560100000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            <nil key="highlightedColor"/>
-                        </label>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-4º" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hAB-Ku-1MJ">
-                            <rect key="frame" x="0.0" y="148" width="60" height="50"/>
-                            <constraints>
-                                <constraint firstAttribute="width" constant="60" id="bPv-fD-hVo"/>
-                            </constraints>
-                            <fontDescription key="fontDescription" name="Crimson-Roman" family="Crimson" pointSize="32"/>
-                            <color key="textColor" red="0.95939534900000001" green="0.95941776040000004" blue="0.95940560100000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            <nil key="highlightedColor"/>
-                        </label>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="日" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.85000002384185791" translatesAutoresizingMaskIntoConstraints="NO" id="ey1-c6-vfC">
-                            <rect key="frame" x="244" y="0.0" width="42" height="50"/>
-                            <constraints>
-                                <constraint firstAttribute="width" constant="42" id="Oiw-Hk-vJZ"/>
-                            </constraints>
-                            <fontDescription key="fontDescription" name="WenYue-GuDianMingChaoTi-NC-W5" family="WenYue GuDianMingChaoTi (Non-Commercial Use)" pointSize="40"/>
-                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            <nil key="highlightedColor"/>
-                        </label>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="日" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wBe-Bf-mxe">
-                            <rect key="frame" x="128.33333333333334" y="0.0" width="40" height="50"/>
-                            <constraints>
-                                <constraint firstAttribute="width" constant="40" id="tNs-u8-5Jy"/>
-                            </constraints>
-                            <fontDescription key="fontDescription" name="WenYue-GuDianMingChaoTi-NC-W5" family="WenYue GuDianMingChaoTi (Non-Commercial Use)" pointSize="40"/>
-                            <color key="textColor" red="0.95939534900000001" green="0.95941776040000004" blue="0.95940560100000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            <nil key="highlightedColor"/>
-                        </label>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2º" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZKC-9T-rIB">
-                            <rect key="frame" x="2.6666666666666643" y="200" width="56" height="50"/>
-                            <constraints>
-                                <constraint firstAttribute="width" constant="56" id="u2D-bo-2iM"/>
-                            </constraints>
-                            <fontDescription key="fontDescription" name="Crimson-Roman" family="Crimson" pointSize="32"/>
-                            <color key="textColor" red="0.95939534900000001" green="0.95941776040000004" blue="0.95940560100000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            <nil key="highlightedColor"/>
-                        </label>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2º" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bAk-8a-3Si">
-                            <rect key="frame" x="118.33333333333334" y="200" width="60" height="50"/>
-                            <constraints>
-                                <constraint firstAttribute="width" constant="60" id="jmf-fg-h1P"/>
-                            </constraints>
-                            <fontDescription key="fontDescription" name="Crimson-Roman" family="Crimson" pointSize="32"/>
-                            <color key="textColor" red="0.95939534900000001" green="0.95941776040000004" blue="0.95940560100000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            <nil key="highlightedColor"/>
-                        </label>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2º" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pJu-S1-JeA">
-                            <rect key="frame" x="235" y="200" width="60" height="50"/>
-                            <constraints>
-                                <constraint firstAttribute="width" constant="60" id="in2-8a-QEj"/>
-                            </constraints>
-                            <fontDescription key="fontDescription" name="Crimson-Roman" family="Crimson" pointSize="32"/>
-                            <color key="textColor" red="0.95939534900000001" green="0.95941776040000004" blue="0.95940560100000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            <nil key="highlightedColor"/>
-                        </label>
-                    </subviews>
-                    <constraints>
-                        <constraint firstItem="gOS-Ms-EJs" firstAttribute="top" secondItem="4dE-3L-i0u" secondAttribute="bottom" constant="24" id="3zt-KE-QfM"/>
-                        <constraint firstItem="ey1-c6-vfC" firstAttribute="top" secondItem="k5i-fx-U50" secondAttribute="top" id="72x-Zu-3zX"/>
-                        <constraint firstItem="wBe-Bf-mxe" firstAttribute="top" secondItem="k5i-fx-U50" secondAttribute="top" id="8wS-ko-bDR"/>
-                        <constraint firstItem="qMH-bL-UN7" firstAttribute="centerX" secondItem="k5i-fx-U50" secondAttribute="centerX" id="Am4-g9-e58"/>
-                        <constraint firstItem="31a-4X-gsx" firstAttribute="centerX" secondItem="k5i-fx-U50" secondAttribute="centerX" id="DPM-zD-2LE"/>
-                        <constraint firstItem="hAB-Ku-1MJ" firstAttribute="centerX" secondItem="4dE-3L-i0u" secondAttribute="centerX" id="Dq8-eP-ZeR"/>
-                        <constraint firstItem="bAk-8a-3Si" firstAttribute="top" secondItem="31a-4X-gsx" secondAttribute="bottom" constant="2" id="Dv5-MS-Yka"/>
-                        <constraint firstItem="cl6-Yw-aqt" firstAttribute="centerX" secondItem="ey1-c6-vfC" secondAttribute="centerX" id="EAG-Pl-OQ9"/>
-                        <constraint firstItem="qMH-bL-UN7" firstAttribute="top" secondItem="wBe-Bf-mxe" secondAttribute="bottom" constant="24" id="Fcd-yY-at4"/>
-                        <constraint firstItem="cl6-Yw-aqt" firstAttribute="top" secondItem="E9C-zK-VX8" secondAttribute="bottom" constant="36" id="Nl0-mw-m81"/>
-                        <constraint firstItem="pJu-S1-JeA" firstAttribute="centerX" secondItem="ey1-c6-vfC" secondAttribute="centerX" id="Oeg-U2-cUO"/>
-                        <constraint firstItem="4dE-3L-i0u" firstAttribute="top" secondItem="k5i-fx-U50" secondAttribute="top" id="W7x-wM-EgP"/>
-                        <constraint firstItem="ZKC-9T-rIB" firstAttribute="top" secondItem="hAB-Ku-1MJ" secondAttribute="bottom" constant="2" id="ayD-h6-9Vz"/>
-                        <constraint firstAttribute="trailing" secondItem="cl6-Yw-aqt" secondAttribute="trailing" id="dBp-Vd-1tB"/>
-                        <constraint firstItem="bAk-8a-3Si" firstAttribute="centerX" secondItem="k5i-fx-U50" secondAttribute="centerX" id="ecC-zC-0F2"/>
-                        <constraint firstItem="pJu-S1-JeA" firstAttribute="top" secondItem="cl6-Yw-aqt" secondAttribute="bottom" constant="2" id="gR7-9g-NpG"/>
-                        <constraint firstItem="31a-4X-gsx" firstAttribute="top" secondItem="qMH-bL-UN7" secondAttribute="bottom" constant="36" id="hns-IC-sru"/>
-                        <constraint firstItem="gOS-Ms-EJs" firstAttribute="centerX" secondItem="4dE-3L-i0u" secondAttribute="centerX" id="nDw-rj-8V6"/>
-                        <constraint firstItem="wBe-Bf-mxe" firstAttribute="centerX" secondItem="k5i-fx-U50" secondAttribute="centerX" id="qbA-t7-hdR"/>
-                        <constraint firstItem="hAB-Ku-1MJ" firstAttribute="leading" secondItem="k5i-fx-U50" secondAttribute="leading" id="s1o-GN-dgh"/>
-                        <constraint firstItem="ZKC-9T-rIB" firstAttribute="centerX" secondItem="hAB-Ku-1MJ" secondAttribute="centerX" id="t79-C5-k8b"/>
-                        <constraint firstItem="E9C-zK-VX8" firstAttribute="top" secondItem="ey1-c6-vfC" secondAttribute="bottom" constant="24" id="vw2-y7-z6M"/>
-                        <constraint firstItem="E9C-zK-VX8" firstAttribute="centerX" secondItem="ey1-c6-vfC" secondAttribute="centerX" id="x0v-wh-wAq"/>
-                        <constraint firstItem="hAB-Ku-1MJ" firstAttribute="top" secondItem="gOS-Ms-EJs" secondAttribute="bottom" constant="36" id="zqV-Bi-dvS"/>
-                    </constraints>
-                </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pFd-T1-YlL" userLabel="top">
                     <rect key="frame" x="48" y="74" width="279" height="367"/>
                     <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="日" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.84999999999999998" translatesAutoresizingMaskIntoConstraints="NO" id="j1w-Jf-CqH">
+                            <rect key="frame" x="228" y="0.0" width="42" height="47.666666666666664"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="42" id="7wm-Fj-opf"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="cwTeXFangSong" family="cwTeXFangSong" pointSize="48"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="snow" translatesAutoresizingMaskIntoConstraints="NO" id="vha-cw-Hrj">
+                            <rect key="frame" x="231" y="71" width="36" height="38"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="38" id="Z1x-0I-VNK"/>
+                                <constraint firstAttribute="width" constant="36" id="exO-Et-1et"/>
+                            </constraints>
+                        </imageView>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-4º" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tfc-3Y-e63">
-                            <rect key="frame" x="219" y="148" width="60" height="50"/>
+                            <rect key="frame" x="219" y="145.66666666666666" width="60" height="50"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="60" id="EUV-da-05e"/>
                             </constraints>
@@ -210,15 +93,33 @@
                             <color key="textColor" red="0.95939534900000001" green="0.95941776040000004" blue="0.95940560100000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="snow" translatesAutoresizingMaskIntoConstraints="NO" id="vha-cw-Hrj">
-                            <rect key="frame" x="231" y="74" width="36" height="38"/>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2º" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RpQ-LQ-dpJ">
+                            <rect key="frame" x="219" y="197" width="60" height="50"/>
                             <constraints>
-                                <constraint firstAttribute="height" constant="38" id="Z1x-0I-VNK"/>
-                                <constraint firstAttribute="width" constant="36" id="exO-Et-1et"/>
+                                <constraint firstAttribute="width" constant="60" id="k1e-Pj-UBy"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Crimson-Roman" family="Crimson" pointSize="32"/>
+                            <color key="textColor" red="0.95939534900000001" green="0.95941776040000004" blue="0.95940560100000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="日" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.84999999999999998" translatesAutoresizingMaskIntoConstraints="NO" id="Ygw-l7-DrU">
+                            <rect key="frame" x="118" y="0.0" width="42" height="47.666666666666664"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="42" id="DCp-p8-4Ur"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="cwTeXFangSong" family="cwTeXFangSong" pointSize="48"/>
+                            <color key="textColor" red="0.95939534900000001" green="0.95941776040000004" blue="0.95940560100000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="snow" translatesAutoresizingMaskIntoConstraints="NO" id="LSn-Lf-nNn">
+                            <rect key="frame" x="121" y="71" width="36" height="38"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="36" id="ix5-7d-RkU"/>
+                                <constraint firstAttribute="height" constant="38" id="nU0-Ff-Sie"/>
                             </constraints>
                         </imageView>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-43º" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vef-tN-SEY">
-                            <rect key="frame" x="110.33333333333334" y="148" width="60" height="50"/>
+                            <rect key="frame" x="109.66666666666666" y="145.66666666666666" width="60" height="50"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="60" id="7Lo-Fk-Xh0"/>
                             </constraints>
@@ -226,67 +127,8 @@
                             <color key="textColor" red="0.95939534900000001" green="0.95941776040000004" blue="0.95940560100000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="snow" translatesAutoresizingMaskIntoConstraints="NO" id="k1w-Er-Ovg">
-                            <rect key="frame" x="12" y="74" width="36" height="38"/>
-                            <constraints>
-                                <constraint firstAttribute="width" constant="36" id="kEb-Vh-TIM"/>
-                                <constraint firstAttribute="height" constant="38" id="psG-SC-JXB"/>
-                            </constraints>
-                        </imageView>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="snow" translatesAutoresizingMaskIntoConstraints="NO" id="LSn-Lf-nNn">
-                            <rect key="frame" x="122.33333333333334" y="74" width="36" height="38"/>
-                            <constraints>
-                                <constraint firstAttribute="width" constant="36" id="ix5-7d-RkU"/>
-                                <constraint firstAttribute="height" constant="38" id="nU0-Ff-Sie"/>
-                            </constraints>
-                        </imageView>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="日" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oE4-sY-utI">
-                            <rect key="frame" x="9" y="0.0" width="42" height="50"/>
-                            <constraints>
-                                <constraint firstAttribute="width" constant="42" id="MNw-N2-b01"/>
-                            </constraints>
-                            <fontDescription key="fontDescription" name="WenYue-GuDianMingChaoTi-NC-W5" family="WenYue GuDianMingChaoTi (Non-Commercial Use)" pointSize="40"/>
-                            <color key="textColor" red="0.95939534900000001" green="0.95941776040000004" blue="0.95940560100000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            <nil key="highlightedColor"/>
-                        </label>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-4º" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="en9-ag-GDR">
-                            <rect key="frame" x="0.0" y="148" width="60" height="50"/>
-                            <constraints>
-                                <constraint firstAttribute="width" constant="60" id="ifc-VK-Lz8"/>
-                            </constraints>
-                            <fontDescription key="fontDescription" name="Crimson-Roman" family="Crimson" pointSize="32"/>
-                            <color key="textColor" red="0.95939534900000001" green="0.95941776040000004" blue="0.95940560100000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            <nil key="highlightedColor"/>
-                        </label>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="日" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.84999999999999998" translatesAutoresizingMaskIntoConstraints="NO" id="j1w-Jf-CqH">
-                            <rect key="frame" x="228" y="0.0" width="42" height="50"/>
-                            <constraints>
-                                <constraint firstAttribute="width" constant="42" id="7wm-Fj-opf"/>
-                            </constraints>
-                            <fontDescription key="fontDescription" name="WenYue-GuDianMingChaoTi-NC-W5" family="WenYue GuDianMingChaoTi (Non-Commercial Use)" pointSize="40"/>
-                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            <nil key="highlightedColor"/>
-                        </label>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="日" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ygw-l7-DrU">
-                            <rect key="frame" x="120.33333333333334" y="0.0" width="40" height="50"/>
-                            <constraints>
-                                <constraint firstAttribute="width" constant="40" id="DCp-p8-4Ur"/>
-                            </constraints>
-                            <fontDescription key="fontDescription" name="WenYue-GuDianMingChaoTi-NC-W5" family="WenYue GuDianMingChaoTi (Non-Commercial Use)" pointSize="40"/>
-                            <color key="textColor" red="0.95939534900000001" green="0.95941776040000004" blue="0.95940560100000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            <nil key="highlightedColor"/>
-                        </label>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2º" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tcJ-oB-1mZ">
-                            <rect key="frame" x="2.6666666666666643" y="200" width="56" height="50"/>
-                            <constraints>
-                                <constraint firstAttribute="width" constant="56" id="dor-uB-Sgi"/>
-                            </constraints>
-                            <fontDescription key="fontDescription" name="Crimson-Roman" family="Crimson" pointSize="32"/>
-                            <color key="textColor" red="0.95939534900000001" green="0.95941776040000004" blue="0.95940560100000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            <nil key="highlightedColor"/>
-                        </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2º" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="alr-kc-8ps">
-                            <rect key="frame" x="110.33333333333334" y="200" width="60" height="50"/>
+                            <rect key="frame" x="109" y="197" width="60" height="50"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="60" id="pt5-as-qAh"/>
                             </constraints>
@@ -294,10 +136,35 @@
                             <color key="textColor" red="0.95939534900000001" green="0.95941776040000004" blue="0.95940560100000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2º" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RpQ-LQ-dpJ">
-                            <rect key="frame" x="219" y="200" width="60" height="50"/>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="二" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.84999999999999998" translatesAutoresizingMaskIntoConstraints="NO" id="oE4-sY-utI">
+                            <rect key="frame" x="9" y="0.0" width="42" height="47.666666666666664"/>
                             <constraints>
-                                <constraint firstAttribute="width" constant="60" id="k1e-Pj-UBy"/>
+                                <constraint firstAttribute="width" constant="42" id="MNw-N2-b01"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="cwTeXFangSong" family="cwTeXFangSong" pointSize="48"/>
+                            <color key="textColor" red="0.95939534900000001" green="0.95941776040000004" blue="0.95940560100000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="snow" translatesAutoresizingMaskIntoConstraints="NO" id="k1w-Er-Ovg">
+                            <rect key="frame" x="12" y="71" width="36" height="38"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="36" id="kEb-Vh-TIM"/>
+                                <constraint firstAttribute="height" constant="38" id="psG-SC-JXB"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-4º" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="en9-ag-GDR">
+                            <rect key="frame" x="0.0" y="145.66666666666666" width="60" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="60" id="ifc-VK-Lz8"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Crimson-Roman" family="Crimson" pointSize="32"/>
+                            <color key="textColor" red="0.95939534900000001" green="0.95941776040000004" blue="0.95940560100000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2º" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tcJ-oB-1mZ">
+                            <rect key="frame" x="2.6666666666666643" y="197.66666666666669" width="56" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="56" id="dor-uB-Sgi"/>
                             </constraints>
                             <fontDescription key="fontDescription" name="Crimson-Roman" family="Crimson" pointSize="32"/>
                             <color key="textColor" red="0.95939534900000001" green="0.95941776040000004" blue="0.95940560100000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -329,6 +196,139 @@
                         <constraint firstItem="k1w-Er-Ovg" firstAttribute="top" secondItem="oE4-sY-utI" secondAttribute="bottom" constant="24" id="u2k-fS-i1o"/>
                         <constraint firstItem="Tfc-3Y-e63" firstAttribute="centerX" secondItem="j1w-Jf-CqH" secondAttribute="centerX" id="uOB-vJ-Exf"/>
                         <constraint firstItem="alr-kc-8ps" firstAttribute="top" secondItem="vef-tN-SEY" secondAttribute="bottom" constant="2" id="vxN-Yl-5pY"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="k5i-fx-U50" userLabel="bottm">
+                    <rect key="frame" x="40" y="441" width="295" height="367"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="日" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.85000002384185791" translatesAutoresizingMaskIntoConstraints="NO" id="ey1-c6-vfC">
+                            <rect key="frame" x="244" y="-0.33333333333331439" width="42" height="47.333333333333336"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="42" id="Oiw-Hk-vJZ"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="cwTeXFangSong" family="cwTeXFangSong" pointSize="48"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="snow" translatesAutoresizingMaskIntoConstraints="NO" id="E9C-zK-VX8">
+                            <rect key="frame" x="247" y="71.666666666666629" width="36" height="38"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="36" id="03X-WQ-cG1"/>
+                                <constraint firstAttribute="height" constant="38" id="nBE-iL-BPP"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-4º" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cl6-Yw-aqt">
+                            <rect key="frame" x="235" y="145.66666666666663" width="60" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="60" id="c4W-Uw-XgS"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Crimson-Roman" family="Crimson" pointSize="32"/>
+                            <color key="textColor" red="0.95939534900000001" green="0.95941776040000004" blue="0.95940560100000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2º" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pJu-S1-JeA">
+                            <rect key="frame" x="235" y="197.66666666666663" width="60" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="60" id="in2-8a-QEj"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Crimson-Roman" family="Crimson" pointSize="32"/>
+                            <color key="textColor" red="0.95939534900000001" green="0.95941776040000004" blue="0.95940560100000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-43º" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="31a-4X-gsx">
+                            <rect key="frame" x="117.66666666666666" y="145.66666666666663" width="60" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="60" id="95S-Pa-s6V"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Crimson-Roman" family="Crimson" pointSize="32"/>
+                            <color key="textColor" red="0.95939534900000001" green="0.95941776040000004" blue="0.95940560100000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="snow" translatesAutoresizingMaskIntoConstraints="NO" id="gOS-Ms-EJs">
+                            <rect key="frame" x="12" y="71.666666666666629" width="36" height="38"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="38" id="7Yl-E5-s0h"/>
+                                <constraint firstAttribute="width" constant="36" id="oC4-tp-6jO"/>
+                            </constraints>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="snow" translatesAutoresizingMaskIntoConstraints="NO" id="qMH-bL-UN7">
+                            <rect key="frame" x="129.66666666666666" y="71.666666666666629" width="36" height="38"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="36" id="PQg-8A-SCy"/>
+                                <constraint firstAttribute="height" constant="38" id="U7d-bn-zNX"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="日" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.84999999999999998" translatesAutoresizingMaskIntoConstraints="NO" id="4dE-3L-i0u">
+                            <rect key="frame" x="9" y="0.0" width="42" height="47.666666666666664"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="42" id="YHh-Z4-fhs"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="cwTeXFangSong" family="cwTeXFangSong" pointSize="48"/>
+                            <color key="textColor" red="0.95939534900000001" green="0.95941776040000004" blue="0.95940560100000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-4º" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hAB-Ku-1MJ">
+                            <rect key="frame" x="0.0" y="145.66666666666663" width="60" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="60" id="bPv-fD-hVo"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Crimson-Roman" family="Crimson" pointSize="32"/>
+                            <color key="textColor" red="0.95939534900000001" green="0.95941776040000004" blue="0.95940560100000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="日" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.84999999999999998" translatesAutoresizingMaskIntoConstraints="NO" id="wBe-Bf-mxe">
+                            <rect key="frame" x="126" y="0.0" width="44" height="47.666666666666664"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="44" id="tNs-u8-5Jy"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="cwTeXFangSong" family="cwTeXFangSong" pointSize="48"/>
+                            <color key="textColor" red="0.95939534900000001" green="0.95941776040000004" blue="0.95940560100000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2º" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZKC-9T-rIB">
+                            <rect key="frame" x="2.6666666666666643" y="197.66666666666663" width="56" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="56" id="u2D-bo-2iM"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Crimson-Roman" family="Crimson" pointSize="32"/>
+                            <color key="textColor" red="0.95939534900000001" green="0.95941776040000004" blue="0.95940560100000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2º" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bAk-8a-3Si">
+                            <rect key="frame" x="117.66666666666666" y="197.66666666666663" width="60" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="60" id="jmf-fg-h1P"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Crimson-Roman" family="Crimson" pointSize="32"/>
+                            <color key="textColor" red="0.95939534900000001" green="0.95941776040000004" blue="0.95940560100000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="gOS-Ms-EJs" firstAttribute="top" secondItem="4dE-3L-i0u" secondAttribute="bottom" constant="24" id="3zt-KE-QfM"/>
+                        <constraint firstItem="ey1-c6-vfC" firstAttribute="top" secondItem="k5i-fx-U50" secondAttribute="top" id="72x-Zu-3zX"/>
+                        <constraint firstItem="wBe-Bf-mxe" firstAttribute="top" secondItem="k5i-fx-U50" secondAttribute="top" id="8wS-ko-bDR"/>
+                        <constraint firstItem="qMH-bL-UN7" firstAttribute="centerX" secondItem="k5i-fx-U50" secondAttribute="centerX" id="Am4-g9-e58"/>
+                        <constraint firstItem="31a-4X-gsx" firstAttribute="centerX" secondItem="k5i-fx-U50" secondAttribute="centerX" id="DPM-zD-2LE"/>
+                        <constraint firstItem="hAB-Ku-1MJ" firstAttribute="centerX" secondItem="4dE-3L-i0u" secondAttribute="centerX" id="Dq8-eP-ZeR"/>
+                        <constraint firstItem="bAk-8a-3Si" firstAttribute="top" secondItem="31a-4X-gsx" secondAttribute="bottom" constant="2" id="Dv5-MS-Yka"/>
+                        <constraint firstItem="cl6-Yw-aqt" firstAttribute="centerX" secondItem="ey1-c6-vfC" secondAttribute="centerX" id="EAG-Pl-OQ9"/>
+                        <constraint firstItem="qMH-bL-UN7" firstAttribute="top" secondItem="wBe-Bf-mxe" secondAttribute="bottom" constant="24" id="Fcd-yY-at4"/>
+                        <constraint firstItem="cl6-Yw-aqt" firstAttribute="top" secondItem="E9C-zK-VX8" secondAttribute="bottom" constant="36" id="Nl0-mw-m81"/>
+                        <constraint firstItem="pJu-S1-JeA" firstAttribute="centerX" secondItem="ey1-c6-vfC" secondAttribute="centerX" id="Oeg-U2-cUO"/>
+                        <constraint firstItem="4dE-3L-i0u" firstAttribute="top" secondItem="k5i-fx-U50" secondAttribute="top" id="W7x-wM-EgP"/>
+                        <constraint firstItem="ZKC-9T-rIB" firstAttribute="top" secondItem="hAB-Ku-1MJ" secondAttribute="bottom" constant="2" id="ayD-h6-9Vz"/>
+                        <constraint firstAttribute="trailing" secondItem="cl6-Yw-aqt" secondAttribute="trailing" id="dBp-Vd-1tB"/>
+                        <constraint firstItem="bAk-8a-3Si" firstAttribute="centerX" secondItem="k5i-fx-U50" secondAttribute="centerX" id="ecC-zC-0F2"/>
+                        <constraint firstItem="pJu-S1-JeA" firstAttribute="top" secondItem="cl6-Yw-aqt" secondAttribute="bottom" constant="2" id="gR7-9g-NpG"/>
+                        <constraint firstItem="31a-4X-gsx" firstAttribute="top" secondItem="qMH-bL-UN7" secondAttribute="bottom" constant="36" id="hns-IC-sru"/>
+                        <constraint firstItem="gOS-Ms-EJs" firstAttribute="centerX" secondItem="4dE-3L-i0u" secondAttribute="centerX" id="nDw-rj-8V6"/>
+                        <constraint firstItem="wBe-Bf-mxe" firstAttribute="centerX" secondItem="k5i-fx-U50" secondAttribute="centerX" id="qbA-t7-hdR"/>
+                        <constraint firstItem="hAB-Ku-1MJ" firstAttribute="leading" secondItem="k5i-fx-U50" secondAttribute="leading" id="s1o-GN-dgh"/>
+                        <constraint firstItem="ZKC-9T-rIB" firstAttribute="centerX" secondItem="hAB-Ku-1MJ" secondAttribute="centerX" id="t79-C5-k8b"/>
+                        <constraint firstItem="E9C-zK-VX8" firstAttribute="top" secondItem="ey1-c6-vfC" secondAttribute="bottom" constant="24" id="vw2-y7-z6M"/>
+                        <constraint firstItem="E9C-zK-VX8" firstAttribute="centerX" secondItem="ey1-c6-vfC" secondAttribute="centerX" id="x0v-wh-wAq"/>
+                        <constraint firstItem="hAB-Ku-1MJ" firstAttribute="top" secondItem="gOS-Ms-EJs" secondAttribute="bottom" constant="36" id="zqV-Bi-dvS"/>
                     </constraints>
                 </view>
             </subviews>

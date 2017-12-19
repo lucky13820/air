@@ -76,7 +76,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
             }
         }
         
-
+        self.view.accessibilityElements = [self.mainScroll, self.nowWeather, self.forWeather, self.creditScreen];
 
         
         
@@ -115,7 +115,8 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
                 // Location name
                 if let city = placeMark.addressDictionary!["City"] as? NSString {
                     self.cityInFull = city as String
-                    let params : [String : String] = ["location" : self.cityInFull, "key" : self.APP_ID,]
+                    let params : [String : String] = ["location" : self.cityInFull, "key" : self.APP_ID, "lang" : "hk"]
+                    print(params)
                     self.getWeatherData(url: self.WEATHER_URL, parameters: params)
                     self.locationManager.stopUpdatingLocation()
                 }
@@ -157,7 +158,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
             }
             else {
                 print("Error \(String(describing: response.result.error))")
-                self.nowWeather.cityLabel.text = "链\n接\n不\n可\n用"
+                self.nowWeather.cityLabel.text = "鏈\n接\n不\n可\n用"
             }
         }
     }
