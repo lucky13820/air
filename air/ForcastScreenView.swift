@@ -82,6 +82,7 @@ class ForcastScreenView: UIViewController {
             let voiceOverCondition1 = data["daily_forecast"][0]["cond_txt_d"].stringValue
             
             self.forcastCondition1.accessibilityLabel = voiceOverCondition1
+            self.forcastDate1.accessibilityLabel = weatherDataModel.forcastDate1
             
             
             weatherDataModel.forcastTempMin2 = data["daily_forecast"][1]["tmp_min"].intValue
@@ -97,6 +98,7 @@ class ForcastScreenView: UIViewController {
             let voiceOverCondition2 = data["daily_forecast"][1]["cond_txt_d"].stringValue
             
             self.forcastCondition2.accessibilityLabel = voiceOverCondition2
+            self.forcastDate2.accessibilityLabel = weatherDataModel.forcastDate2
             
             weatherDataModel.forcastTempMin3 = data["daily_forecast"][2]["tmp_min"].intValue
             
@@ -111,37 +113,52 @@ class ForcastScreenView: UIViewController {
             let voiceOverCondition3 = data["daily_forecast"][2]["cond_txt_d"].stringValue
             
             self.forcastCondition3.accessibilityLabel = voiceOverCondition3
+            self.forcastDate3.accessibilityLabel = weatherDataModel.forcastDate3
             
-//            weatherDataModel.forcastTempMin4 = data["daily_forecast"][3]["tmp_min"].intValue
-//            
-//            weatherDataModel.forcastTempMax4 = data["daily_forecast"][3]["tmp_max"].intValue
-//            
-//            weatherDataModel.forcastCondition4 = data["daily_forecast"][3]["cond_code_d"].intValue
-//            
-//            weatherDataModel.forcastDate4 = data["daily_forecast"][3]["date"].stringValue
-//            
-//            weatherDataModel.forcastWeatherIcon4 = weatherDataModel.updateWeatherIcon4(forcastCondition4: weatherDataModel.forcastCondition4)
-//            
-//            weatherDataModel.forcastTempMin5 = data["daily_forecast"][4]["tmp_min"].intValue
-//            
-//            weatherDataModel.forcastTempMax5 = data["daily_forecast"][4]["tmp_max"].intValue
-//            
-//            weatherDataModel.forcastCondition5 = data["daily_forecast"][4]["cond_code_d"].intValue
-//            
-//            weatherDataModel.forcastDate5 = data["daily_forecast"][4]["date"].stringValue
-//            
-//            weatherDataModel.forcastWeatherIcon5 = weatherDataModel.updateWeatherIcon5(forcastCondition5: weatherDataModel.forcastCondition5)
-//            
-//            weatherDataModel.forcastTempMin6 = data["daily_forecast"][5]["tmp_min"].intValue
-//            
-//            weatherDataModel.forcastTempMax6 = data["daily_forecast"][5]["tmp_max"].intValue
-//            
-//            weatherDataModel.forcastCondition6 = data["daily_forecast"][5]["cond_code_d"].intValue
-//            
-//            weatherDataModel.forcastDate6 = data["daily_forecast"][5]["date"].stringValue
-//            
-//            weatherDataModel.forcastWeatherIcon6 = weatherDataModel.updateWeatherIcon6(forcastCondition6: weatherDataModel.forcastCondition6)
+            weatherDataModel.forcastTempMin4 = data["daily_forecast"][3]["tmp_min"].intValue
             
+            weatherDataModel.forcastTempMax4 = data["daily_forecast"][3]["tmp_max"].intValue
+            
+            weatherDataModel.forcastCondition4 = data["daily_forecast"][3]["cond_code_d"].intValue
+            
+            weatherDataModel.forcastDate4 = data["daily_forecast"][3]["date"].stringValue
+            
+            weatherDataModel.forcastWeatherIcon4 = weatherDataModel.updateWeatherIcon4(forcastCondition4: weatherDataModel.forcastCondition4)
+            
+            let voiceOverCondition4 = data["daily_forecast"][3]["cond_txt_d"].stringValue
+            
+            self.forcastCondition4.accessibilityLabel = voiceOverCondition4
+            self.forcastDate4.accessibilityLabel = weatherDataModel.forcastDate4
+            
+            weatherDataModel.forcastTempMin5 = data["daily_forecast"][4]["tmp_min"].intValue
+            
+            weatherDataModel.forcastTempMax5 = data["daily_forecast"][4]["tmp_max"].intValue
+            
+            weatherDataModel.forcastCondition5 = data["daily_forecast"][4]["cond_code_d"].intValue
+            
+            weatherDataModel.forcastDate5 = data["daily_forecast"][4]["date"].stringValue
+            
+            weatherDataModel.forcastWeatherIcon5 = weatherDataModel.updateWeatherIcon5(forcastCondition5: weatherDataModel.forcastCondition5)
+            
+            let voiceOverCondition5 = data["daily_forecast"][4]["cond_txt_d"].stringValue
+            
+            self.forcastCondition5.accessibilityLabel = voiceOverCondition5
+            self.forcastDate5.accessibilityLabel = weatherDataModel.forcastDate5
+            
+            weatherDataModel.forcastTempMin6 = data["daily_forecast"][5]["tmp_min"].intValue
+            
+            weatherDataModel.forcastTempMax6 = data["daily_forecast"][5]["tmp_max"].intValue
+            
+            weatherDataModel.forcastCondition6 = data["daily_forecast"][5]["cond_code_d"].intValue
+            
+            weatherDataModel.forcastDate6 = data["daily_forecast"][5]["date"].stringValue
+            
+            weatherDataModel.forcastWeatherIcon6 = weatherDataModel.updateWeatherIcon6(forcastCondition6: weatherDataModel.forcastCondition6)
+            
+            let voiceOverCondition6 = data["daily_forecast"][5]["cond_txt_d"].stringValue
+            
+            self.forcastCondition6.accessibilityLabel = voiceOverCondition6
+            self.forcastDate6.accessibilityLabel = weatherDataModel.forcastDate6
             
             
             
@@ -183,12 +200,12 @@ class ForcastScreenView: UIViewController {
         let weekday2 = getDayOfWeek(today: dateNum2)
         let dateNum3 = weatherDataModel.forcastDate3
         let weekday3 = getDayOfWeek(today: dateNum3)
-//        let dateNum5 = weatherDataModel.forcastDate5
-//        let weekday5 = getDayOfWeek(today: dateNum5)
-//        let dateNum4 = weatherDataModel.forcastDate4
-//        let weekday4 = getDayOfWeek(today: dateNum4)
-//        let dateNum6 = weatherDataModel.forcastDate6
-//        let weekday6 = getDayOfWeek(today: dateNum6)
+        let dateNum5 = weatherDataModel.forcastDate5
+        let weekday5 = getDayOfWeek(today: dateNum5)
+        let dateNum4 = weatherDataModel.forcastDate4
+        let weekday4 = getDayOfWeek(today: dateNum4)
+        let dateNum6 = weatherDataModel.forcastDate6
+        let weekday6 = getDayOfWeek(today: dateNum6)
         
         forcastTemp1Min.text = "\(weatherDataModel.forcastTempMin1)°"
         forcastTemp1Max.text = "\(weatherDataModel.forcastTempMax1)°"
@@ -205,20 +222,20 @@ class ForcastScreenView: UIViewController {
         forcastDate3.text = "\(chineseWeek[weekday3 - 1])"
         forcastCondition3.image = UIImage(named: weatherDataModel.forcastWeatherIcon3)!
         
-//        forcastTemp4Min.text = "\(weatherDataModel.forcastTempMin4)°"
-//        forcastTemp4Max.text = "\(weatherDataModel.forcastTempMax4)°"
-//        forcastDate4.text = "\(chineseWeek[weekday4 - 1])"
-//        forcastCondition4.image = UIImage(named: weatherDataModel.forcastWeatherIcon4)!
-//
-//        forcastTemp5Min.text = "\(weatherDataModel.forcastTempMin5)°"
-//        forcastTemp5Max.text = "\(weatherDataModel.forcastTempMax5)°"
-//        forcastDate5.text = "\(chineseWeek[weekday5 - 1])"
-//        forcastCondition5.image = UIImage(named: weatherDataModel.forcastWeatherIcon5)!
-//
-//        forcastTemp6Min.text = "\(weatherDataModel.forcastTempMin6)°"
-//        forcastTemp6Max.text = "\(weatherDataModel.forcastTempMax6)°"
-//        forcastDate6.text = "\(chineseWeek[weekday6 - 1])"
-//        forcastCondition6.image = UIImage(named: weatherDataModel.forcastWeatherIcon6)!
+        forcastTemp4Min.text = "\(weatherDataModel.forcastTempMin4)°"
+        forcastTemp4Max.text = "\(weatherDataModel.forcastTempMax4)°"
+        forcastDate4.text = "\(chineseWeek[weekday4 - 1])"
+        forcastCondition4.image = UIImage(named: weatherDataModel.forcastWeatherIcon4)!
+
+        forcastTemp5Min.text = "\(weatherDataModel.forcastTempMin5)°"
+        forcastTemp5Max.text = "\(weatherDataModel.forcastTempMax5)°"
+        forcastDate5.text = "\(chineseWeek[weekday5 - 1])"
+        forcastCondition5.image = UIImage(named: weatherDataModel.forcastWeatherIcon5)!
+
+        forcastTemp6Min.text = "\(weatherDataModel.forcastTempMin6)°"
+        forcastTemp6Max.text = "\(weatherDataModel.forcastTempMax6)°"
+        forcastDate6.text = "\(chineseWeek[weekday6 - 1])"
+        forcastCondition6.image = UIImage(named: weatherDataModel.forcastWeatherIcon6)!
 
     }
 

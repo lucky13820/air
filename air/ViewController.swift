@@ -16,7 +16,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     @IBOutlet var mainScroll: UIScrollView!
     
     var cityInFull = ""
-    let WEATHER_URL = "https://free-api.heweather.com/s6/weather"
+    let WEATHER_URL = "https://api.heweather.com/s6/weather"
     let APP_ID = "11f8312f8e9a4c529959b22a61a7d261"
     var nowWeather = NowScreenView()
     var forWeather = ForcastScreenView()

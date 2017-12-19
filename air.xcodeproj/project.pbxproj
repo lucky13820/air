@@ -23,19 +23,7 @@
 		AB0919541FE1CD0B0018552D /* NowScreenView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB0919521FE1CD0B0018552D /* NowScreenView.xib */; };
 		AB39F77E1FE5ECC500C6F4FC /* Crimson-Roman.otf in Resources */ = {isa = PBXBuildFile; fileRef = AB39F77D1FE5ECC500C6F4FC /* Crimson-Roman.otf */; };
 		AB9E54281FE7800D00BD33AF /* cwTeXFangSong-zhonly.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB9E54271FE7800D00BD33AF /* cwTeXFangSong-zhonly.ttf */; };
-		AB9E542F1FE8B69600BD33AF /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB9E542E1FE8B69600BD33AF /* NotificationCenter.framework */; };
-		AB9E54391FE8B69600BD33AF /* 氣.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AB9E542D1FE8B69600BD33AF /* 氣.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		AB9E54371FE8B69600BD33AF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AB09190A1FE1BE4B0018552D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AB9E542C1FE8B69600BD33AF;
-			remoteInfo = "氣";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		AB9E543D1FE8B69600BD33AF /* Embed App Extensions */ = {
@@ -44,7 +32,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				AB9E54391FE8B69600BD33AF /* 氣.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -70,7 +57,6 @@
 		AB0919521FE1CD0B0018552D /* NowScreenView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NowScreenView.xib; sourceTree = "<group>"; };
 		AB39F77D1FE5ECC500C6F4FC /* Crimson-Roman.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Crimson-Roman.otf"; sourceTree = "<group>"; };
 		AB9E54271FE7800D00BD33AF /* cwTeXFangSong-zhonly.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "cwTeXFangSong-zhonly.ttf"; sourceTree = "<group>"; };
-		AB9E542D1FE8B69600BD33AF /* 氣.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "氣.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB9E542E1FE8B69600BD33AF /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
 		BA0E79800792E58B92AC6E6C /* Pods-air.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-air.debug.xcconfig"; path = "Pods/Target Support Files/Pods-air/Pods-air.debug.xcconfig"; sourceTree = "<group>"; };
 		BE5E0BD818991F041BE02FC5 /* Pods-air.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-air.release.xcconfig"; path = "Pods/Target Support Files/Pods-air/Pods-air.release.xcconfig"; sourceTree = "<group>"; };
@@ -82,14 +68,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BEBC72F41650A42671A689E /* Pods_air.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AB9E542A1FE8B69600BD33AF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AB9E542F1FE8B69600BD33AF /* NotificationCenter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,7 +106,6 @@
 			isa = PBXGroup;
 			children = (
 				AB0919121FE1BE4B0018552D /* air.app */,
-				AB9E542D1FE8B69600BD33AF /* 氣.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -174,29 +151,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				AB9E54381FE8B69600BD33AF /* PBXTargetDependency */,
 			);
 			name = air;
 			productName = air;
 			productReference = AB0919121FE1BE4B0018552D /* air.app */;
 			productType = "com.apple.product-type.application";
-		};
-		AB9E542C1FE8B69600BD33AF /* 氣 */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AB9E543A1FE8B69600BD33AF /* Build configuration list for PBXNativeTarget "氣" */;
-			buildPhases = (
-				AB9E54291FE8B69600BD33AF /* Sources */,
-				AB9E542A1FE8B69600BD33AF /* Frameworks */,
-				AB9E542B1FE8B69600BD33AF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "氣";
-			productName = "氣";
-			productReference = AB9E542D1FE8B69600BD33AF /* 氣.appex */;
-			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -209,10 +168,6 @@
 				ORGANIZATIONNAME = "Ryan Yao";
 				TargetAttributes = {
 					AB0919111FE1BE4B0018552D = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
-					};
-					AB9E542C1FE8B69600BD33AF = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
@@ -232,7 +187,6 @@
 			projectRoot = "";
 			targets = (
 				AB0919111FE1BE4B0018552D /* air */,
-				AB9E542C1FE8B69600BD33AF /* 氣 */,
 			);
 		};
 /* End PBXProject section */
@@ -251,13 +205,6 @@
 				AB39F77E1FE5ECC500C6F4FC /* Crimson-Roman.otf in Resources */,
 				AB0919501FE1CCFA0018552D /* ForcastScreenView.xib in Resources */,
 				AB09194A1FE1CCB30018552D /* CreditScreenView.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AB9E542B1FE8B69600BD33AF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,22 +280,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AB9E54291FE8B69600BD33AF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		AB9E54381FE8B69600BD33AF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AB9E542C1FE8B69600BD33AF /* 氣 */;
-			targetProxy = AB9E54371FE8B69600BD33AF /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		AB0919191FE1BE4B0018552D /* Main.storyboard */ = {
@@ -511,36 +443,6 @@
 			};
 			name = Release;
 		};
-		AB9E543B1FE8B69600BD33AF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PL8HN56NHD;
-				INFOPLIST_FILE = "氣/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ryanyao.air.-";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		AB9E543C1FE8B69600BD33AF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PL8HN56NHD;
-				INFOPLIST_FILE = "氣/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ryanyao.air.-";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -558,15 +460,6 @@
 			buildConfigurations = (
 				AB0919251FE1BE4B0018552D /* Debug */,
 				AB0919261FE1BE4B0018552D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AB9E543A1FE8B69600BD33AF /* Build configuration list for PBXNativeTarget "氣" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AB9E543B1FE8B69600BD33AF /* Debug */,
-				AB9E543C1FE8B69600BD33AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

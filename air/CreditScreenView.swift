@@ -29,7 +29,8 @@ class CreditScreenView: UIViewController {
         nameLabel.text = "設\n計\n~\n開\n發\n \n要\n勍"
         nameLabel.numberOfLines = 0
         
-        appName.accessibilityLabel = "程序名：气"
+        appName.accessibilityLabel = "程序名"
+        nameLabel.accessibilityLabel = "設計与開發 要晴"
         
         self.view.accessibilityElements = [
             self.appName, self.nameLabel, self.weiboButton, self.twitterButton,self.weatherButton,

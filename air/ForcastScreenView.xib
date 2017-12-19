@@ -13,9 +13,6 @@
         <array key="Crimson-Roman.otf">
             <string>Crimson-Roman</string>
         </array>
-        <array key="PingFang.ttc">
-            <string>PingFangSC-Regular</string>
-        </array>
         <array key="cwTeXFangSong-zhonly.ttf">
             <string>cwTeXFangSong</string>
         </array>
@@ -55,16 +52,6 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="*受 API 限制，Beta 版暂时只有未来 3 天预报。正式版会修正。" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bNG-Hh-WsO">
-                    <rect key="frame" x="109.66666666666669" y="732" width="156" height="38"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="38" id="cYH-AQ-ZkC"/>
-                        <constraint firstAttribute="width" constant="156" id="tzo-Wz-MdJ"/>
-                    </constraints>
-                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="10"/>
-                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                </textView>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pFd-T1-YlL" userLabel="top">
                     <rect key="frame" x="48" y="74" width="279" height="367"/>
                     <subviews>
@@ -360,8 +347,6 @@
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="k5i-fx-U50" secondAttribute="bottom" constant="-30" id="d2s-t1-unj"/>
                 <constraint firstItem="pFd-T1-YlL" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="30" id="ibO-zF-Zdr"/>
                 <constraint firstItem="k5i-fx-U50" firstAttribute="top" secondItem="pFd-T1-YlL" secondAttribute="bottom" id="pfM-D6-Gvl"/>
-                <constraint firstItem="bNG-Hh-WsO" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="rKK-9n-sDC"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="bNG-Hh-WsO" secondAttribute="bottom" constant="8" id="wyR-K0-yVl"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
         </view>
