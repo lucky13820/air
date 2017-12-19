@@ -38,7 +38,7 @@ class NowScreenView: UIViewController, CLLocationManagerDelegate {
         cityLabel.numberOfLines = 0
         cityLabel.sizeToFit()
         
-        self.view.accessibilityElements = [self.cityLabel, self.weatherIcon, self.nowTemp, self.feelLabel, self.feelTemp];
+        //self.view.accessibilityElements = [self.cityLabel, self.weatherIcon, self.nowTemp, self.feelLabel, self.feelTemp];
     
         
     }
@@ -123,8 +123,8 @@ class NowScreenView: UIViewController, CLLocationManagerDelegate {
         feelLabel.text = "體\n感"
         feelLabel.numberOfLines = 0
         cityLabel.text = "\(weatherDataModel.city)"
-        nowTemp.text = "\(weatherDataModel.temperature)º"
-        feelTemp.text = "\(weatherDataModel.feel)º"
+        nowTemp.text = "\(weatherDataModel.temperature)°"
+        feelTemp.text = "\(weatherDataModel.feel)°"
         weatherIcon.image = UIImage(named: weatherDataModel.weatherIconName)!
         
     }

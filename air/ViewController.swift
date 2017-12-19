@@ -76,7 +76,15 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
             }
         }
         
-        self.view.accessibilityElements = [self.mainScroll, self.nowWeather, self.forWeather, self.creditScreen];
+        self.view.accessibilityElements = [self.nowWeather.cityLabel, self.nowWeather.weatherIcon, self.nowWeather.nowTemp, self.nowWeather.feelLabel, self.nowWeather.feelTemp,
+            self.forWeather.forcastDate1, self.forWeather.forcastCondition1, self.forWeather.forcastTemp1Min, self.forWeather.forcastTemp1Max,
+            self.forWeather.forcastDate2,self.forWeather.forcastCondition2, self.forWeather.forcastTemp2Min, self.forWeather.forcastTemp2Max,
+            self.forWeather.forcastDate3, self.forWeather.forcastCondition3, self.forWeather.forcastTemp3Min, self.forWeather.forcastTemp3Max,
+            self.forWeather.forcastDate4,self.forWeather.forcastCondition4, self.forWeather.forcastTemp4Min, self.forWeather.forcastTemp4Max,
+            self.forWeather.forcastDate5, self.forWeather.forcastCondition5, self.forWeather.forcastTemp5Min, self.forWeather.forcastTemp5Max,
+            self.forWeather.forcastDate6,self.forWeather.forcastCondition6, self.forWeather.forcastTemp6Min, self.forWeather.forcastTemp6Max,
+            self.creditScreen.appName, self.creditScreen.nameLabel, self.creditScreen.weiboButton, self.creditScreen.twitterButton,self.creditScreen.weatherButton,
+        ];
 
         
         
