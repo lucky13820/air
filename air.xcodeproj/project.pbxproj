@@ -24,8 +24,6 @@
 		AB39F77E1FE5ECC500C6F4FC /* Crimson-Roman.otf in Resources */ = {isa = PBXBuildFile; fileRef = AB39F77D1FE5ECC500C6F4FC /* Crimson-Roman.otf */; };
 		AB9E54281FE7800D00BD33AF /* cwTeXFangSong-zhonly.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB9E54271FE7800D00BD33AF /* cwTeXFangSong-zhonly.ttf */; };
 		AB9E542F1FE8B69600BD33AF /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB9E542E1FE8B69600BD33AF /* NotificationCenter.framework */; };
-		AB9E54321FE8B69600BD33AF /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9E54311FE8B69600BD33AF /* TodayViewController.swift */; };
-		AB9E54351FE8B69600BD33AF /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB9E54331FE8B69600BD33AF /* MainInterface.storyboard */; };
 		AB9E54391FE8B69600BD33AF /* 氣.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AB9E542D1FE8B69600BD33AF /* 氣.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
@@ -74,9 +72,6 @@
 		AB9E54271FE7800D00BD33AF /* cwTeXFangSong-zhonly.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "cwTeXFangSong-zhonly.ttf"; sourceTree = "<group>"; };
 		AB9E542D1FE8B69600BD33AF /* 氣.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "氣.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB9E542E1FE8B69600BD33AF /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
-		AB9E54311FE8B69600BD33AF /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
-		AB9E54341FE8B69600BD33AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
-		AB9E54361FE8B69600BD33AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA0E79800792E58B92AC6E6C /* Pods-air.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-air.debug.xcconfig"; path = "Pods/Target Support Files/Pods-air/Pods-air.debug.xcconfig"; sourceTree = "<group>"; };
 		BE5E0BD818991F041BE02FC5 /* Pods-air.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-air.release.xcconfig"; path = "Pods/Target Support Files/Pods-air/Pods-air.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -123,7 +118,6 @@
 			isa = PBXGroup;
 			children = (
 				AB0919141FE1BE4B0018552D /* air */,
-				AB9E54301FE8B69600BD33AF /* 氣 */,
 				AB0919131FE1BE4B0018552D /* Products */,
 				7796C63B8A85776008E647DA /* Pods */,
 				20107A0154A981269E2EDF47 /* Frameworks */,
@@ -160,16 +154,6 @@
 				AB0919211FE1BE4B0018552D /* Info.plist */,
 			);
 			path = air;
-			sourceTree = "<group>";
-		};
-		AB9E54301FE8B69600BD33AF /* 氣 */ = {
-			isa = PBXGroup;
-			children = (
-				AB9E54311FE8B69600BD33AF /* TodayViewController.swift */,
-				AB9E54331FE8B69600BD33AF /* MainInterface.storyboard */,
-				AB9E54361FE8B69600BD33AF /* Info.plist */,
-			);
-			path = "氣";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,7 +258,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB9E54351FE8B69600BD33AF /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,7 +337,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB9E54321FE8B69600BD33AF /* TodayViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,14 +365,6 @@
 				AB09191F1FE1BE4B0018552D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		AB9E54331FE8B69600BD33AF /* MainInterface.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AB9E54341FE8B69600BD33AF /* Base */,
-			);
-			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -507,7 +481,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BA0E79800792E58B92AC6E6C /* Pods-air.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PL8HN56NHD;
@@ -525,7 +498,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BE5E0BD818991F041BE02FC5 /* Pods-air.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PL8HN56NHD;
