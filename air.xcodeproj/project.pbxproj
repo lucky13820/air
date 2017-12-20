@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		8BEBC72F41650A42671A689E /* Pods_air.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B821FB4806ADA45F73AF685 /* Pods_air.framework */; };
-		AB07441B1FE1D82E00EB51E8 /* WenYue-GuDianMingChaoTi-NC-W5.otf in Resources */ = {isa = PBXBuildFile; fileRef = AB07441A1FE1D82D00EB51E8 /* WenYue-GuDianMingChaoTi-NC-W5.otf */; };
 		AB07441D1FE1DD1500EB51E8 /* WeatherDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB07441C1FE1DD1500EB51E8 /* WeatherDataModel.swift */; };
 		AB0919161FE1BE4B0018552D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0919151FE1BE4B0018552D /* AppDelegate.swift */; };
 		AB0919181FE1BE4B0018552D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0919171FE1BE4B0018552D /* ViewController.swift */; };
@@ -22,7 +21,7 @@
 		AB0919531FE1CD0B0018552D /* NowScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0919511FE1CD0B0018552D /* NowScreenView.swift */; };
 		AB0919541FE1CD0B0018552D /* NowScreenView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB0919521FE1CD0B0018552D /* NowScreenView.xib */; };
 		AB39F77E1FE5ECC500C6F4FC /* Crimson-Roman.otf in Resources */ = {isa = PBXBuildFile; fileRef = AB39F77D1FE5ECC500C6F4FC /* Crimson-Roman.otf */; };
-		AB9E54281FE7800D00BD33AF /* cwTeXFangSong-zhonly.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB9E54271FE7800D00BD33AF /* cwTeXFangSong-zhonly.ttf */; };
+		AB83C1EB1FE9AA1B005DD4A2 /* SourceHanSerifTC-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = AB83C1EA1FE9AA1B005DD4A2 /* SourceHanSerifTC-SemiBold.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,7 +39,6 @@
 
 /* Begin PBXFileReference section */
 		5B821FB4806ADA45F73AF685 /* Pods_air.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_air.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AB07441A1FE1D82D00EB51E8 /* WenYue-GuDianMingChaoTi-NC-W5.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WenYue-GuDianMingChaoTi-NC-W5.otf"; sourceTree = "<group>"; };
 		AB07441C1FE1DD1500EB51E8 /* WeatherDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDataModel.swift; sourceTree = "<group>"; };
 		AB0919121FE1BE4B0018552D /* air.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = air.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB0919151FE1BE4B0018552D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -56,7 +54,7 @@
 		AB0919511FE1CD0B0018552D /* NowScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowScreenView.swift; sourceTree = "<group>"; };
 		AB0919521FE1CD0B0018552D /* NowScreenView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NowScreenView.xib; sourceTree = "<group>"; };
 		AB39F77D1FE5ECC500C6F4FC /* Crimson-Roman.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Crimson-Roman.otf"; sourceTree = "<group>"; };
-		AB9E54271FE7800D00BD33AF /* cwTeXFangSong-zhonly.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "cwTeXFangSong-zhonly.ttf"; sourceTree = "<group>"; };
+		AB83C1EA1FE9AA1B005DD4A2 /* SourceHanSerifTC-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceHanSerifTC-SemiBold.otf"; sourceTree = "<group>"; };
 		AB9E542E1FE8B69600BD33AF /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
 		BA0E79800792E58B92AC6E6C /* Pods-air.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-air.debug.xcconfig"; path = "Pods/Target Support Files/Pods-air/Pods-air.debug.xcconfig"; sourceTree = "<group>"; };
 		BE5E0BD818991F041BE02FC5 /* Pods-air.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-air.release.xcconfig"; path = "Pods/Target Support Files/Pods-air/Pods-air.release.xcconfig"; sourceTree = "<group>"; };
@@ -126,8 +124,7 @@
 				AB09191C1FE1BE4B0018552D /* Assets.xcassets */,
 				AB09191E1FE1BE4B0018552D /* LaunchScreen.storyboard */,
 				AB39F77D1FE5ECC500C6F4FC /* Crimson-Roman.otf */,
-				AB9E54271FE7800D00BD33AF /* cwTeXFangSong-zhonly.ttf */,
-				AB07441A1FE1D82D00EB51E8 /* WenYue-GuDianMingChaoTi-NC-W5.otf */,
+				AB83C1EA1FE9AA1B005DD4A2 /* SourceHanSerifTC-SemiBold.otf */,
 				AB0919211FE1BE4B0018552D /* Info.plist */,
 			);
 			path = air;
@@ -196,9 +193,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB83C1EB1FE9AA1B005DD4A2 /* SourceHanSerifTC-SemiBold.otf in Resources */,
 				AB0919201FE1BE4B0018552D /* LaunchScreen.storyboard in Resources */,
-				AB07441B1FE1D82E00EB51E8 /* WenYue-GuDianMingChaoTi-NC-W5.otf in Resources */,
-				AB9E54281FE7800D00BD33AF /* cwTeXFangSong-zhonly.ttf in Resources */,
 				AB09191D1FE1BE4B0018552D /* Assets.xcassets in Resources */,
 				AB09191B1FE1BE4B0018552D /* Main.storyboard in Resources */,
 				AB0919541FE1CD0B0018552D /* NowScreenView.xib in Resources */,

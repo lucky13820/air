@@ -11,6 +11,9 @@ import CoreLocation
 import Alamofire
 import SwiftyJSON
 
+
+
+
 class NowScreenView: UIViewController, CLLocationManagerDelegate {
     
     
@@ -20,10 +23,12 @@ class NowScreenView: UIViewController, CLLocationManagerDelegate {
     @IBOutlet var nowTemp: UILabel!
     @IBOutlet var weatherIcon: UIImageView!
     
+    
+    
     let WEATHER_URL = "https://free-api.heweather.com/s6/weather"
     let APP_ID = "11f8312f8e9a4c529959b22a61a7d261"
-    
-    
+    //var mainLocation = ViewController()
+    var chineseLocation = ""
     
     
     //TODO: Declare instance variables here
@@ -37,9 +42,7 @@ class NowScreenView: UIViewController, CLLocationManagerDelegate {
 
         cityLabel.numberOfLines = 0
         cityLabel.sizeToFit()
-        
-        //self.view.accessibilityElements = [self.cityLabel, self.weatherIcon, self.nowTemp, self.feelLabel, self.feelTemp];
-    
+
         
     }
 
@@ -50,30 +53,17 @@ class NowScreenView: UIViewController, CLLocationManagerDelegate {
         // Dispose of any resources that can be recreated.
     }
     
+    func testLangWith(string:String)->String?{
+        if string.count < 100{
+            return CFStringTokenizerCopyBestStringLanguage(string as CFString!, CFRange(location: 0, length: string.count)) as String?
+        }
+        else{
+            return CFStringTokenizerCopyBestStringLanguage(string as CFString!, CFRange(location: 0, length: 100)) as String?
+        }
+        
+    }
     
-//    //MARK: - Networking
-//    /***************************************************************/
-//    
-//    //Write the getWeatherData method here:
-//    func  getWeatherData(url: String, parameters: [String : String]) {
-//        
-//        Alamofire.request(url, method: .get, parameters: parameters).responseJSON {
-//            response in
-//            if response.result.isSuccess {
-//                print("Success! Got the weather data")
-//                
-//                let weatherJSON : JSON = JSON(response.result.value!)
-//                
-//                print(weatherJSON)
-//                
-//                self.updateWeatherData(json: weatherJSON)
-//            }
-//            else {
-//                print("Error \(String(describing: response.result.error))")
-//                self.cityLabel.text = "链\n接\n不\n可\n用"
-//            }
-//        }
-//    }
+
 
     
     //MARK: - JSON Parsing
@@ -100,10 +90,22 @@ class NowScreenView: UIViewController, CLLocationManagerDelegate {
             let voiceOverCondition = data["now"]["cond_txt"].stringValue
             
             self.weatherIcon.accessibilityLabel = voiceOverCondition
-                       
+            
+            let str = "\(weatherDataModel.city)"
+            let lang = testLangWith(string: str)
+            
+            if lang == "zh-Hans" {
+                
+            }
+                
+            else {
+               weatherDataModel.city = chineseLocation
+                
+            }
             updateUIWithWeatherData()
             
         }
+            
             
         else {
             cityLabel.text = "天\n氣\n不\n可\n用"
@@ -120,18 +122,59 @@ class NowScreenView: UIViewController, CLLocationManagerDelegate {
     
     func updateUIWithWeatherData() {
         
-        feelLabel.text = "體\n感"
+        let engStr = "\(weatherDataModel.city)"
+        let lang = testLangWith(string: engStr)
+        
+        if lang == "zh-Hans"{
+            
+        }
+            
+        else {
+            
+            for constraint in self.cityLabel.constraints {
+                if constraint.identifier == "cityWidth" {
+                    constraint.constant = 300
+                }
+            }
+            cityLabel.layoutIfNeeded()
+            
+        }
+        
+        
+        let attributedString = NSMutableAttributedString(string: "體\n感")
+        let attributedStringCity = NSMutableAttributedString(string: "\(weatherDataModel.city)")
+        
+        // *** Create instance of `NSMutableParagraphStyle`
+        let paragraphStyle = NSMutableParagraphStyle()
+        
+        // *** set LineSpacing property in points ***
+        paragraphStyle.lineHeightMultiple = 0.8 // Whatever line spacing you want in points
+        
+        // *** Apply attribute to string ***
+        attributedString.addAttribute(NSAttributedStringKey.paragraphStyle, value:paragraphStyle, range:NSMakeRange(0, attributedString.length))
+        attributedStringCity.addAttribute(NSAttributedStringKey.paragraphStyle, value:paragraphStyle, range:NSMakeRange(0, attributedStringCity
+            .length))
+        
+        
+        // *** Set Attributed String to your label ***
         feelLabel.numberOfLines = 0
-        cityLabel.text = "\(weatherDataModel.city)"
+        feelLabel.attributedText = attributedString
+        cityLabel.attributedText = attributedStringCity
+        cityLabel.textAlignment = .right
+        
         nowTemp.text = "\(weatherDataModel.temperature)°"
         feelTemp.text = "\(weatherDataModel.feel)°"
         weatherIcon.image = UIImage(named: weatherDataModel.weatherIconName)!
         
     }
     
+    func changeBgColor() {
+        view.backgroundColor = UIColor(red:0.33, green:0.56, blue:0.60, alpha:1.0)
+        print("Success")
+    }
     
     
-    
+
 
 
 }

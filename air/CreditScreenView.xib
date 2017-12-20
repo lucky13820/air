@@ -10,19 +10,22 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
-        <array key="cwTeXFangSong-zhonly.ttf">
-            <string>cwTeXFangSong</string>
+        <array key="SourceHanSerifTC-SemiBold.otf">
+            <string>SourceHanSerifTC-SemiBold</string>
         </array>
     </customFonts>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CreditScreenView" customModule="air" customModuleProvider="target">
             <connections>
-                <outlet property="appName" destination="zLa-qY-XaI" id="4lA-41-Zbp"/>
-                <outlet property="nameLabel" destination="waZ-A3-60h" id="zHL-Nz-AJW"/>
+                <outlet property="blueBg" destination="sTd-lh-WhC" id="bCf-Kp-DBh"/>
+                <outlet property="greenBg" destination="Tx6-al-w06" id="Cjx-G7-xxr"/>
+                <outlet property="purpleBg" destination="9wX-Ub-P4D" id="w8w-jc-EJB"/>
+                <outlet property="redBg" destination="ata-HN-yF0" id="WQV-Xt-F0h"/>
                 <outlet property="twitterButton" destination="Zdv-qq-b20" id="6KH-xM-DcB"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
                 <outlet property="weatherButton" destination="831-Co-yxd" id="w0C-0H-o4E"/>
                 <outlet property="weiboButton" destination="BMk-9M-3uE" id="JPp-F2-Jav"/>
+                <outlet property="yellowBg" destination="2BJ-Pj-Dlk" id="OG3-BG-xHd"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
@@ -30,24 +33,13 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="氣" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.90000000000000002" translatesAutoresizingMaskIntoConstraints="NO" id="zLa-qY-XaI">
-                    <rect key="frame" x="314" y="60" width="60" height="63"/>
-                    <accessibility key="accessibilityConfiguration" label="程序名： 气"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="60" id="Mko-z9-Uv1"/>
-                        <constraint firstAttribute="height" constant="63" id="a7d-k9-35x"/>
-                    </constraints>
-                    <fontDescription key="fontDescription" name="cwTeXFangSong" family="cwTeXFangSong" pointSize="64"/>
-                    <color key="textColor" red="0.95939534900000001" green="0.95941776040000004" blue="0.95940560100000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    <nil key="highlightedColor"/>
-                </label>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="top" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="BMk-9M-3uE" userLabel="weibo Button">
                     <rect key="frame" x="329" y="559" width="45" height="70"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="45" id="c5G-Ii-f5W"/>
                         <constraint firstAttribute="height" constant="70" id="se9-Lz-I6V"/>
                     </constraints>
-                    <fontDescription key="fontDescription" name="cwTeXFangSong" family="cwTeXFangSong" pointSize="20"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
                     <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <state key="normal" title="Button">
                         <color key="titleColor" red="0.95939534900000001" green="0.95941776040000004" blue="0.95940560100000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -62,7 +54,7 @@
                         <constraint firstAttribute="height" constant="72" id="JQE-7z-UMp"/>
                         <constraint firstAttribute="width" constant="45" id="j89-Ow-eDx"/>
                     </constraints>
-                    <fontDescription key="fontDescription" name="cwTeXFangSong" family="cwTeXFangSong" pointSize="20"/>
+                    <fontDescription key="fontDescription" name="SourceHanSerifTC-SemiBold" family="Source Han Serif TC" pointSize="18"/>
                     <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <state key="normal" title="Button">
                         <color key="titleColor" red="0.95939534900000001" green="0.95941776040000004" blue="0.95940560100000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -77,7 +69,7 @@
                         <constraint firstAttribute="height" constant="134" id="4b7-Z0-spv"/>
                         <constraint firstAttribute="width" constant="34" id="aq5-Xj-tmp"/>
                     </constraints>
-                    <fontDescription key="fontDescription" name="cwTeXFangSong" family="cwTeXFangSong" pointSize="14"/>
+                    <fontDescription key="fontDescription" name="SourceHanSerifTC-SemiBold" family="Source Han Serif TC" pointSize="10"/>
                     <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <state key="normal" title="Button">
                         <color key="titleColor" red="0.95939534900000001" green="0.95941776040000004" blue="0.95940560100000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -86,28 +78,69 @@
                         <action selector="weatherButton:" destination="-1" eventType="touchUpInside" id="pqP-2j-u4A"/>
                     </connections>
                 </button>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="waZ-A3-60h">
-                    <rect key="frame" x="192" y="233.33333333333337" width="30" height="270"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="30" id="KFj-hf-KPX"/>
-                        <constraint firstAttribute="height" constant="270" id="NcF-Xm-bWA"/>
-                    </constraints>
-                    <fontDescription key="fontDescription" name="cwTeXFangSong" family="cwTeXFangSong" pointSize="32"/>
-                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    <nil key="highlightedColor"/>
-                </label>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ata-HN-yF0">
+                    <rect key="frame" x="184" y="174" width="46" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                    <state key="normal" title="紅">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="redBg:" destination="-1" eventType="touchUpInside" id="qo9-3c-3Af"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tx6-al-w06">
+                    <rect key="frame" x="184" y="244" width="46" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                    <state key="normal" title="綠">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="greenBg:" destination="-1" eventType="touchUpInside" id="h5a-Wr-z1U"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sTd-lh-WhC">
+                    <rect key="frame" x="184" y="316" width="46" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                    <state key="normal" title="藍">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="redBg:" destination="-1" eventType="touchUpInside" id="6ug-Fe-fOQ"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2BJ-Pj-Dlk">
+                    <rect key="frame" x="184" y="379" width="46" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                    <state key="normal" title="黃">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="redBg:" destination="-1" eventType="touchUpInside" id="cmo-iU-pxa"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9wX-Ub-P4D">
+                    <rect key="frame" x="184" y="448" width="46" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                    <state key="normal" title="紫">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="redBg:" destination="-1" eventType="touchUpInside" id="LEN-m1-vn8"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" red="0.062745098040000002" green="0.062745098040000002" blue="0.062745098040000002" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
                 <constraint firstItem="Zdv-qq-b20" firstAttribute="top" secondItem="BMk-9M-3uE" secondAttribute="bottom" constant="10" id="7Db-r8-6tf"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="Zdv-qq-b20" secondAttribute="bottom" constant="25" id="BW9-l9-3e9"/>
-                <constraint firstItem="zLa-qY-XaI" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="40" id="T2B-Om-KTh"/>
                 <constraint firstItem="831-Co-yxd" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="40" id="V1W-xc-xt4"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Zdv-qq-b20" secondAttribute="trailing" constant="40" id="YnO-Nh-gAG"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="zLa-qY-XaI" secondAttribute="trailing" constant="40" id="Ytz-rR-Rjy"/>
-                <constraint firstItem="waZ-A3-60h" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="q29-QT-TbY"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="831-Co-yxd" secondAttribute="bottom" constant="40" id="wa5-Xy-yzp"/>
-                <constraint firstItem="waZ-A3-60h" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="x5T-5L-rCl"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="BMk-9M-3uE" secondAttribute="trailing" constant="40" id="zFe-wf-Qx1"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>

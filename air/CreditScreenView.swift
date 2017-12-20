@@ -8,14 +8,20 @@
 
 import UIKit
 
+
 class CreditScreenView: UIViewController {
     
-
-    @IBOutlet var appName: UILabel!
-    @IBOutlet var nameLabel: UILabel!
+    
+    @IBOutlet weak var purpleBg: UIButton!
+    @IBOutlet weak var yellowBg: UIButton!
+    @IBOutlet weak var blueBg: UIButton!
+    @IBOutlet weak var greenBg: UIButton!
+    @IBOutlet var redBg: UIButton!
     @IBOutlet var weatherButton: UIButton!
     @IBOutlet var twitterButton: UIButton!
     @IBOutlet var weiboButton: UIButton!
+    
+    
 
     
     override func viewDidLoad() {
@@ -26,20 +32,30 @@ class CreditScreenView: UIViewController {
         weiboButton.setTitle("微\n博", for: .normal)
         twitterButton.setTitle("推\n特", for: .normal)
         weatherButton.setTitle("天\n氣\n來\n源\n：\n和\n風\n天\n氣", for: .normal)
-        nameLabel.text = "設\n計\n~\n開\n發\n \n要\n勍"
-        nameLabel.numberOfLines = 0
         
-        appName.accessibilityLabel = "程序名"
-        nameLabel.accessibilityLabel = "設計与開發 要晴"
         
         self.view.accessibilityElements = [
-            self.appName, self.nameLabel, self.weiboButton, self.twitterButton,self.weatherButton,
+            self.weiboButton, self.twitterButton,self.weatherButton,
         ];
         
 
         
         
     }
+    
+    @IBAction func greenBg(_ sender: UIButton) {
+        self.view.backgroundColor = UIColor(red:0.33, green:0.56, blue:0.60, alpha:1.0)
+        NowScreenView().changeBgColor()
+    }
+    
+    @IBAction func redBg(_ sender: Any) {
+        let bgColor = "#D42D57"
+        self.view.backgroundColor = UIColor().HexToColor(hexString: bgColor, alpha: 1.0)
+    }
+    
+    
+    
+    
     
     @IBAction func weatherButton(_ sender: UIButton) {
         

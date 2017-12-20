@@ -11,6 +11,32 @@ import CoreLocation
 import Alamofire
 import SwiftyJSON
 
+extension UIColor{
+    func HexToColor(hexString: String, alpha:CGFloat? = 1.0) -> UIColor {
+        // Convert hex string to an integer
+        let hexint = Int(self.intFromHexString(hexStr: hexString))
+        let red = CGFloat((hexint & 0xff0000) >> 16) / 255.0
+        let green = CGFloat((hexint & 0xff00) >> 8) / 255.0
+        let blue = CGFloat((hexint & 0xff) >> 0) / 255.0
+        let alpha = alpha!
+        // Create color object, specifying alpha as well
+        let color = UIColor(red: red, green: green, blue: blue, alpha: alpha)
+        return color
+    }
+    
+    func intFromHexString(hexStr: String) -> UInt32 {
+        var hexInt: UInt32 = 0
+        // Create scanner
+        let scanner: Scanner = Scanner(string: hexStr)
+        // Tell scanner to skip the # character
+        scanner.charactersToBeSkipped = NSCharacterSet(charactersIn: "#") as CharacterSet
+        // Scan hex value
+        scanner.scanHexInt32(&hexInt)
+        return hexInt
+    }
+}
+
+
 class ViewController: UIViewController, CLLocationManagerDelegate {
     
     @IBOutlet var mainScroll: UIScrollView!
@@ -83,7 +109,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
             self.forWeather.forcastDate4,self.forWeather.forcastCondition4, self.forWeather.forcastTemp4Min, self.forWeather.forcastTemp4Max,
             self.forWeather.forcastDate5, self.forWeather.forcastCondition5, self.forWeather.forcastTemp5Min, self.forWeather.forcastTemp5Max,
             self.forWeather.forcastDate6,self.forWeather.forcastCondition6, self.forWeather.forcastTemp6Min, self.forWeather.forcastTemp6Max,
-            self.creditScreen.appName, self.creditScreen.nameLabel, self.creditScreen.weiboButton, self.creditScreen.twitterButton,self.creditScreen.weatherButton,
+            self.creditScreen.weiboButton, self.creditScreen.twitterButton,self.creditScreen.weatherButton,
         ];
 
         
@@ -113,25 +139,32 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         
         if location.horizontalAccuracy > 0 {
             
-            let geoCoder = CLGeocoder()
-            geoCoder.reverseGeocodeLocation(location, completionHandler: { (placemarks, error) -> Void in
-                
-                // Place details
-                var placeMark: CLPlacemark!
-                placeMark = (placemarks?.last)!
-                
-                // Location name
-                if let city = placeMark.addressDictionary!["City"] as? NSString {
-                    self.cityInFull = city as String
-                    let params : [String : String] = ["location" : self.cityInFull, "key" : self.APP_ID, "lang" : "hk"]
-                    print(params)
-                    self.getWeatherData(url: self.WEATHER_URL, parameters: params)
-                    self.locationManager.stopUpdatingLocation()
-                }
-                
-            })
+            locationManager.stopUpdatingLocation()
             
-           
+            print("longitude = \(location.coordinate.longitude), latitude = \(location.coordinate.latitude)")
+            
+            let latLongLocation = "\(location.coordinate.latitude),\(location.coordinate.longitude)"
+            print(latLongLocation)
+            
+            let params : [String : String] = ["location" : latLongLocation, "key" : APP_ID, "lang" : "hk"]
+            
+            getWeatherData(url: WEATHER_URL, parameters: params)
+            
+            
+                        let geoCoder = CLGeocoder()
+                        geoCoder.reverseGeocodeLocation(location, completionHandler: { (placemarks, error) -> Void in
+            
+                            // Place details
+                            var placeMark: CLPlacemark!
+                            placeMark = (placemarks?.last)!
+            
+                            // Location name
+                            if let city = placeMark.addressDictionary!["City"] as? NSString {
+                                self.cityInFull = city as String
+                                self.nowWeather.chineseLocation = self.cityInFull
+                            }
+            
+                        })
             
         }
         
@@ -171,6 +204,11 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         }
     }
     
+    
+    
+    
+    
+
 
 
 }
