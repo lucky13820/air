@@ -10,23 +10,24 @@ import UIKit
 import CoreLocation
 import Alamofire
 import SwiftyJSON
-
+import OpenCC
 
 
 
 class NowScreenView: UIViewController, CLLocationManagerDelegate {
     
     
+    @IBOutlet weak var bottomContainer: UIView!
+    @IBOutlet weak var middleContainer: UIView!
+    @IBOutlet weak var topContainer: UIView!
+    @IBOutlet weak var blackBg: UIView!
     @IBOutlet var cityLabel: UILabel!
     @IBOutlet var feelLabel: UILabel!
     @IBOutlet var feelTemp: UILabel!
     @IBOutlet var nowTemp: UILabel!
     @IBOutlet var weatherIcon: UIImageView!
     
-    
-    
-    let WEATHER_URL = "https://free-api.heweather.com/s6/weather"
-    let APP_ID = "11f8312f8e9a4c529959b22a61a7d261"
+
     //var mainLocation = ViewController()
     var chineseLocation = ""
     
@@ -39,9 +40,22 @@ class NowScreenView: UIViewController, CLLocationManagerDelegate {
         super.viewDidLoad()
         
         feelLabel.numberOfLines = 0
-
+        feelLabel.sizeToFit()
         cityLabel.numberOfLines = 0
         cityLabel.sizeToFit()
+        
+        UIView.animate(withDuration: 0.3, delay: 0.9, options: .curveEaseIn, animations: {
+            self.cityLabel.alpha = 1
+            self.feelLabel.alpha = 1
+            self.feelTemp.alpha = 1
+            self.nowTemp.alpha = 1
+            self.weatherIcon.alpha = 1
+        })
+         
+        UIView.animate(withDuration: 0.6, delay: 0.2, options: .curveEaseOut, animations: {
+            self.blackBg.alpha = 0.0
+        })
+        
 
         
     }
@@ -81,6 +95,8 @@ class NowScreenView: UIViewController, CLLocationManagerDelegate {
             
             weatherDataModel.city = data["basic"]["location"].stringValue
             
+            weatherDataModel.parent = data["basic"]["parent_city"].stringValue
+            
             weatherDataModel.condition = data["now"]["cond_code"].intValue
             
             weatherDataModel.feel = data["now"]["fl"].intValue
@@ -91,10 +107,12 @@ class NowScreenView: UIViewController, CLLocationManagerDelegate {
             
             self.weatherIcon.accessibilityLabel = voiceOverCondition
             
+            
             let str = "\(weatherDataModel.city)"
             let lang = testLangWith(string: str)
             
-            if lang == "zh-Hans" {
+            
+            if lang == "zh-Hant" || lang == "ja" || lang == "zh-Hans"{
                 
             }
                 
@@ -125,7 +143,7 @@ class NowScreenView: UIViewController, CLLocationManagerDelegate {
         let engStr = "\(weatherDataModel.city)"
         let lang = testLangWith(string: engStr)
         
-        if lang == "zh-Hans"{
+        if lang == "zh-Hant" || lang == "ja" || lang == "zh-Hans"{
             
         }
             
@@ -141,38 +159,25 @@ class NowScreenView: UIViewController, CLLocationManagerDelegate {
         }
         
         
-        let attributedString = NSMutableAttributedString(string: "體\n感")
-        let attributedStringCity = NSMutableAttributedString(string: "\(weatherDataModel.city)")
-        
-        // *** Create instance of `NSMutableParagraphStyle`
-        let paragraphStyle = NSMutableParagraphStyle()
-        
-        // *** set LineSpacing property in points ***
-        paragraphStyle.lineHeightMultiple = 0.8 // Whatever line spacing you want in points
-        
-        // *** Apply attribute to string ***
-        attributedString.addAttribute(NSAttributedStringKey.paragraphStyle, value:paragraphStyle, range:NSMakeRange(0, attributedString.length))
-        attributedStringCity.addAttribute(NSAttributedStringKey.paragraphStyle, value:paragraphStyle, range:NSMakeRange(0, attributedStringCity
-            .length))
-        
-        
         // *** Set Attributed String to your label ***
-        feelLabel.numberOfLines = 0
-        feelLabel.attributedText = attributedString
-        cityLabel.attributedText = attributedStringCity
+        if weatherDataModel.parent.isEmpty {
+            cityLabel.text = weatherDataModel.city
+        }
+        else {
+            cityLabel.text = weatherDataModel.parent
+            
+        }
         cityLabel.textAlignment = .right
+        let traditionLabel = cityLabel.text
+        let converter = ChineseConverter(option: [.traditionalize, .TWStandard, .TWIdiom])
+        cityLabel.text = converter.convert(traditionLabel!)
         
+        feelLabel.text = "體\n感"
         nowTemp.text = "\(weatherDataModel.temperature)°"
         feelTemp.text = "\(weatherDataModel.feel)°"
         weatherIcon.image = UIImage(named: weatherDataModel.weatherIconName)!
         
     }
-    
-    func changeBgColor() {
-        view.backgroundColor = UIColor(red:0.33, green:0.56, blue:0.60, alpha:1.0)
-        print("Success")
-    }
-    
     
 
 

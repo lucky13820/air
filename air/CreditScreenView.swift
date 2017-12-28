@@ -43,15 +43,15 @@ class CreditScreenView: UIViewController {
         
     }
     
-    @IBAction func greenBg(_ sender: UIButton) {
-        self.view.backgroundColor = UIColor(red:0.33, green:0.56, blue:0.60, alpha:1.0)
-        NowScreenView().changeBgColor()
-    }
-    
-    @IBAction func redBg(_ sender: Any) {
-        let bgColor = "#D42D57"
-        self.view.backgroundColor = UIColor().HexToColor(hexString: bgColor, alpha: 1.0)
-    }
+//    @IBAction func greenBg(_ sender: UIButton) {
+//        self.view.backgroundColor = UIColor(red:0.33, green:0.56, blue:0.60, alpha:1.0)
+//        NowScreenView().changeBgColor()
+//    }
+//
+//    @IBAction func redBg(_ sender: Any) {
+//        let bgColor = "#D42D57"
+//        self.view.backgroundColor = UIColor().HexToColor(hexString: bgColor, alpha: 1.0)
+//    }
     
     
     

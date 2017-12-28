@@ -39,16 +39,6 @@ class ForcastScreenView: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-//         self.view.accessibilityElements = [
-//            self.forcastDate1, self.forcastCondition1, self.forcastTemp1Min, self.forcastTemp1Max,
-//            self.forcastDate2,self.forcastCondition2, self.forcastTemp2Min, self.forcastTemp2Max,
-//            self.forcastDate3, self.forcastCondition3, self.forcastTemp3Min, self.forcastTemp3Max,
-//            self.forcastDate4,self.forcastCondition4, self.forcastTemp4Min, self.forcastTemp4Max,
-//            self.forcastDate5, self.forcastCondition5, self.forcastTemp5Min, self.forcastTemp5Max,
-//            self.forcastDate6,self.forcastCondition6, self.forcastTemp6Min, self.forcastTemp6Max,
-//            ];
         
     }
 
@@ -188,8 +178,6 @@ class ForcastScreenView: UIViewController {
             let myCalendar = NSCalendar(calendarIdentifier: NSCalendar.Identifier.gregorian)!
             let myComponents = myCalendar.components(.weekday, from: todayDate)
             let weekDay = myComponents.weekday
-            //let weekDay2 = myComponents.weekday
-            //let weekDay3 = myComponents.weekday
             return weekDay!
         }
         

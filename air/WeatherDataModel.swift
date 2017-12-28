@@ -14,6 +14,7 @@ class WeatherDataModel {
     var temperature : Int = 0
     var condition : Int = 0
     var city : String = ""
+    var parent : String = ""
     var weatherIconName : String = ""
     var feel : Int = 0
     var forcastTempMin1 : Int = 0

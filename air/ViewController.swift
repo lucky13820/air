@@ -11,38 +11,13 @@ import CoreLocation
 import Alamofire
 import SwiftyJSON
 
-extension UIColor{
-    func HexToColor(hexString: String, alpha:CGFloat? = 1.0) -> UIColor {
-        // Convert hex string to an integer
-        let hexint = Int(self.intFromHexString(hexStr: hexString))
-        let red = CGFloat((hexint & 0xff0000) >> 16) / 255.0
-        let green = CGFloat((hexint & 0xff00) >> 8) / 255.0
-        let blue = CGFloat((hexint & 0xff) >> 0) / 255.0
-        let alpha = alpha!
-        // Create color object, specifying alpha as well
-        let color = UIColor(red: red, green: green, blue: blue, alpha: alpha)
-        return color
-    }
-    
-    func intFromHexString(hexStr: String) -> UInt32 {
-        var hexInt: UInt32 = 0
-        // Create scanner
-        let scanner: Scanner = Scanner(string: hexStr)
-        // Tell scanner to skip the # character
-        scanner.charactersToBeSkipped = NSCharacterSet(charactersIn: "#") as CharacterSet
-        // Scan hex value
-        scanner.scanHexInt32(&hexInt)
-        return hexInt
-    }
-}
-
 
 class ViewController: UIViewController, CLLocationManagerDelegate {
     
     @IBOutlet var mainScroll: UIScrollView!
     
     var cityInFull = ""
-    let WEATHER_URL = "https://api.heweather.com/s6/weather"
+    let WEATHER_URL = "https://free-api.heweather.com/s6/weather"
     let APP_ID = "11f8312f8e9a4c529959b22a61a7d261"
     var nowWeather = NowScreenView()
     var forWeather = ForcastScreenView()
@@ -95,6 +70,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
             switch UIScreen.main.nativeBounds.height {
             case 2436:
                 nowWeather.view.backgroundColor = UIColor.black
+                nowWeather.blackBg.backgroundColor = UIColor.black
                 forWeather.view.backgroundColor = UIColor.black
                 creditScreen.view.backgroundColor = UIColor.black
             default:
@@ -117,7 +93,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         
         //Set up the location manager here.
         locationManager.delegate = self
-        locationManager.desiredAccuracy = kCLLocationAccuracyHundredMeters
+        locationManager.desiredAccuracy = kCLLocationAccuracyKilometer
         locationManager.requestWhenInUseAuthorization()
         locationManager.startUpdatingLocation()
         
@@ -141,10 +117,8 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
             
             locationManager.stopUpdatingLocation()
             
-            print("longitude = \(location.coordinate.longitude), latitude = \(location.coordinate.latitude)")
-            
             let latLongLocation = "\(location.coordinate.latitude),\(location.coordinate.longitude)"
-            print(latLongLocation)
+        
             
             let params : [String : String] = ["location" : latLongLocation, "key" : APP_ID, "lang" : "hk"]
             
@@ -162,6 +136,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
                             if let city = placeMark.addressDictionary!["City"] as? NSString {
                                 self.cityInFull = city as String
                                 self.nowWeather.chineseLocation = self.cityInFull
+                                
                             }
             
                         })
@@ -188,17 +163,17 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         Alamofire.request(url, method: .get, parameters: parameters).responseJSON {
             response in
             if response.result.isSuccess {
-                print("Success! Got the weather data")
+//                print("Success! Got the weather data")
                 
                 let weatherJSON : JSON = JSON(response.result.value!)
                 
-                print(weatherJSON)
+//                print(weatherJSON)
                 
                 self.nowWeather.updateNowWeatherData(json: weatherJSON)
                 self.forWeather.updateForcastWeatherData(json: weatherJSON)
             }
             else {
-                print("Error \(String(describing: response.result.error))")
+//                print("Error \(String(describing: response.result.error))")
                 self.nowWeather.cityLabel.text = "鏈\n接\n不\n可\n用"
             }
         }
