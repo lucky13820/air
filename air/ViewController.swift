@@ -22,6 +22,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     var nowWeather = NowScreenView()
     var forWeather = ForcastScreenView()
     var creditScreen = CreditScreenView()
+    var latLongLocation = ""
     
     //TODO: Declare instance variables here
     let locationManager = CLLocationManager()
@@ -97,6 +98,9 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         locationManager.requestWhenInUseAuthorization()
         locationManager.startUpdatingLocation()
         
+        let appDelegate:AppDelegate = UIApplication.shared.delegate! as! AppDelegate
+        appDelegate.myViewController = self
+        
         
     }
 
@@ -117,7 +121,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
             
             locationManager.stopUpdatingLocation()
             
-            let latLongLocation = "\(location.coordinate.latitude),\(location.coordinate.longitude)"
+            latLongLocation = "\(location.coordinate.latitude),\(location.coordinate.longitude)"
         
             
             let params : [String : String] = ["location" : latLongLocation, "key" : APP_ID, "lang" : "hk"]
