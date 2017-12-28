@@ -1,0 +1,1624 @@
+BCSymbolMap Version: 2.0
+__ZN6opencc8UTF8Util12TruncateUTF8EPKcm
+__ZN6opencc8UTF8Util14PrevCharLengthEPKc
+__ZN6opencc8UTF8Util14NextCharLengthEPKc
+__ZN6opencc8UTF8Util10FromSubstrEPKcm
+___clang_call_terminate
+__ZN6opencc8UTF8Util25NextCharLengthNoExceptionEPKc
+__ZN6opencc11InvalidUTF8D1Ev
+__ZN6opencc11InvalidUTF8C2ERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE
+__ZN6opencc11InvalidUTF8D0Ev
+__ZNK6opencc9Exception4whatEv
+__ZN6opencc9ExceptionD1Ev
+__ZN6opencc9ExceptionD0Ev
+__GLOBAL__sub_I_Dict.cpp
+__ZL22PACKAGE_DATA_DIRECTORY
+__ZTSN6opencc11InvalidUTF8E
+__ZTSN6opencc9ExceptionE
+__ZTIN6opencc9ExceptionE
+__ZTIN6opencc11InvalidUTF8E
+Apple LLVM version 9.0.0 (clang-900.0.39.2)
+/Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/Dict.cpp
+/Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC
+_GLOBAL__sub_I_Dict.cpp
+__cxx_global_var_init
+/Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/Common.hpp
+basic_string
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/string
+__init
+assign
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/__string
+__split_buffer
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/__split_buffer
+__end_cap
+first
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/memory
+allocate
+__allocate
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/new
+__throw_length_error
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/stdexcept
+length_error
+__compressed_pair
+__libcpp_compressed_pair_imp
+__swap_out_circular_buffer
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/vector
+swap<const opencc::DictEntry **>
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/type_traits
+__construct_backward<const opencc::DictEntry *>
+__push_back_slow_path<const opencc::DictEntry *const &>
+~__split_buffer
+deallocate
+__libcpp_deallocate
+clear
+__destruct_at_end
+construct<const opencc::DictEntry *, const opencc::DictEntry *const &>
+__construct<const opencc::DictEntry *, const opencc::DictEntry *const &>
+__recommend
+max<unsigned long>
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/algorithm
+max<unsigned long, std::__1::__less<unsigned long, unsigned long> >
+operator()
+capacity
+size
+__alloc
+second
+~__vector_base
+~Exception
+/Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/Exception.hpp
+~basic_string
+__get_long_pointer
+__is_long
+what
+c_str
+data
+__get_pointer
+__get_short_pointer
+~InvalidUTF8
+operator+<char, std::__1::char_traits<char>, std::__1::allocator<char> >
+copy
+__set_long_size
+__set_long_cap
+__set_long_pointer
+__align_it<16>
+__set_short_size
+__get_short_size
+__get_long_size
+length
+__zero
+InvalidUTF8
+Exception
+NextCharLengthNoException
+/Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/UTF8Util.hpp
+FromSubstr
+resize
+NextCharLength
+MatchAllPrefixes
+~vector
+push_back
+IsNull
+/Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/Optional.hpp
+vector
+__vector_base
+PrevCharLength
+TruncateUTF8
+operator=
+__move_assign
+shrink_to_fit
+NotShorterThan
+MatchPrefix
+/Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/Segmentation.cpp
+__ZN6opencc13InvalidFormatD1Ev
+__ZNK6opencc16SerializableDict15SerializeToFileERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE
+__ZN6opencc9DartsDict13DartsInternalD2Ev
+__ZN6opencc13InvalidFormatC2ERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE
+__ZN6opencc13InvalidFormatD0Ev
+__ZN6opencc15FileNotWritableC1ERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE
+__ZN6opencc15FileNotWritableD1Ev
+__ZN6opencc15FileNotWritableC2ERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE
+__ZN6opencc15FileNotWritableD0Ev
+__ZNSt3__120__shared_ptr_pointerIPN6opencc9DartsDictENS_14default_deleteIS2_EENS_9allocatorIS2_EEED1Ev
+__ZNSt3__120__shared_ptr_pointerIPN6opencc9DartsDictENS_14default_deleteIS2_EENS_9allocatorIS2_EEED0Ev
+__ZN5Darts15DoubleArrayImplIvvivED1Ev
+__ZN5Darts15DoubleArrayImplIvvivED0Ev
+__ZN5Darts7Details8AutoPoolIhED1Ev
+__ZN5Darts7Details9AutoArrayINS0_27DoubleArrayBuilderExtraUnitEED1Ev
+__ZN5Darts7Details8AutoPoolINS0_22DoubleArrayBuilderUnitEED1Ev
+__ZN5Darts7Details8AutoPoolIhED2Ev
+__ZN5Darts7Details8AutoPoolIhE5clearEv
+__ZN5Darts7Details9AutoArrayIcED1Ev
+__ZN5Darts7Details8AutoPoolIhE6resizeEm
+__ZN5Darts7Details9ExceptionD1Ev
+__ZN5Darts7Details9ExceptionD0Ev
+__ZNK5Darts7Details9Exception4whatEv
+__ZN5Darts7Details8AutoPoolINS0_22DoubleArrayBuilderUnitEED2Ev
+__ZN5Darts7Details8AutoPoolINS0_22DoubleArrayBuilderUnitEE5clearEv
+__ZN5Darts7Details8AutoPoolINS0_22DoubleArrayBuilderUnitEE6resizeEm
+__ZN5Darts7Details18DoubleArrayBuilder15build_from_dawgERKNS0_11DawgBuilderE
+__ZN5Darts7Details9AutoStackImED1Ev
+__ZN5Darts7Details8AutoPoolImED1Ev
+__ZN5Darts7Details9BitVectorD1Ev
+__ZN5Darts7Details8AutoPoolINS0_8DawgUnitEED1Ev
+__ZN5Darts7Details8AutoPoolINS0_8DawgNodeEED1Ev
+__ZN5Darts7Details9AutoStackImED2Ev
+__ZN5Darts7Details8AutoPoolImE5clearEv
+__ZN5Darts7Details8AutoPoolImE6resizeEm
+__ZN5Darts7Details8AutoPoolImED2Ev
+__ZN5Darts7Details9BitVectorD2Ev
+__ZN5Darts7Details9BitVector5clearEv
+__ZN5Darts7Details9AutoArrayImED1Ev
+__ZN5Darts7Details8AutoPoolINS0_8DawgUnitEED2Ev
+__ZN5Darts7Details8AutoPoolINS0_8DawgUnitEE5clearEv
+__ZN5Darts7Details8AutoPoolINS0_8DawgUnitEE6resizeEm
+__ZN5Darts7Details8AutoPoolINS0_8DawgNodeEED2Ev
+__ZN5Darts7Details8AutoPoolINS0_8DawgNodeEE5clearEv
+__ZN5Darts7Details8AutoPoolINS0_8DawgNodeEE6resizeEm
+__ZN5Darts7Details11DawgBuilder6insertEPKcmi
+__ZN5Darts7Details8AutoPoolImE6resizeEmRKm
+__ZN5Darts7Details8AutoPoolINS0_8DawgNodeEE6appendEv
+__ZN5Darts7Details9BitVector6appendEv
+__ZN5Darts7Details8AutoPoolINS0_8DawgUnitEE6appendEv
+__ZN5Darts7Details8AutoPoolIhE6appendEv
+__ZN5Darts7Details8AutoPoolImE6appendERKm
+__ZN5Darts7Details11DawgBuilder5flushEm
+__ZN5Darts7Details11DawgBuilder12expand_tableEv
+__ZNK5Darts7Details11DawgBuilder9find_nodeEmPm
+__ZN5Darts7Details9BitVector5buildEv
+__ZN5Darts7Details22DoubleArrayBuilderUnit10set_offsetEm
+__ZN5Darts7Details18DoubleArrayBuilder15build_from_dawgERKNS0_11DawgBuilderEmm
+__ZN5Darts7Details18DoubleArrayBuilder14fix_all_blocksEv
+__ZN5Darts7Details18DoubleArrayBuilder12expand_unitsEv
+__ZN5Darts7Details18DoubleArrayBuilder17arrange_from_dawgERKNS0_11DawgBuilderEmm
+__ZNK5Darts7Details9BitVector4rankEm
+__ZN5Darts7Details8AutoPoolIhE6appendERKh
+__ZN5Darts7Details11DawgBuilderD2Ev
+__ZN5Darts7Details18DoubleArrayBuilderD2Ev
+__ZNSt3__120__shared_ptr_pointerIPN6opencc10BinaryDictENS_14default_deleteIS2_EENS_9allocatorIS2_EEED1Ev
+__ZNSt3__120__shared_ptr_pointerIPN6opencc10BinaryDictENS_14default_deleteIS2_EENS_9allocatorIS2_EEED0Ev
+__GLOBAL__sub_I_DartsDict.cpp
+__ZTSN6opencc13InvalidFormatE
+__ZTIN6opencc13InvalidFormatE
+__ZTSN6opencc16SerializableDictE
+__ZTIN6opencc16SerializableDictE
+__ZTSN6opencc15FileNotWritableE
+__ZTIN6opencc15FileNotWritableE
+__ZTSNSt3__120__shared_ptr_pointerIPN6opencc9DartsDictENS_14default_deleteIS2_EENS_9allocatorIS2_EEEE
+__ZTINSt3__120__shared_ptr_pointerIPN6opencc9DartsDictENS_14default_deleteIS2_EENS_9allocatorIS2_EEEE
+__ZTSNSt3__114default_deleteIN6opencc9DartsDictEEE
+__ZTSN5Darts15DoubleArrayImplIvvivEE
+__ZTIN5Darts15DoubleArrayImplIvvivEE
+__ZTSN5Darts7Details9ExceptionE
+__ZTIN5Darts7Details9ExceptionE
+__ZTSNSt3__120__shared_ptr_pointerIPN6opencc10BinaryDictENS_14default_deleteIS2_EENS_9allocatorIS2_EEEE
+__ZTINSt3__120__shared_ptr_pointerIPN6opencc10BinaryDictENS_14default_deleteIS2_EENS_9allocatorIS2_EEEE
+__ZTSNSt3__114default_deleteIN6opencc10BinaryDictEEE
+/Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/DartsDict.cpp
+_GLOBAL__sub_I_DartsDict.cpp
+__on_zero_shared_weak
+__get_deleter
+operator==
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/typeinfo
+__compare_nonunique_names
+name
+__on_zero_shared
+~__shared_ptr_pointer
+shared_ptr<opencc::BinaryDict>
+~unique_ptr
+reset
+__shared_ptr_pointer
+__shared_weak_count
+__shared_count
+~DoubleArrayBuilder
+/Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/deps/darts-clone/darts.h
+~AutoPool
+~AutoArray
+arrange_from_keyset<int>
+set_label
+set_value
+set_has_leaf
+operator[]
+reserve_id
+set_is_fixed
+set_prev
+extras
+next
+set_next
+prev
+set_is_used
+empty
+num_keys
+values
+has_values
+lengths
+keys
+has_lengths
+find_valid_offset
+is_valid_offset
+is_fixed
+is_used
+build_from_keyset<int>
+~DawgBuilder
+~BitVector
+~AutoStack
+append
+rank
+pop_count
+arrange_from_dawg
+sibling
+has_sibling
+value
+is_leaf
+label
+child
+expand_units
+fix_block
+num_blocks
+fix_all_blocks
+build_from_dawg
+intersection_id
+is_intersection
+set_offset
+build
+swap
+AutoArray
+find_node
+are_equal
+unit
+hash_node
+hash
+expand_table
+find_unit
+hash_unit
+is_state
+flush
+free_node
+push
+pop
+pop_back
+set_child
+top
+append_unit
+set
+DawgUnit
+DawgNode
+insert
+set_sibling
+set_is_state
+append_node
+set_has_sibling
+resize_buf
+DoubleArrayBuilderExtraUnit
+reserve
+num_intersections
+num_ones
+build_dawg<int>
+finish
+init
+DoubleArrayBuilderUnit
+build<int>
+DawgBuilder
+AutoPool
+swap<const char **>
+__construct_backward<const char *>
+__append
+__construct_at_end
+construct<const char *>
+__construct<const char *>
+~DoubleArrayImpl
+shared_ptr<opencc::DartsDict>
+~FileNotWritable
+FileNotWritable
+~InvalidFormat
+InvalidFormat
+~DartsInternal
+~shared_ptr
+SerializeToFile
+/Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/SerializableDict.hpp
+_ZThn8_NK6opencc9DartsDict15SerializeToFileEP7__sFILE
+operator->
+reset<opencc::BinaryDict>
+swap<std::__1::__shared_weak_count *>
+swap<opencc::BinaryDict *>
+BinaryDict
+/Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/BinaryDict.hpp
+shared_ptr
+array
+total_size
+DoubleArrayUnit
+DoubleArrayBuilder
+Keyset
+NewFromDict
+swap<opencc::Lexicon *>
+At
+/Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/Lexicon.hpp
+at
+KeyLength
+/Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/DictEntry.hpp
+Length
+DoubleArrayImpl
+DartsDict
+DartsInternal
+SerializableDict
+Dict
+/Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/Dict.hpp
+NewFromFile
+GetLexicon
+set_array
+commonPrefixSearch<int>
+set_result
+has_leaf
+offset
+Match
+exactMatchSearch<Darts::DoubleArrayImpl<void, void, int, void>::result_pair_type>
+KeyMaxLength
+~DartsDict
+__ZNSt3__16vectorIN6opencc19UTF8StringSliceBaseIhEENS_9allocatorIS3_EEED1Ev
+__ZNK6opencc19UTF8StringSliceBaseIhE16FindBytePositionERKS1_
+__ZN6opencc13PhraseExtract8DictType5ClearEv
+__ZNK6opencc19UTF8StringSliceBaseImE5RightEm
+__ZNK6opencc19UTF8StringSliceBaseIhE4LeftEh
+__ZN6opencc13PhraseExtract8DictType3GetERKNS_19UTF8StringSliceBaseIhEE
+__ZNK6opencc19UTF8StringSliceBaseIhE5RightEh
+__ZNK6opencc19UTF8StringSliceBaseIhEeqERKS1_
+__ZN6opencc13PhraseExtract8DictType9BuildKeysEv
+__ZN6opencc13PhraseExtract8DictType11BuildDaTrieEv
+__ZNSt3__16__sortIRZN6opencc13PhraseExtract8DictType9BuildKeysEvEUlRKNS_4pairINS1_19UTF8StringSliceBaseIhEENS2_7SignalsEEESA_E_PS8_EEvT0_SE_T_
+__ZNSt3__17__sort3IRZN6opencc13PhraseExtract8DictType9BuildKeysEvEUlRKNS_4pairINS1_19UTF8StringSliceBaseIhEENS2_7SignalsEEESA_E_PS8_EEjT0_SE_SE_T_
+__ZNSt3__17__sort4IRZN6opencc13PhraseExtract8DictType9BuildKeysEvEUlRKNS_4pairINS1_19UTF8StringSliceBaseIhEENS2_7SignalsEEESA_E_PS8_EEjT0_SE_SE_SE_T_
+__ZNSt3__17__sort5IRZN6opencc13PhraseExtract8DictType9BuildKeysEvEUlRKNS_4pairINS1_19UTF8StringSliceBaseIhEENS2_7SignalsEEESA_E_PS8_EEjT0_SE_SE_SE_SE_T_
+__ZNSt3__118__insertion_sort_3IRZN6opencc13PhraseExtract8DictType9BuildKeysEvEUlRKNS_4pairINS1_19UTF8StringSliceBaseIhEENS2_7SignalsEEESA_E_PS8_EEvT0_SE_T_
+__ZNSt3__127__insertion_sort_incompleteIRZN6opencc13PhraseExtract8DictType9BuildKeysEvEUlRKNS_4pairINS1_19UTF8StringSliceBaseIhEENS2_7SignalsEEESA_E_PS8_EEbT0_SE_T_
+__ZNK6opencc19UTF8StringSliceBaseIhEltERKS1_
+__ZN6opencc15ShouldNotBeHereC1Ev
+__ZN6opencc15ShouldNotBeHereD1Ev
+__ZN6opencc15ShouldNotBeHereC2Ev
+__ZN6opencc15ShouldNotBeHereD0Ev
+__ZN6opencc19UTF8StringSliceBaseImEC2EPKc
+__ZN6opencc19UTF8StringSliceBaseIhEC2EPKc
+__ZNK6opencc19UTF8StringSliceBaseIhE8ToStringEv
+__ZNSt3__110__function6__funcIPFbRKN6opencc13PhraseExtractERKNS2_19UTF8StringSliceBaseIhEEENS_9allocatorISB_EESA_ED1Ev
+__ZNSt3__110__function6__funcIPFbRKN6opencc13PhraseExtractERKNS2_19UTF8StringSliceBaseIhEEENS_9allocatorISB_EESA_ED0Ev
+__ZN6opencc19UTF8StringSliceBaseImE19CalculateByteLengthEv
+__ZNSt3__16__sortIRZN6opencc13PhraseExtract15ExtractPrefixesEvE3$_0PNS1_19UTF8StringSliceBaseIhEEEEvT0_S8_T_
+__ZNSt3__17__sort3IRZN6opencc13PhraseExtract15ExtractPrefixesEvE3$_0PNS1_19UTF8StringSliceBaseIhEEEEjT0_S8_S8_T_
+__ZNSt3__17__sort4IRZN6opencc13PhraseExtract15ExtractPrefixesEvE3$_0PNS1_19UTF8StringSliceBaseIhEEEEjT0_S8_S8_S8_T_
+__ZNSt3__17__sort5IRZN6opencc13PhraseExtract15ExtractPrefixesEvE3$_0PNS1_19UTF8StringSliceBaseIhEEEEjT0_S8_S8_S8_S8_T_
+__ZNSt3__127__insertion_sort_incompleteIRZN6opencc13PhraseExtract15ExtractPrefixesEvE3$_0PNS1_19UTF8StringSliceBaseIhEEEEbT0_S8_T_
+__ZNK6opencc19UTF8StringSliceBaseIhE14ReverseCompareERKS1_
+__ZNSt3__117bad_function_callD1Ev
+__ZNSt3__117bad_function_callD0Ev
+__ZNSt3__16__sortIRZN6opencc13PhraseExtract21ExtractWordCandidatesEvE3$_1PNS1_19UTF8StringSliceBaseIhEEEEvT0_S8_T_
+__ZNSt3__17__sort3IRZN6opencc13PhraseExtract21ExtractWordCandidatesEvE3$_1PNS1_19UTF8StringSliceBaseIhEEEEjT0_S8_S8_T_
+__ZNSt3__17__sort4IRZN6opencc13PhraseExtract21ExtractWordCandidatesEvE3$_1PNS1_19UTF8StringSliceBaseIhEEEEjT0_S8_S8_S8_T_
+__ZNSt3__17__sort5IRZN6opencc13PhraseExtract21ExtractWordCandidatesEvE3$_1PNS1_19UTF8StringSliceBaseIhEEEEjT0_S8_S8_S8_S8_T_
+__ZNSt3__127__insertion_sort_incompleteIRZN6opencc13PhraseExtract21ExtractWordCandidatesEvE3$_1PNS1_19UTF8StringSliceBaseIhEEEEbT0_S8_T_
+__ZNK6opencc19UTF8StringSliceBaseIhE9SubStringEhh
+__ZNSt3__110__function6__funcIZN6opencc13PhraseExtract22CalculateSuffixEntropyEvE3$_2NS_9allocatorIS4_EEFvRKNS2_19UTF8StringSliceBaseIhEERNS_13unordered_mapIS8_mNS8_6HasherENS_8equal_toIS8_EENS5_INS_4pairIS9_mEEEEEEEED1Ev
+__ZNSt3__110__function6__funcIZN6opencc13PhraseExtract22CalculateSuffixEntropyEvE3$_2NS_9allocatorIS4_EEFvRKNS2_19UTF8StringSliceBaseIhEERNS_13unordered_mapIS8_mNS8_6HasherENS_8equal_toIS8_EENS5_INS_4pairIS9_mEEEEEEEED0Ev
+__ZNKSt3__110__function6__funcIZN6opencc13PhraseExtract22CalculateSuffixEntropyEvE3$_2NS_9allocatorIS4_EEFvRKNS2_19UTF8StringSliceBaseIhEERNS_13unordered_mapIS8_mNS8_6HasherENS_8equal_toIS8_EENS5_INS_4pairIS9_mEEEEEEEE7__cloneEv
+__ZNKSt3__110__function6__funcIZN6opencc13PhraseExtract22CalculateSuffixEntropyEvE3$_2NS_9allocatorIS4_EEFvRKNS2_19UTF8StringSliceBaseIhEERNS_13unordered_mapIS8_mNS8_6HasherENS_8equal_toIS8_EENS5_INS_4pairIS9_mEEEEEEEE7__cloneEPNS0_6__baseISK_EE
+__ZNSt3__110__function6__funcIZN6opencc13PhraseExtract22CalculateSuffixEntropyEvE3$_2NS_9allocatorIS4_EEFvRKNS2_19UTF8StringSliceBaseIhEERNS_13unordered_mapIS8_mNS8_6HasherENS_8equal_toIS8_EENS5_INS_4pairIS9_mEEEEEEEE7destroyEv
+__ZNSt3__110__function6__funcIZN6opencc13PhraseExtract22CalculateSuffixEntropyEvE3$_2NS_9allocatorIS4_EEFvRKNS2_19UTF8StringSliceBaseIhEERNS_13unordered_mapIS8_mNS8_6HasherENS_8equal_toIS8_EENS5_INS_4pairIS9_mEEEEEEEE18destroy_deallocateEv
+__ZNSt3__110__function6__funcIZN6opencc13PhraseExtract22CalculateSuffixEntropyEvE3$_2NS_9allocatorIS4_EEFvRKNS2_19UTF8StringSliceBaseIhEERNS_13unordered_mapIS8_mNS8_6HasherENS_8equal_toIS8_EENS5_INS_4pairIS9_mEEEEEEEEclESA_SJ_
+__ZNKSt3__110__function6__funcIZN6opencc13PhraseExtract22CalculateSuffixEntropyEvE3$_2NS_9allocatorIS4_EEFvRKNS2_19UTF8StringSliceBaseIhEERNS_13unordered_mapIS8_mNS8_6HasherENS_8equal_toIS8_EENS5_INS_4pairIS9_mEEEEEEEE6targetERKSt9type_info
+__ZNKSt3__110__function6__funcIZN6opencc13PhraseExtract22CalculateSuffixEntropyEvE3$_2NS_9allocatorIS4_EEFvRKNS2_19UTF8StringSliceBaseIhEERNS_13unordered_mapIS8_mNS8_6HasherENS_8equal_toIS8_EENS5_INS_4pairIS9_mEEEEEEEE11target_typeEv
+__ZNSt3__110__function6__funcIZN6opencc13PhraseExtract22CalculatePrefixEntropyEvE3$_3NS_9allocatorIS4_EEFvRKNS2_19UTF8StringSliceBaseIhEERNS_13unordered_mapIS8_mNS8_6HasherENS_8equal_toIS8_EENS5_INS_4pairIS9_mEEEEEEEED1Ev
+__ZNSt3__110__function6__funcIZN6opencc13PhraseExtract22CalculatePrefixEntropyEvE3$_3NS_9allocatorIS4_EEFvRKNS2_19UTF8StringSliceBaseIhEERNS_13unordered_mapIS8_mNS8_6HasherENS_8equal_toIS8_EENS5_INS_4pairIS9_mEEEEEEEED0Ev
+__ZNKSt3__110__function6__funcIZN6opencc13PhraseExtract22CalculatePrefixEntropyEvE3$_3NS_9allocatorIS4_EEFvRKNS2_19UTF8StringSliceBaseIhEERNS_13unordered_mapIS8_mNS8_6HasherENS_8equal_toIS8_EENS5_INS_4pairIS9_mEEEEEEEE7__cloneEv
+__ZNKSt3__110__function6__funcIZN6opencc13PhraseExtract22CalculatePrefixEntropyEvE3$_3NS_9allocatorIS4_EEFvRKNS2_19UTF8StringSliceBaseIhEERNS_13unordered_mapIS8_mNS8_6HasherENS_8equal_toIS8_EENS5_INS_4pairIS9_mEEEEEEEE7__cloneEPNS0_6__baseISK_EE
+__ZNSt3__110__function6__funcIZN6opencc13PhraseExtract22CalculatePrefixEntropyEvE3$_3NS_9allocatorIS4_EEFvRKNS2_19UTF8StringSliceBaseIhEERNS_13unordered_mapIS8_mNS8_6HasherENS_8equal_toIS8_EENS5_INS_4pairIS9_mEEEEEEEE7destroyEv
+__ZNSt3__110__function6__funcIZN6opencc13PhraseExtract22CalculatePrefixEntropyEvE3$_3NS_9allocatorIS4_EEFvRKNS2_19UTF8StringSliceBaseIhEERNS_13unordered_mapIS8_mNS8_6HasherENS_8equal_toIS8_EENS5_INS_4pairIS9_mEEEEEEEE18destroy_deallocateEv
+__ZNSt3__110__function6__funcIZN6opencc13PhraseExtract22CalculatePrefixEntropyEvE3$_3NS_9allocatorIS4_EEFvRKNS2_19UTF8StringSliceBaseIhEERNS_13unordered_mapIS8_mNS8_6HasherENS_8equal_toIS8_EENS5_INS_4pairIS9_mEEEEEEEEclESA_SJ_
+__ZNKSt3__110__function6__funcIZN6opencc13PhraseExtract22CalculatePrefixEntropyEvE3$_3NS_9allocatorIS4_EEFvRKNS2_19UTF8StringSliceBaseIhEERNS_13unordered_mapIS8_mNS8_6HasherENS_8equal_toIS8_EENS5_INS_4pairIS9_mEEEEEEEE6targetERKSt9type_info
+__ZNKSt3__110__function6__funcIZN6opencc13PhraseExtract22CalculatePrefixEntropyEvE3$_3NS_9allocatorIS4_EEFvRKNS2_19UTF8StringSliceBaseIhEERNS_13unordered_mapIS8_mNS8_6HasherENS_8equal_toIS8_EENS5_INS_4pairIS9_mEEEEEEEE11target_typeEv
+__GLOBAL__sub_I_PhraseExtract.cpp
+__ZZN6opencc8internal19ContainsPunctuationERKNS_19UTF8StringSliceBaseIhEEE12punctuations
+__ZGVZN6opencc8internal19ContainsPunctuationERKNS_19UTF8StringSliceBaseIhEEE12punctuations
+__ZTSN6opencc15ShouldNotBeHereE
+__ZTIN6opencc15ShouldNotBeHereE
+__ZTSNSt3__110__function6__funcIPFbRKN6opencc13PhraseExtractERKNS2_19UTF8StringSliceBaseIhEEENS_9allocatorISB_EESA_EE
+__ZTSNSt3__110__function6__baseIFbRKN6opencc13PhraseExtractERKNS2_19UTF8StringSliceBaseIhEEEEE
+__ZTINSt3__110__function6__baseIFbRKN6opencc13PhraseExtractERKNS2_19UTF8StringSliceBaseIhEEEEE
+__ZTINSt3__110__function6__funcIPFbRKN6opencc13PhraseExtractERKNS2_19UTF8StringSliceBaseIhEEENS_9allocatorISB_EESA_EE
+__ZTSPFbRKN6opencc13PhraseExtractERKNS_19UTF8StringSliceBaseIhEEE
+__ZTSFbRKN6opencc13PhraseExtractERKNS_19UTF8StringSliceBaseIhEEE
+__ZTIFbRKN6opencc13PhraseExtractERKNS_19UTF8StringSliceBaseIhEEE
+__ZTIPFbRKN6opencc13PhraseExtractERKNS_19UTF8StringSliceBaseIhEEE
+__ZTSNSt3__117bad_function_callE
+__ZTINSt3__117bad_function_callE
+__ZTVNSt3__110__function6__funcIZN6opencc13PhraseExtract22CalculateSuffixEntropyEvE3$_2NS_9allocatorIS4_EEFvRKNS2_19UTF8StringSliceBaseIhEERNS_13unordered_mapIS8_mNS8_6HasherENS_8equal_toIS8_EENS5_INS_4pairIS9_mEEEEEEEEE
+__ZTSNSt3__110__function6__funcIZN6opencc13PhraseExtract22CalculateSuffixEntropyEvE3$_2NS_9allocatorIS4_EEFvRKNS2_19UTF8StringSliceBaseIhEERNS_13unordered_mapIS8_mNS8_6HasherENS_8equal_toIS8_EENS5_INS_4pairIS9_mEEEEEEEEE
+__ZTSNSt3__110__function6__baseIFvRKN6opencc19UTF8StringSliceBaseIhEERNS_13unordered_mapIS4_mNS4_6HasherENS_8equal_toIS4_EENS_9allocatorINS_4pairIS5_mEEEEEEEEE
+__ZTINSt3__110__function6__baseIFvRKN6opencc19UTF8StringSliceBaseIhEERNS_13unordered_mapIS4_mNS4_6HasherENS_8equal_toIS4_EENS_9allocatorINS_4pairIS5_mEEEEEEEEE
+__ZTINSt3__110__function6__funcIZN6opencc13PhraseExtract22CalculateSuffixEntropyEvE3$_2NS_9allocatorIS4_EEFvRKNS2_19UTF8StringSliceBaseIhEERNS_13unordered_mapIS8_mNS8_6HasherENS_8equal_toIS8_EENS5_INS_4pairIS9_mEEEEEEEEE
+__ZTSZN6opencc13PhraseExtract22CalculateSuffixEntropyEvE3$_2
+__ZTIZN6opencc13PhraseExtract22CalculateSuffixEntropyEvE3$_2
+__ZTVNSt3__110__function6__funcIZN6opencc13PhraseExtract22CalculatePrefixEntropyEvE3$_3NS_9allocatorIS4_EEFvRKNS2_19UTF8StringSliceBaseIhEERNS_13unordered_mapIS8_mNS8_6HasherENS_8equal_toIS8_EENS5_INS_4pairIS9_mEEEEEEEEE
+__ZTSNSt3__110__function6__funcIZN6opencc13PhraseExtract22CalculatePrefixEntropyEvE3$_3NS_9allocatorIS4_EEFvRKNS2_19UTF8StringSliceBaseIhEERNS_13unordered_mapIS8_mNS8_6HasherENS_8equal_toIS8_EENS5_INS_4pairIS9_mEEEEEEEEE
+__ZTINSt3__110__function6__funcIZN6opencc13PhraseExtract22CalculatePrefixEntropyEvE3$_3NS_9allocatorIS4_EEFvRKNS2_19UTF8StringSliceBaseIhEERNS_13unordered_mapIS8_mNS8_6HasherENS_8equal_toIS8_EENS5_INS_4pairIS9_mEEEEEEEEE
+__ZTSZN6opencc13PhraseExtract22CalculatePrefixEntropyEvE3$_3
+__ZTIZN6opencc13PhraseExtract22CalculatePrefixEntropyEvE3$_3
+/Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/PhraseExtract.cpp
+_GLOBAL__sub_I_PhraseExtract.cpp
+target_type
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/functional
+target
+__call<(lambda at /Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/PhraseExtract.cpp:328:7) &, const opencc::UTF8StringSliceBase<unsigned char> &, std::__1::unordered_map<opencc::UTF8StringSliceBase<unsigned char>, unsigned long, opencc::UTF8StringSliceBase<unsigned char>::Hasher, std::__1::equal_to<opencc::UTF8StringSliceBase<unsigned char> >, std::__1::allocator<std::__1::pair<const opencc::UTF8StringSliceBase<unsigned char>, unsigned long> > > &>
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/__functional_base
+__invoke<(lambda at /Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/PhraseExtract.cpp:328:7) &, const opencc::UTF8StringSliceBase<unsigned char> &, std::__1::unordered_map<opencc::UTF8StringSliceBase<unsigned char>, unsigned long, opencc::UTF8StringSliceBase<unsigned char>::Hasher, std::__1::equal_to<opencc::UTF8StringSliceBase<unsigned char> >, std::__1::allocator<std::__1::pair<const opencc::UTF8StringSliceBase<unsigned char>, unsigned long> > > &>
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/unordered_map
+UTF8Length
+/Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/UTF8StringSlice.hpp
+destroy_deallocate
+destroy
+__clone
+__func
+__compressed_pair<const (lambda at /Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/PhraseExtract.cpp:328:7) &, const std::__1::allocator<(lambda at /Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/PhraseExtract.cpp:328:7)> &>
+__libcpp_compressed_pair_imp<const (lambda at /Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/PhraseExtract.cpp:328:7) &, const std::__1::allocator<(lambda at /Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/PhraseExtract.cpp:328:7)> &, 0, 0>
+__compressed_pair<const (lambda at /Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/PhraseExtract.cpp:328:7) &, std::__1::allocator<(lambda at /Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/PhraseExtract.cpp:328:7)> &&>
+__libcpp_compressed_pair_imp<const (lambda at /Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/PhraseExtract.cpp:328:7) &, std::__1::allocator<(lambda at /Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/PhraseExtract.cpp:328:7)> &&, 0, 0>
+~__func
+__call<(lambda at /Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/PhraseExtract.cpp:309:7) &, const opencc::UTF8StringSliceBase<unsigned char> &, std::__1::unordered_map<opencc::UTF8StringSliceBase<unsigned char>, unsigned long, opencc::UTF8StringSliceBase<unsigned char>::Hasher, std::__1::equal_to<opencc::UTF8StringSliceBase<unsigned char> >, std::__1::allocator<std::__1::pair<const opencc::UTF8StringSliceBase<unsigned char>, unsigned long> > > &>
+__invoke<(lambda at /Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/PhraseExtract.cpp:309:7) &, const opencc::UTF8StringSliceBase<unsigned char> &, std::__1::unordered_map<opencc::UTF8StringSliceBase<unsigned char>, unsigned long, opencc::UTF8StringSliceBase<unsigned char>::Hasher, std::__1::equal_to<opencc::UTF8StringSliceBase<unsigned char> >, std::__1::allocator<std::__1::pair<const opencc::UTF8StringSliceBase<unsigned char>, unsigned long> > > &>
+__compressed_pair<const (lambda at /Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/PhraseExtract.cpp:309:7) &, const std::__1::allocator<(lambda at /Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/PhraseExtract.cpp:309:7)> &>
+__libcpp_compressed_pair_imp<const (lambda at /Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/PhraseExtract.cpp:309:7) &, const std::__1::allocator<(lambda at /Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/PhraseExtract.cpp:309:7)> &, 0, 0>
+__compressed_pair<const (lambda at /Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/PhraseExtract.cpp:309:7) &, std::__1::allocator<(lambda at /Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/PhraseExtract.cpp:309:7)> &&>
+__libcpp_compressed_pair_imp<const (lambda at /Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/PhraseExtract.cpp:309:7) &, std::__1::allocator<(lambda at /Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/PhraseExtract.cpp:309:7)> &&, 0, 0>
+~__hash_table
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/__hash_table
+__deallocate_node
+__rehash
+reset<std::__1::__hash_node_base<std::__1::__hash_node<std::__1::__hash_value_type<opencc::UTF8StringSliceBase<unsigned char>, unsigned long>, void *> *> **>
+__constrain_hash
+__hash
+get_deleter
+rehash
+__next_hash_pow2
+__clz
+ceil
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/math.h
+max_load_factor
+__is_hash_power2
+bucket_count
+__emplace_unique_key_args<opencc::UTF8StringSliceBase<unsigned char>, const std::__1::piecewise_construct_t &, std::__1::tuple<const opencc::UTF8StringSliceBase<unsigned char> &>, std::__1::tuple<> >
+__construct_node_hash<const std::__1::piecewise_construct_t &, std::__1::tuple<const opencc::UTF8StringSliceBase<unsigned char> &>, std::__1::tuple<> >
+construct<std::__1::pair<const opencc::UTF8StringSliceBase<unsigned char>, unsigned long>, const std::__1::piecewise_construct_t &, std::__1::tuple<const opencc::UTF8StringSliceBase<unsigned char> &>, std::__1::tuple<> >
+__construct<std::__1::pair<const opencc::UTF8StringSliceBase<unsigned char>, unsigned long>, const std::__1::piecewise_construct_t &, std::__1::tuple<const opencc::UTF8StringSliceBase<unsigned char> &>, std::__1::tuple<> >
+pair<const opencc::UTF8StringSliceBase<unsigned char> &>
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/utility
+pair<const opencc::UTF8StringSliceBase<unsigned char> &, 0>
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/tuple
+__get_ptr
+FNVHash<8>
+FNVHash
+ByteLength
+CString
+SubString
+NextChar
+UTF8StringSliceBase
+CalculateByteLength
+__throw_bad_function_call
+bad_function_call
+__insertion_sort_incomplete<(lambda at /Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/PhraseExtract.cpp:242:13) &, opencc::UTF8StringSliceBase<unsigned char> *>
+Frequency
+Signal
+swap<opencc::UTF8StringSliceBase<unsigned char> >
+__sort5<(lambda at /Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/PhraseExtract.cpp:242:13) &, opencc::UTF8StringSliceBase<unsigned char> *>
+__sort4<(lambda at /Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/PhraseExtract.cpp:242:13) &, opencc::UTF8StringSliceBase<unsigned char> *>
+__sort3<(lambda at /Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/PhraseExtract.cpp:242:13) &, opencc::UTF8StringSliceBase<unsigned char> *>
+__sort<(lambda at /Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/PhraseExtract.cpp:242:13) &, opencc::UTF8StringSliceBase<unsigned char> *>
+__insertion_sort_3<(lambda at /Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/PhraseExtract.cpp:242:13) &, opencc::UTF8StringSliceBase<unsigned char> *>
+__push_back_slow_path<const opencc::UTF8StringSliceBase<unsigned char> &>
+construct<opencc::UTF8StringSliceBase<unsigned char>, const opencc::UTF8StringSliceBase<unsigned char> &>
+__construct<opencc::UTF8StringSliceBase<unsigned char>, const opencc::UTF8StringSliceBase<unsigned char> &>
+~bad_function_call
+ReverseCompare
+min<unsigned long>
+min<unsigned long, std::__1::__less<unsigned long, unsigned long> >
+min<unsigned char>
+min<unsigned char, std::__1::__less<unsigned char, unsigned char> >
+__insertion_sort_incomplete<(lambda at /Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/PhraseExtract.cpp:201:13) &, opencc::UTF8StringSliceBase<unsigned char> *>
+__sort5<(lambda at /Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/PhraseExtract.cpp:201:13) &, opencc::UTF8StringSliceBase<unsigned char> *>
+__sort4<(lambda at /Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/PhraseExtract.cpp:201:13) &, opencc::UTF8StringSliceBase<unsigned char> *>
+__sort3<(lambda at /Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/PhraseExtract.cpp:201:13) &, opencc::UTF8StringSliceBase<unsigned char> *>
+__sort<(lambda at /Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/PhraseExtract.cpp:201:13) &, opencc::UTF8StringSliceBase<unsigned char> *>
+__insertion_sort_3<(lambda at /Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/PhraseExtract.cpp:201:13) &, opencc::UTF8StringSliceBase<unsigned char> *>
+__insertion_sort_incomplete<std::__1::__less<opencc::UTF8StringSliceBase<unsigned char>, opencc::UTF8StringSliceBase<unsigned char> > &, opencc::UTF8StringSliceBase<unsigned char> *>
+__insertion_sort_3<std::__1::__less<opencc::UTF8StringSliceBase<unsigned char>, opencc::UTF8StringSliceBase<unsigned char> > &, opencc::UTF8StringSliceBase<unsigned char> *>
+__sort5<std::__1::__less<opencc::UTF8StringSliceBase<unsigned char>, opencc::UTF8StringSliceBase<unsigned char> > &, opencc::UTF8StringSliceBase<unsigned char> *>
+__sort4<std::__1::__less<opencc::UTF8StringSliceBase<unsigned char>, opencc::UTF8StringSliceBase<unsigned char> > &, opencc::UTF8StringSliceBase<unsigned char> *>
+__sort3<std::__1::__less<opencc::UTF8StringSliceBase<unsigned char>, opencc::UTF8StringSliceBase<unsigned char> > &, opencc::UTF8StringSliceBase<unsigned char> *>
+__sort<std::__1::__less<opencc::UTF8StringSliceBase<unsigned char>, opencc::UTF8StringSliceBase<unsigned char> > &, opencc::UTF8StringSliceBase<unsigned char> *>
+__push_back_slow_path<opencc::UTF8StringSliceBase<unsigned char> >
+construct<opencc::UTF8StringSliceBase<unsigned char>, opencc::UTF8StringSliceBase<unsigned char> >
+__construct<opencc::UTF8StringSliceBase<unsigned char>, opencc::UTF8StringSliceBase<unsigned char> >
+swap<opencc::UTF8StringSliceBase<unsigned char> *>
+__construct_backward<opencc::UTF8StringSliceBase<unsigned char> >
+swap<std::__1::__function::__base<bool (const opencc::PhraseExtract &, const opencc::UTF8StringSliceBase<unsigned char> &)> *>
+__as_base
+__call<bool (*&)(const opencc::PhraseExtract &, const opencc::UTF8StringSliceBase<unsigned char> &), const opencc::PhraseExtract &, const opencc::UTF8StringSliceBase<unsigned char> &>
+__invoke<bool (*&)(const opencc::PhraseExtract &, const opencc::UTF8StringSliceBase<unsigned char> &), const opencc::PhraseExtract &, const opencc::UTF8StringSliceBase<unsigned char> &>
+__compressed_pair<bool (*const &)(const opencc::PhraseExtract &, const opencc::UTF8StringSliceBase<unsigned char> &), const std::__1::allocator<bool (*)(const opencc::PhraseExtract &, const opencc::UTF8StringSliceBase<unsigned char> &)> &>
+__libcpp_compressed_pair_imp<bool (*const &)(const opencc::PhraseExtract &, const opencc::UTF8StringSliceBase<unsigned char> &), const std::__1::allocator<bool (*)(const opencc::PhraseExtract &, const opencc::UTF8StringSliceBase<unsigned char> &)> &, 0, 0>
+__compressed_pair<bool (*const &)(const opencc::PhraseExtract &, const opencc::UTF8StringSliceBase<unsigned char> &), std::__1::allocator<bool (*)(const opencc::PhraseExtract &, const opencc::UTF8StringSliceBase<unsigned char> &)> &&>
+__libcpp_compressed_pair_imp<bool (*const &)(const opencc::PhraseExtract &, const opencc::UTF8StringSliceBase<unsigned char> &), std::__1::allocator<bool (*)(const opencc::PhraseExtract &, const opencc::UTF8StringSliceBase<unsigned char> &)> &&, 0, 0>
+ToString
+basic_string<const char *>
+__init<const char *>
+~ShouldNotBeHere
+ShouldNotBeHere
+operator<
+Compare
+__insertion_sort_incomplete<(lambda at /Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/PhraseExtract.cpp:85:9) &, std::__1::pair<opencc::UTF8StringSliceBase<unsigned char>, opencc::PhraseExtract::Signals> *>
+swap<opencc::UTF8StringSliceBase<unsigned char>, opencc::PhraseExtract::Signals>
+swap<opencc::PhraseExtract::Signals>
+__insertion_sort_3<(lambda at /Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/PhraseExtract.cpp:85:9) &, std::__1::pair<opencc::UTF8StringSliceBase<unsigned char>, opencc::PhraseExtract::Signals> *>
+__sort5<(lambda at /Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/PhraseExtract.cpp:85:9) &, std::__1::pair<opencc::UTF8StringSliceBase<unsigned char>, opencc::PhraseExtract::Signals> *>
+__sort4<(lambda at /Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/PhraseExtract.cpp:85:9) &, std::__1::pair<opencc::UTF8StringSliceBase<unsigned char>, opencc::PhraseExtract::Signals> *>
+__sort3<(lambda at /Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/PhraseExtract.cpp:85:9) &, std::__1::pair<opencc::UTF8StringSliceBase<unsigned char>, opencc::PhraseExtract::Signals> *>
+__sort<(lambda at /Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/PhraseExtract.cpp:85:9) &, std::__1::pair<opencc::UTF8StringSliceBase<unsigned char>, opencc::PhraseExtract::Signals> *>
+__push_back_slow_path<std::__1::pair<opencc::UTF8StringSliceBase<unsigned char>, opencc::PhraseExtract::Signals> >
+swap<std::__1::pair<opencc::UTF8StringSliceBase<unsigned char>, opencc::PhraseExtract::Signals> *>
+__construct_backward<std::__1::pair<opencc::UTF8StringSliceBase<unsigned char>, opencc::PhraseExtract::Signals> >
+construct<std::__1::pair<opencc::UTF8StringSliceBase<unsigned char>, opencc::PhraseExtract::Signals>, std::__1::pair<opencc::UTF8StringSliceBase<unsigned char>, opencc::PhraseExtract::Signals> >
+__construct<std::__1::pair<opencc::UTF8StringSliceBase<unsigned char>, opencc::PhraseExtract::Signals>, std::__1::pair<opencc::UTF8StringSliceBase<unsigned char>, opencc::PhraseExtract::Signals> >
+BuildDaTrie
+BuildKeys
+operator!=
+operator++
+pair<const opencc::UTF8StringSliceBase<unsigned char>, opencc::PhraseExtract::Signals, false>
+operator*
+sort<std::__1::pair<opencc::UTF8StringSliceBase<unsigned char>, opencc::PhraseExtract::Signals>, (lambda at /Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/PhraseExtract.cpp:85:9)>
+sort<std::__1::pair<opencc::UTF8StringSliceBase<unsigned char>, opencc::PhraseExtract::Signals> *, (lambda at /Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/PhraseExtract.cpp:85:9) &>
+end
+begin
+ClearDict
+~unordered_map
+unordered_map
+__hash_table
+__hash_node_base
+reset<std::__1::__hash_node_base<std::__1::__hash_node<std::__1::__hash_value_type<opencc::UTF8StringSliceBase<unsigned char>, opencc::PhraseExtract::Signals>, void *> *> **>
+construct<std::__1::pair<const opencc::UTF8StringSliceBase<unsigned char>, opencc::PhraseExtract::Signals>, const std::__1::piecewise_construct_t &, std::__1::tuple<const opencc::UTF8StringSliceBase<unsigned char> &>, std::__1::tuple<> >
+__construct<std::__1::pair<const opencc::UTF8StringSliceBase<unsigned char>, opencc::PhraseExtract::Signals>, const std::__1::piecewise_construct_t &, std::__1::tuple<const opencc::UTF8StringSliceBase<unsigned char> &>, std::__1::tuple<> >
+swap<float>
+swap<unsigned long>
+swap<std::__1::__hash_node_base<std::__1::__hash_node<std::__1::__hash_value_type<opencc::UTF8StringSliceBase<unsigned char>, opencc::PhraseExtract::Signals>, void *> *> *>
+release
+SelectWords
+operator!=<opencc::UTF8StringSliceBase<unsigned char> *>
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/iterator
+CalculateEntropy
+Right
+PrevChar
+PMI
+LogProbability
+log<unsigned long>
+Probability
+PrefixEntropy
+SuffixEntropy
+Entropy
+Cohesion
+Get
+CalculateCohesion
+min<double>
+min<double, std::__1::__less<double, double> >
+CalculateCohesions
+CalculatePrefixSuffixEntropy<false>
+operator!=<const opencc::UTF8StringSliceBase<unsigned char> *>
+CalculatePrefixEntropy
+~function
+function<(lambda at /Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/PhraseExtract.cpp:328:7), void>
+__compressed_pair<(lambda at /Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/PhraseExtract.cpp:328:7) &&>
+__libcpp_compressed_pair_imp<(lambda at /Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/PhraseExtract.cpp:328:7) &&, 0>
+CalculatePrefixSuffixEntropy<true>
+CalculateSuffixEntropy
+function<(lambda at /Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/PhraseExtract.cpp:309:7), void>
+__compressed_pair<(lambda at /Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/PhraseExtract.cpp:309:7) &&>
+__libcpp_compressed_pair_imp<(lambda at /Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/PhraseExtract.cpp:309:7) &&, 0>
+ExtractWordCandidates
+operator!=<const std::__1::pair<opencc::UTF8StringSliceBase<unsigned char>, opencc::PhraseExtract::Signals> *>
+sort<opencc::UTF8StringSliceBase<unsigned char>, (lambda at /Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/PhraseExtract.cpp:242:13)>
+sort<opencc::UTF8StringSliceBase<unsigned char> *, (lambda at /Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/PhraseExtract.cpp:242:13) &>
+Left
+CalculateFrequency
+AddKey
+Build
+ExtractPrefixes
+MoveLeft
+sort<opencc::UTF8StringSliceBase<unsigned char>, (lambda at /Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/PhraseExtract.cpp:201:13)>
+sort<opencc::UTF8StringSliceBase<unsigned char> *, (lambda at /Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/PhraseExtract.cpp:201:13) &>
+ExtractSuffixes
+MoveRight
+sort<opencc::UTF8StringSliceBase<unsigned char> >
+sort<opencc::UTF8StringSliceBase<unsigned char> *>
+sort<opencc::UTF8StringSliceBase<unsigned char> *, std::__1::__less<opencc::UTF8StringSliceBase<unsigned char>, opencc::UTF8StringSliceBase<unsigned char> > >
+operator=<bool (&)(const opencc::PhraseExtract &, const opencc::UTF8StringSliceBase<unsigned char> &), void>
+function<bool (*)(const opencc::PhraseExtract &, const opencc::UTF8StringSliceBase<unsigned char> &), void>
+__compressed_pair<bool (*&&)(const opencc::PhraseExtract &, const opencc::UTF8StringSliceBase<unsigned char> &)>
+__libcpp_compressed_pair_imp<bool (*&&)(const opencc::PhraseExtract &, const opencc::UTF8StringSliceBase<unsigned char> &), 0>
+__not_null<bool (const opencc::PhraseExtract &, const opencc::UTF8StringSliceBase<unsigned char> &)>
+Clear
+~PhraseExtract
+~DictType
+PhraseExtract
+Reset
+ReleaseSuffixes
+/Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/PhraseExtract.hpp
+ReleasePrefixes
+DictType
+DefaultPostCalculationFilter
+DefaultPreCalculationFilter
+FindBytePosition
+ContainsPunctuation
+__construct_at_end<const opencc::UTF8StringSliceBase<unsigned char> *>
+__construct_range_forward<const opencc::UTF8StringSliceBase<unsigned char> *, opencc::UTF8StringSliceBase<unsigned char> *>
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/initializer_list
+__ZN6opencc14ConfigInternal14FindConfigFileENSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE
+__ZNSt3__114basic_ifstreamIcNS_11char_traitsIcEEED1Ev
+__ZN9rapidjson12GenericValueINS_4UTF8IcEENS_19MemoryPoolAllocatorINS_12CrtAllocatorEEEEixEPKc
+__ZN6opencc14ConfigInternal17ParseSegmentationERKN9rapidjson12GenericValueINS1_4UTF8IcEENS1_19MemoryPoolAllocatorINS1_12CrtAllocatorEEEEE
+__ZN6opencc14ConfigInternal17GetObjectPropertyERKN9rapidjson12GenericValueINS1_4UTF8IcEENS1_19MemoryPoolAllocatorINS1_12CrtAllocatorEEEEEPKc
+__ZN6opencc14ConfigInternal20ParseConversionChainERKN9rapidjson12GenericValueINS1_4UTF8IcEENS1_19MemoryPoolAllocatorINS1_12CrtAllocatorEEEEE
+__ZN6opencc14ConfigInternal16GetArrayPropertyERKN9rapidjson12GenericValueINS1_4UTF8IcEENS1_19MemoryPoolAllocatorINS1_12CrtAllocatorEEEEEPKc
+__ZN6opencc12FileNotFoundD1Ev
+__ZNSt3__114basic_ifstreamIcNS_11char_traitsIcEEED0Ev
+__ZTv0_n24_NSt3__114basic_ifstreamIcNS_11char_traitsIcEEED1Ev
+__ZTv0_n24_NSt3__114basic_ifstreamIcNS_11char_traitsIcEEED0Ev
+__ZN6opencc12FileNotFoundC2ERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE
+__ZN6opencc12FileNotFoundD0Ev
+__ZN6opencc14ConfigInternal17GetStringPropertyERKN9rapidjson12GenericValueINS1_4UTF8IcEENS1_19MemoryPoolAllocatorINS1_12CrtAllocatorEEEEEPKc
+__ZN6opencc14ConfigInternal9ParseDictERKN9rapidjson12GenericValueINS1_4UTF8IcEENS1_19MemoryPoolAllocatorINS1_12CrtAllocatorEEEEE
+__ZN6opencc14ConfigInternal11GetPropertyERKN9rapidjson12GenericValueINS1_4UTF8IcEENS1_19MemoryPoolAllocatorINS1_12CrtAllocatorEEEEEPKc
+__ZN6opencc14ConfigInternal17LoadDictWithPathsINS_8TextDictEEENSt3__110shared_ptrINS_4DictEEERKNS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEE
+__ZN6opencc14ConfigInternal17LoadDictWithPathsINS_9DartsDictEEENSt3__110shared_ptrINS_4DictEEERKNS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEE
+__ZN9rapidjson12GenericValueINS_4UTF8IcEENS_19MemoryPoolAllocatorINS_12CrtAllocatorEEEEixEj
+__ZNSt3__120__shared_ptr_pointerIPN6opencc9DictGroupENS_14default_deleteIS2_EENS_9allocatorIS2_EEED1Ev
+__ZNSt3__120__shared_ptr_pointerIPN6opencc9DictGroupENS_14default_deleteIS2_EENS_9allocatorIS2_EEED0Ev
+__ZNSt3__121__murmur2_or_cityhashImLm64EE18__hash_len_0_to_16EPKcm
+__ZNSt3__121__murmur2_or_cityhashImLm64EE19__hash_len_17_to_32EPKcm
+__ZNSt3__121__murmur2_or_cityhashImLm64EE19__hash_len_33_to_64EPKcm
+__ZN6opencc16SerializableDict15TryLoadFromFileINS_8TextDictEEEbRKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEPNS3_10shared_ptrIT_EE
+__ZN6opencc16SerializableDict15TryLoadFromFileINS_9DartsDictEEEbRKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEPNS3_10shared_ptrIT_EE
+__ZNSt3__120__shared_ptr_pointerIPN6opencc20MaxMatchSegmentationENS_14default_deleteIS2_EENS_9allocatorIS2_EEED1Ev
+__ZNSt3__120__shared_ptr_pointerIPN6opencc20MaxMatchSegmentationENS_14default_deleteIS2_EENS_9allocatorIS2_EEED0Ev
+__ZN6opencc14ConfigInternal15ParseConversionERKN9rapidjson12GenericValueINS1_4UTF8IcEENS1_19MemoryPoolAllocatorINS1_12CrtAllocatorEEEEE
+__ZNSt3__120__shared_ptr_pointerIPN6opencc10ConversionENS_14default_deleteIS2_EENS_9allocatorIS2_EEED1Ev
+__ZNSt3__120__shared_ptr_pointerIPN6opencc10ConversionENS_14default_deleteIS2_EENS_9allocatorIS2_EEED0Ev
+__ZNSt3__120__shared_ptr_pointerIPN6opencc15ConversionChainENS_14default_deleteIS2_EENS_9allocatorIS2_EEED1Ev
+__ZNSt3__120__shared_ptr_pointerIPN6opencc15ConversionChainENS_14default_deleteIS2_EENS_9allocatorIS2_EEED0Ev
+__ZN6opencc9ConverterC2ERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEENS1_10shared_ptrINS_12SegmentationEEENSA_INS_15ConversionChainEEE
+__ZN9rapidjson8internal5StackINS_19MemoryPoolAllocatorINS_12CrtAllocatorEEEED2Ev
+__ZN9rapidjson19MemoryPoolAllocatorINS_12CrtAllocatorEED2Ev
+__ZN9rapidjson19MemoryPoolAllocatorINS_12CrtAllocatorEE5ClearEv
+__ZN9rapidjson12GenericValueINS_4UTF8IcEENS_19MemoryPoolAllocatorINS_12CrtAllocatorEEEE10FindMemberEPKc
+__ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6__initINS_19istreambuf_iteratorIcS2_EEEENS_9enable_ifIXsr27__is_exactly_input_iteratorIT_EE5valueEvE4typeESA_SA_
+__ZN9rapidjson8internal5StackINS_19MemoryPoolAllocatorINS_12CrtAllocatorEEEEC2EPS4_m
+__ZN9rapidjson19MemoryPoolAllocatorINS_12CrtAllocatorEE6MallocEm
+__ZN9rapidjson15GenericDocumentINS_4UTF8IcEENS_19MemoryPoolAllocatorINS_12CrtAllocatorEEEE11ParseStreamILj1ENS_25GenericInsituStringStreamIS2_EEEERS6_RT0_
+__ZN9rapidjson13GenericReaderINS_4UTF8IcEENS_19MemoryPoolAllocatorINS_12CrtAllocatorEEEE5ParseILj1ENS_25GenericInsituStringStreamIS2_EENS_15GenericDocumentIS2_S5_EEEEbRT0_RT1_
+__ZN9rapidjson8internal5StackINS_19MemoryPoolAllocatorINS_12CrtAllocatorEEEE3PopINS_12GenericValueINS_4UTF8IcEES4_EEEEPT_m
+__ZN9rapidjson25GenericInsituStringStreamINS_4UTF8IcEEE4TellEv
+__ZN9rapidjson13GenericReaderINS_4UTF8IcEENS_19MemoryPoolAllocatorINS_12CrtAllocatorEEEE11ParseObjectILj1ENS_25GenericInsituStringStreamIS2_EENS_15GenericDocumentIS2_S5_EEEEvRT0_RT1_
+__ZN9rapidjson13GenericReaderINS_4UTF8IcEENS_19MemoryPoolAllocatorINS_12CrtAllocatorEEEE10ParseArrayILj1ENS_25GenericInsituStringStreamIS2_EENS_15GenericDocumentIS2_S5_EEEEvRT0_RT1_
+__ZN9rapidjson15GenericDocumentINS_4UTF8IcEENS_19MemoryPoolAllocatorINS_12CrtAllocatorEEEE9EndObjectEj
+__ZN9rapidjson13GenericReaderINS_4UTF8IcEENS_19MemoryPoolAllocatorINS_12CrtAllocatorEEEE11ParseStringILj1ENS_25GenericInsituStringStreamIS2_EENS_15GenericDocumentIS2_S5_EEEEvRT0_RT1_
+__ZN9rapidjson13GenericReaderINS_4UTF8IcEENS_19MemoryPoolAllocatorINS_12CrtAllocatorEEEE10ParseValueILj1ENS_25GenericInsituStringStreamIS2_EENS_15GenericDocumentIS2_S5_EEEEvRT0_RT1_
+__ZN9rapidjson8internal5StackINS_19MemoryPoolAllocatorINS_12CrtAllocatorEEEE4PushINS_12GenericValueINS_4UTF8IcEES4_EEEEPT_m
+__ZN9rapidjson19MemoryPoolAllocatorINS_12CrtAllocatorEE7ReallocEPvmm
+__ZN9rapidjson8internal5StackINS_19MemoryPoolAllocatorINS_12CrtAllocatorEEEE3PopINS_12GenericValueINS_4UTF8IcEES4_E6MemberEEEPT_m
+__ZN9rapidjson13GenericReaderINS_4UTF8IcEENS_19MemoryPoolAllocatorINS_12CrtAllocatorEEEE9ParseHex4INS_25GenericInsituStringStreamIS2_EEEEjRT_
+__ZN9rapidjson4UTF8IcE6EncodeEPcj
+__ZN9rapidjson15GenericDocumentINS_4UTF8IcEENS_19MemoryPoolAllocatorINS_12CrtAllocatorEEEE6StringEPKcjb
+__ZN9rapidjson12GenericValueINS_4UTF8IcEENS_19MemoryPoolAllocatorINS_12CrtAllocatorEEEE12SetStringRawEPKcjRS5_
+__ZN9rapidjson13GenericReaderINS_4UTF8IcEENS_19MemoryPoolAllocatorINS_12CrtAllocatorEEEE9ParseNullILj1ENS_25GenericInsituStringStreamIS2_EENS_15GenericDocumentIS2_S5_EEEEvRT0_RT1_
+__ZN9rapidjson13GenericReaderINS_4UTF8IcEENS_19MemoryPoolAllocatorINS_12CrtAllocatorEEEE9ParseTrueILj1ENS_25GenericInsituStringStreamIS2_EENS_15GenericDocumentIS2_S5_EEEEvRT0_RT1_
+__ZN9rapidjson13GenericReaderINS_4UTF8IcEENS_19MemoryPoolAllocatorINS_12CrtAllocatorEEEE10ParseFalseILj1ENS_25GenericInsituStringStreamIS2_EENS_15GenericDocumentIS2_S5_EEEEvRT0_RT1_
+__ZN9rapidjson13GenericReaderINS_4UTF8IcEENS_19MemoryPoolAllocatorINS_12CrtAllocatorEEEE11ParseNumberILj1ENS_25GenericInsituStringStreamIS2_EENS_15GenericDocumentIS2_S5_EEEEvRT0_RT1_
+__ZN9rapidjson15GenericDocumentINS_4UTF8IcEENS_19MemoryPoolAllocatorINS_12CrtAllocatorEEEE5Int64Ex
+__ZN9rapidjson15GenericDocumentINS_4UTF8IcEENS_19MemoryPoolAllocatorINS_12CrtAllocatorEEEE6Uint64Ey
+__ZN9rapidjson15GenericDocumentINS_4UTF8IcEENS_19MemoryPoolAllocatorINS_12CrtAllocatorEEEE8EndArrayEj
+__ZNSt3__120__shared_ptr_pointerIPN6opencc9ConverterENS_14default_deleteIS2_EENS_9allocatorIS2_EEED1Ev
+__ZNSt3__120__shared_ptr_pointerIPN6opencc9ConverterENS_14default_deleteIS2_EENS_9allocatorIS2_EEED0Ev
+__GLOBAL__sub_I_Config.cpp
+__ZTSN6opencc12FileNotFoundE
+__ZTIN6opencc12FileNotFoundE
+__ZTSNSt3__114basic_ifstreamIcNS_11char_traitsIcEEEE
+__ZTINSt3__114basic_ifstreamIcNS_11char_traitsIcEEEE
+__ZTSNSt3__113basic_filebufIcNS_11char_traitsIcEEEE
+__ZTINSt3__113basic_filebufIcNS_11char_traitsIcEEEE
+__ZTSNSt3__120__shared_ptr_pointerIPN6opencc9DictGroupENS_14default_deleteIS2_EENS_9allocatorIS2_EEEE
+__ZTINSt3__120__shared_ptr_pointerIPN6opencc9DictGroupENS_14default_deleteIS2_EENS_9allocatorIS2_EEEE
+__ZTSNSt3__114default_deleteIN6opencc9DictGroupEEE
+__ZNSt3__1L19piecewise_constructE
+__ZTSNSt3__120__shared_ptr_pointerIPN6opencc20MaxMatchSegmentationENS_14default_deleteIS2_EENS_9allocatorIS2_EEEE
+__ZTINSt3__120__shared_ptr_pointerIPN6opencc20MaxMatchSegmentationENS_14default_deleteIS2_EENS_9allocatorIS2_EEEE
+__ZTSNSt3__114default_deleteIN6opencc20MaxMatchSegmentationEEE
+__ZTSNSt3__120__shared_ptr_pointerIPN6opencc10ConversionENS_14default_deleteIS2_EENS_9allocatorIS2_EEEE
+__ZTINSt3__120__shared_ptr_pointerIPN6opencc10ConversionENS_14default_deleteIS2_EENS_9allocatorIS2_EEEE
+__ZTSNSt3__114default_deleteIN6opencc10ConversionEEE
+__ZTSNSt3__120__shared_ptr_pointerIPN6opencc15ConversionChainENS_14default_deleteIS2_EENS_9allocatorIS2_EEEE
+__ZTINSt3__120__shared_ptr_pointerIPN6opencc15ConversionChainENS_14default_deleteIS2_EENS_9allocatorIS2_EEEE
+__ZTSNSt3__114default_deleteIN6opencc15ConversionChainEEE
+__ZZN9rapidjson13GenericReaderINS_4UTF8IcEENS_19MemoryPoolAllocatorINS_12CrtAllocatorEEEE11ParseStringILj1ENS_25GenericInsituStringStreamIS2_EENS_15GenericDocumentIS2_S5_EEEEvRT0_RT1_E6escape
+__ZZN9rapidjson8internal5Pow10EiE1e
+__ZZN9rapidjson12GenericValueINS_4UTF8IcEENS_19MemoryPoolAllocatorINS_12CrtAllocatorEEEEixEPKcE9NullValue
+__ZGVZN9rapidjson12GenericValueINS_4UTF8IcEENS_19MemoryPoolAllocatorINS_12CrtAllocatorEEEEixEPKcE9NullValue
+__ZTSNSt3__120__shared_ptr_pointerIPN6opencc9ConverterENS_14default_deleteIS2_EENS_9allocatorIS2_EEEE
+__ZTINSt3__120__shared_ptr_pointerIPN6opencc9ConverterENS_14default_deleteIS2_EENS_9allocatorIS2_EEEE
+__ZTSNSt3__114default_deleteIN6opencc9ConverterEEE
+/Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/Config.cpp
+_GLOBAL__sub_I_Config.cpp
+~Converter
+/Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/Converter.hpp
+shared_ptr<opencc::Converter>
+EndArray
+/Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/deps/rapidjson-0.11/document.h
+SetArrayRaw
+GetAllocator
+/Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/deps/rapidjson-0.11/internal/stack.h
+Top<rapidjson::GenericValue<rapidjson::UTF8<char>, rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator> > >
+GetSize
+Uint64
+GenericValue
+Int64
+ParseNumber<1, rapidjson::GenericInsituStringStream<rapidjson::UTF8<char> >, rapidjson::GenericDocument<rapidjson::UTF8<char>, rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator> > >
+/Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/deps/rapidjson-0.11/reader.h
+Uint
+Int
+Double
+Pow10
+/Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/deps/rapidjson-0.11/internal/pow10.h
+Take
+/Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/deps/rapidjson-0.11/rapidjson.h
+Tell
+Peek
+ParseFalse<1, rapidjson::GenericInsituStringStream<rapidjson::UTF8<char> >, rapidjson::GenericDocument<rapidjson::UTF8<char>, rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator> > >
+Bool
+ParseTrue<1, rapidjson::GenericInsituStringStream<rapidjson::UTF8<char> >, rapidjson::GenericDocument<rapidjson::UTF8<char>, rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator> > >
+ParseNull<1, rapidjson::GenericInsituStringStream<rapidjson::UTF8<char> >, rapidjson::GenericDocument<rapidjson::UTF8<char>, rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator> > >
+Null
+SetStringRaw
+String
+Encode
+ParseHex4<rapidjson::GenericInsituStringStream<rapidjson::UTF8<char> > >
+Pop<rapidjson::GenericValue<rapidjson::UTF8<char>, rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator> >::Member>
+Realloc
+Push<rapidjson::GenericValue<rapidjson::UTF8<char>, rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator> > >
+ParseValue<1, rapidjson::GenericInsituStringStream<rapidjson::UTF8<char> >, rapidjson::GenericDocument<rapidjson::UTF8<char>, rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator> > >
+ParseString<1, rapidjson::GenericInsituStringStream<rapidjson::UTF8<char> >, rapidjson::GenericDocument<rapidjson::UTF8<char>, rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator> > >
+Put
+PutEnd
+PutBegin
+EndObject
+SetObjectRaw
+ParseArray<1, rapidjson::GenericInsituStringStream<rapidjson::UTF8<char> >, rapidjson::GenericDocument<rapidjson::UTF8<char>, rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator> > >
+SkipWhitespace<rapidjson::GenericInsituStringStream<rapidjson::UTF8<char> > >
+StartArray
+ParseObject<1, rapidjson::GenericInsituStringStream<rapidjson::UTF8<char> >, rapidjson::GenericDocument<rapidjson::UTF8<char>, rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator> > >
+StartObject
+Pop<rapidjson::GenericValue<rapidjson::UTF8<char>, rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator> > >
+Parse<1, rapidjson::GenericInsituStringStream<rapidjson::UTF8<char> >, rapidjson::GenericDocument<rapidjson::UTF8<char>, rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator> > >
+ParseStream<1, rapidjson::GenericInsituStringStream<rapidjson::UTF8<char> > >
+~GenericReader
+~Stack
+ClearStack
+GetErrorOffset
+GetParseError
+RawAssign
+GenericReader
+Stack
+SetNull
+Malloc
+AddChunk
+MemoryPoolAllocator
+__init<std::__1::istreambuf_iterator<char, std::__1::char_traits<char> > >
+sbumpc
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/streambuf
+operator!=<char, std::__1::char_traits<char> >
+sgetc
+to_int_type
+equal
+__test_for_eof
+eq_int_type
+FindMember
+StrLen<char>
+/Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/deps/rapidjson-0.11/internal/strfunc.h
+IsObject
+Free
+~MemoryPoolAllocator
+Converter
+~ConversionChain
+/Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/ConversionChain.hpp
+~list
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/list
+~__list_imp
+shared_ptr<opencc::ConversionChain>
+destroy<std::__1::shared_ptr<opencc::Conversion> >
+__destroy<std::__1::shared_ptr<opencc::Conversion> >
+__unlink_nodes
+__end_as_link
+__sz
+list
+__list_imp
+__list_node_base
+~Conversion
+/Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/Conversion.hpp
+shared_ptr<opencc::Conversion>
+__link_nodes_at_back
+construct<std::__1::shared_ptr<opencc::Conversion>, const std::__1::shared_ptr<opencc::Conversion> &>
+__construct<std::__1::shared_ptr<opencc::Conversion>, const std::__1::shared_ptr<opencc::Conversion> &>
+ParseConversion
+Conversion
+shared_ptr<opencc::MaxMatchSegmentation>
+TryLoadFromFile<opencc::DartsDict>
+swap<opencc::DartsDict *>
+GetPlatformString
+TryLoadFromFile<opencc::TextDict>
+swap<opencc::TextDict *>
+reset<std::__1::__hash_node_base<std::__1::__hash_node<std::__1::__hash_value_type<std::__1::basic_string<char>, std::__1::shared_ptr<opencc::Dict> >, void *> *> **>
+operator==<std::__1::allocator<char> >
+compare
+__construct_node_hash<const std::__1::piecewise_construct_t &, std::__1::tuple<const std::__1::basic_string<char> &>, std::__1::tuple<> >
+construct<std::__1::pair<const std::__1::basic_string<char>, std::__1::shared_ptr<opencc::Dict> >, const std::__1::piecewise_construct_t &, std::__1::tuple<const std::__1::basic_string<char> &>, std::__1::tuple<> >
+__construct<std::__1::pair<const std::__1::basic_string<char>, std::__1::shared_ptr<opencc::Dict> >, const std::__1::piecewise_construct_t &, std::__1::tuple<const std::__1::basic_string<char> &>, std::__1::tuple<> >
+pair<const std::__1::basic_string<char> &>
+pair<const std::__1::basic_string<char> &, 0>
+unique_ptr
+__hash_node_destructor
+__node_alloc
+reset<std::__1::__hash_node_base<std::__1::__hash_node<std::__1::__hash_value_type<std::__1::basic_string<char>, std::__1::unordered_map<std::__1::basic_string<char>, std::__1::shared_ptr<opencc::Dict>, std::__1::hash<std::__1::basic_string<char> >, std::__1::equal_to<std::__1::basic_string<char> >, std::__1::allocator<std::__1::pair<const std::__1::basic_string<char>, std::__1::shared_ptr<opencc::Dict> > > > >, void *> *> **>
+construct<std::__1::pair<const std::__1::basic_string<char>, std::__1::unordered_map<std::__1::basic_string<char>, std::__1::shared_ptr<opencc::Dict>, std::__1::hash<std::__1::basic_string<char> >, std::__1::equal_to<std::__1::basic_string<char> >, std::__1::allocator<std::__1::pair<const std::__1::basic_string<char>, std::__1::shared_ptr<opencc::Dict> > > > >, const std::__1::piecewise_construct_t &, std::__1::tuple<const std::__1::basic_string<char> &>, std::__1::tuple<> >
+__construct<std::__1::pair<const std::__1::basic_string<char>, std::__1::unordered_map<std::__1::basic_string<char>, std::__1::shared_ptr<opencc::Dict>, std::__1::hash<std::__1::basic_string<char> >, std::__1::equal_to<std::__1::basic_string<char> >, std::__1::allocator<std::__1::pair<const std::__1::basic_string<char>, std::__1::shared_ptr<opencc::Dict> > > > >, const std::__1::piecewise_construct_t &, std::__1::tuple<const std::__1::basic_string<char> &>, std::__1::tuple<> >
+reset<std::__1::__hash_node_base<std::__1::__hash_node<std::__1::__hash_value_type<std::__1::basic_string<char>, std::__1::unordered_map<std::__1::basic_string<char>, std::__1::unordered_map<std::__1::basic_string<char>, std::__1::shared_ptr<opencc::Dict>, std::__1::hash<std::__1::basic_string<char> >, std::__1::equal_to<std::__1::basic_string<char> >, std::__1::allocator<std::__1::pair<const std::__1::basic_string<char>, std::__1::shared_ptr<opencc::Dict> > > >, std::__1::hash<std::__1::basic_string<char> >, std::__1::equal_to<std::__1::basic_string<char> >, std::__1::allocator<std::__1::pair<const std::__1::basic_string<char>, std::__1::unordered_map<std::__1::basic_string<char>, std::__1::shared_ptr<opencc::Dict>, std::__1::hash<std::__1::basic_string<char> >, std::__1::equal_to<std::__1::basic_string<char> >, std::__1::allocator<std::__1::pair<const std::__1::basic_string<char>, std::__1::shared_ptr<opencc::Dict> > > > > > > >, void *> *> **>
+__hash_len_33_to_64
+__shift_mix
+__rotate
+__loadword<unsigned long>
+__hash_len_17_to_32
+__hash_len_16
+__hash_len_0_to_16
+__loadword<unsigned int>
+__rotate_by_at_least_1
+__weak_hash_len_32_with_seeds
+__do_string_hash<const char *>
+construct<std::__1::pair<const std::__1::basic_string<char>, std::__1::unordered_map<std::__1::basic_string<char>, std::__1::unordered_map<std::__1::basic_string<char>, std::__1::shared_ptr<opencc::Dict>, std::__1::hash<std::__1::basic_string<char> >, std::__1::equal_to<std::__1::basic_string<char> >, std::__1::allocator<std::__1::pair<const std::__1::basic_string<char>, std::__1::shared_ptr<opencc::Dict> > > >, std::__1::hash<std::__1::basic_string<char> >, std::__1::equal_to<std::__1::basic_string<char> >, std::__1::allocator<std::__1::pair<const std::__1::basic_string<char>, std::__1::unordered_map<std::__1::basic_string<char>, std::__1::shared_ptr<opencc::Dict>, std::__1::hash<std::__1::basic_string<char> >, std::__1::equal_to<std::__1::basic_string<char> >, std::__1::allocator<std::__1::pair<const std::__1::basic_string<char>, std::__1::shared_ptr<opencc::Dict> > > > > > > >, const std::__1::piecewise_construct_t &, std::__1::tuple<const std::__1::basic_string<char> &>, std::__1::tuple<> >
+__construct<std::__1::pair<const std::__1::basic_string<char>, std::__1::unordered_map<std::__1::basic_string<char>, std::__1::unordered_map<std::__1::basic_string<char>, std::__1::shared_ptr<opencc::Dict>, std::__1::hash<std::__1::basic_string<char> >, std::__1::equal_to<std::__1::basic_string<char> >, std::__1::allocator<std::__1::pair<const std::__1::basic_string<char>, std::__1::shared_ptr<opencc::Dict> > > >, std::__1::hash<std::__1::basic_string<char> >, std::__1::equal_to<std::__1::basic_string<char> >, std::__1::allocator<std::__1::pair<const std::__1::basic_string<char>, std::__1::unordered_map<std::__1::basic_string<char>, std::__1::shared_ptr<opencc::Dict>, std::__1::hash<std::__1::basic_string<char> >, std::__1::equal_to<std::__1::basic_string<char> >, std::__1::allocator<std::__1::pair<const std::__1::basic_string<char>, std::__1::shared_ptr<opencc::Dict> > > > > > > >, const std::__1::piecewise_construct_t &, std::__1::tuple<const std::__1::basic_string<char> &>, std::__1::tuple<> >
+destroy<std::__1::shared_ptr<opencc::Dict> >
+__destroy<std::__1::shared_ptr<opencc::Dict> >
+shared_ptr<opencc::DictGroup>
+IsArray
+LoadDictWithPaths<opencc::DartsDict>
+FileNotFound
+operator!=<char, std::__1::char_traits<char>, std::__1::allocator<char> >
+operator==<char, std::__1::char_traits<char>, std::__1::allocator<char> >
+LoadDictWithPaths<opencc::TextDict>
+shared_ptr<opencc::TextDict>
+__emplace_unique_key_args<std::__1::basic_string<char>, const std::__1::piecewise_construct_t &, std::__1::tuple<const std::__1::basic_string<char> &>, std::__1::tuple<> >
+get
+destroy<std::__1::pair<const std::__1::basic_string<char>, std::__1::shared_ptr<opencc::Dict> > >
+__destroy<std::__1::pair<const std::__1::basic_string<char>, std::__1::shared_ptr<opencc::Dict> > >
+~pair
+hash_function
+destroy<std::__1::pair<const std::__1::basic_string<char>, std::__1::unordered_map<std::__1::basic_string<char>, std::__1::shared_ptr<opencc::Dict>, std::__1::hash<std::__1::basic_string<char> >, std::__1::equal_to<std::__1::basic_string<char> >, std::__1::allocator<std::__1::pair<const std::__1::basic_string<char>, std::__1::shared_ptr<opencc::Dict> > > > > >
+__destroy<std::__1::pair<const std::__1::basic_string<char>, std::__1::unordered_map<std::__1::basic_string<char>, std::__1::shared_ptr<opencc::Dict>, std::__1::hash<std::__1::basic_string<char> >, std::__1::equal_to<std::__1::basic_string<char> >, std::__1::allocator<std::__1::pair<const std::__1::basic_string<char>, std::__1::shared_ptr<opencc::Dict> > > > > >
+destroy<std::__1::pair<const std::__1::basic_string<char>, std::__1::unordered_map<std::__1::basic_string<char>, std::__1::unordered_map<std::__1::basic_string<char>, std::__1::shared_ptr<opencc::Dict>, std::__1::hash<std::__1::basic_string<char> >, std::__1::equal_to<std::__1::basic_string<char> >, std::__1::allocator<std::__1::pair<const std::__1::basic_string<char>, std::__1::shared_ptr<opencc::Dict> > > >, std::__1::hash<std::__1::basic_string<char> >, std::__1::equal_to<std::__1::basic_string<char> >, std::__1::allocator<std::__1::pair<const std::__1::basic_string<char>, std::__1::unordered_map<std::__1::basic_string<char>, std::__1::shared_ptr<opencc::Dict>, std::__1::hash<std::__1::basic_string<char> >, std::__1::equal_to<std::__1::basic_string<char> >, std::__1::allocator<std::__1::pair<const std::__1::basic_string<char>, std::__1::shared_ptr<opencc::Dict> > > > > > > > >
+__destroy<std::__1::pair<const std::__1::basic_string<char>, std::__1::unordered_map<std::__1::basic_string<char>, std::__1::unordered_map<std::__1::basic_string<char>, std::__1::shared_ptr<opencc::Dict>, std::__1::hash<std::__1::basic_string<char> >, std::__1::equal_to<std::__1::basic_string<char> >, std::__1::allocator<std::__1::pair<const std::__1::basic_string<char>, std::__1::shared_ptr<opencc::Dict> > > >, std::__1::hash<std::__1::basic_string<char> >, std::__1::equal_to<std::__1::basic_string<char> >, std::__1::allocator<std::__1::pair<const std::__1::basic_string<char>, std::__1::unordered_map<std::__1::basic_string<char>, std::__1::shared_ptr<opencc::Dict>, std::__1::hash<std::__1::basic_string<char> >, std::__1::equal_to<std::__1::basic_string<char> >, std::__1::allocator<std::__1::pair<const std::__1::basic_string<char>, std::__1::shared_ptr<opencc::Dict> > > > > > > > >
+construct<std::__1::shared_ptr<opencc::Dict>, const std::__1::shared_ptr<opencc::Dict> &>
+__construct<std::__1::shared_ptr<opencc::Dict>, const std::__1::shared_ptr<opencc::Dict> &>
+GetProperty
+HasMember
+ParseDict
+swap<opencc::Dict *>
+operator!=<opencc::Dict>
+operator bool
+Size
+GetStringProperty
+GetString
+IsString
+~FileNotFound
+open
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/fstream
+__write_mode
+setp
+setg
+__read_mode
+close
+~basic_filebuf
+overflow
+not_eof
+pbase
+out
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/__locale
+pbump
+pptr
+__throw_bad_cast
+to_char_type
+epptr
+pbackfail
+gbump
+eq
+gptr
+eback
+underflow
+in
+egptr
+sync
+encoding
+unshift
+seekpos
+state
+fpos
+operator long long
+seekoff
+setbuf
+imbue
+always_noconv
+use_facet<std::__1::codecvt<char, char, mbstate_t> >
+basic_filebuf
+getloc
+has_facet<std::__1::codecvt<char, char, mbstate_t> >
+_ZTv0_n24_NSt3__114basic_ifstreamIcNS_11char_traitsIcEEED0Ev
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/iosfwd
+~basic_ifstream
+_ZTv0_n24_NSt3__114basic_ifstreamIcNS_11char_traitsIcEEED1Ev
+setstate
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/ios
+GetArrayProperty
+ParseConversionChain
+GetObjectProperty
+ParseSegmentation
+swap<opencc::Segmentation *>
+MaxMatchSegmentation
+/Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/MaxMatchSegmentation.hpp
+NewFromString
+~GenericDocument
+back
+HasParseError
+ParseInsitu<0>
+GenericInsituStringStream
+GenericDocument
+FindConfigFile
+is_open
+operator+=
+basic_ifstream
+basic_istream
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/istream
+basic_ios
+substr
+rfind
+__str_rfind<char, unsigned long, std::__1::char_traits<char>, 18446744073709551615>
+__find_end<bool (*)(char, char), const char *, const char *>
+basic_string<std::__1::istreambuf_iterator<char, std::__1::char_traits<char> > >
+istreambuf_iterator
+rdbuf
+~Config
+~ConfigInternal
+Config
+ConfigInternal
+__GLOBAL__sub_I_UTF8Util.cpp
+/Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/UTF8Util.cpp
+_GLOBAL__sub_I_UTF8Util.cpp
+SkipUtf8Bom
+__ZL20ParseLexiconFromFileP7__sFILE
+__ZN6opencc9DictEntry11PtrLessThanEPKS0_S2_
+__ZNK6opencc16NoValueDictEntry3KeyEv
+__ZN6opencc16NoValueDictEntryD1Ev
+__ZN6opencc7Lexicon3AddEPNS_9DictEntryE
+__ZNSt3__120__shared_ptr_pointerIPN6opencc7LexiconENS_14default_deleteIS2_EENS_9allocatorIS2_EEED1Ev
+__ZNSt3__120__shared_ptr_pointerIPN6opencc7LexiconENS_14default_deleteIS2_EENS_9allocatorIS2_EEED0Ev
+__ZN6opencc7LexiconD2Ev
+__ZN6opencc8UTF8Util14FindNextInlineEPKcc
+__ZN6opencc21InvalidTextDictionaryD1Ev
+__ZN6opencc16DictEntryFactory3NewERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEES9_
+__ZN6opencc16DictEntryFactory3NewERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEERKNS1_6vectorIS7_NS5_IS7_EEEE
+__ZN6opencc21InvalidTextDictionaryC2ERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEm
+__ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEED1Ev
+__ZN6opencc21InvalidTextDictionaryD0Ev
+__ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEED0Ev
+__ZTv0_n24_NSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEED1Ev
+__ZTv0_n24_NSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEED0Ev
+__ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEED1Ev
+__ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEED0Ev
+__ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE7seekposENS_4fposI11__mbstate_tEEj
+__ZNSt3__116__pad_and_outputIcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
+__ZN6opencc23StrSingleValueDictEntryC2ERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEES9_
+__ZN6opencc23StrSingleValueDictEntryD1Ev
+__ZN6opencc23StrSingleValueDictEntryD0Ev
+__ZNK6opencc23StrSingleValueDictEntry3KeyEv
+__ZNK6opencc20SingleValueDictEntry6ValuesEv
+__ZNK6opencc20SingleValueDictEntry10GetDefaultEv
+__ZNK6opencc20SingleValueDictEntry9NumValuesEv
+__ZNK6opencc20SingleValueDictEntry8ToStringEv
+__ZNK6opencc23StrSingleValueDictEntry5ValueEv
+__ZN6opencc23StrSingleValueDictEntryD2Ev
+__ZN6opencc22StrMultiValueDictEntryC2ERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEERKNS1_6vectorIS7_NS5_IS7_EEEE
+__ZN6opencc22StrMultiValueDictEntryD1Ev
+__ZN6opencc22StrMultiValueDictEntryD0Ev
+__ZNK6opencc22StrMultiValueDictEntry3KeyEv
+__ZNK6opencc22StrMultiValueDictEntry6ValuesEv
+__ZNK6opencc19MultiValueDictEntry10GetDefaultEv
+__ZNK6opencc22StrMultiValueDictEntry9NumValuesEv
+__ZN6opencc22StrMultiValueDictEntryD2Ev
+__ZN6opencc16NoValueDictEntryD0Ev
+__ZNK6opencc16NoValueDictEntry6ValuesEv
+__ZNK6opencc16NoValueDictEntry10GetDefaultEv
+__ZNK6opencc16NoValueDictEntry9NumValuesEv
+__ZNK6opencc16NoValueDictEntry8ToStringEv
+__ZNSt3__120__shared_ptr_pointerIPN6opencc8TextDictENS_14default_deleteIS2_EENS_9allocatorIS2_EEED1Ev
+__ZNSt3__120__shared_ptr_pointerIPN6opencc8TextDictENS_14default_deleteIS2_EENS_9allocatorIS2_EEED0Ev
+__GLOBAL__sub_I_TextDict.cpp
+__ZTSNSt3__120__shared_ptr_pointerIPN6opencc7LexiconENS_14default_deleteIS2_EENS_9allocatorIS2_EEEE
+__ZTINSt3__120__shared_ptr_pointerIPN6opencc7LexiconENS_14default_deleteIS2_EENS_9allocatorIS2_EEEE
+__ZTSNSt3__114default_deleteIN6opencc7LexiconEEE
+__ZTSN6opencc21InvalidTextDictionaryE
+__ZTIN6opencc21InvalidTextDictionaryE
+__ZTSNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+__ZTINSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+__ZTSNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+__ZTINSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+__ZTSN6opencc23StrSingleValueDictEntryE
+__ZTSN6opencc20SingleValueDictEntryE
+__ZTSN6opencc9DictEntryE
+__ZTIN6opencc9DictEntryE
+__ZTIN6opencc20SingleValueDictEntryE
+__ZTIN6opencc23StrSingleValueDictEntryE
+__ZTSN6opencc22StrMultiValueDictEntryE
+__ZTIN6opencc22StrMultiValueDictEntryE
+__ZTSN6opencc16NoValueDictEntryE
+__ZTIN6opencc16NoValueDictEntryE
+__ZTSNSt3__120__shared_ptr_pointerIPN6opencc8TextDictENS_14default_deleteIS2_EENS_9allocatorIS2_EEEE
+__ZTINSt3__120__shared_ptr_pointerIPN6opencc8TextDictENS_14default_deleteIS2_EENS_9allocatorIS2_EEEE
+__ZTSNSt3__114default_deleteIN6opencc8TextDictEEE
+/Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/TextDict.cpp
+_GLOBAL__sub_I_TextDict.cpp
+NumValues
+GetDefault
+Values
+~NoValueDictEntry
+__insertion_sort_incomplete<bool (*&)(const opencc::DictEntry *, const opencc::DictEntry *), opencc::DictEntry **>
+swap<opencc::DictEntry *>
+__insertion_sort_3<bool (*&)(const opencc::DictEntry *, const opencc::DictEntry *), opencc::DictEntry **>
+__sort5<bool (*&)(const opencc::DictEntry *, const opencc::DictEntry *), opencc::DictEntry **>
+__sort4<bool (*&)(const opencc::DictEntry *, const opencc::DictEntry *), opencc::DictEntry **>
+__sort3<bool (*&)(const opencc::DictEntry *, const opencc::DictEntry *), opencc::DictEntry **>
+__sort<bool (*&)(const opencc::DictEntry *, const opencc::DictEntry *), opencc::DictEntry **>
+__push_back_slow_path<const char *>
+construct<const char *, const char *>
+__construct<const char *, const char *>
+~StrMultiValueDictEntry
+destroy<std::__1::basic_string<char> >
+__destroy<std::__1::basic_string<char> >
+__construct_at_end<std::__1::basic_string<char> *>
+__construct_range_forward<std::__1::basic_string<char> *, std::__1::basic_string<char> *>
+construct<std::__1::basic_string<char>, std::__1::basic_string<char> &>
+__construct<std::__1::basic_string<char>, std::__1::basic_string<char> &>
+operator!=<const std::__1::basic_string<char> *>
+Key
+StrMultiValueDictEntry
+~StrSingleValueDictEntry
+Value
+__construct_at_end<const char *const *>
+__construct_range_forward<const char *const *, const char **>
+construct<const char *, const char *const &>
+__construct<const char *, const char *const &>
+StrSingleValueDictEntry
+__push_back_slow_path<const std::__1::basic_string<char> &>
+swap<std::__1::basic_string<char> *>
+__construct_backward<std::__1::basic_string<char> *>
+construct<std::__1::basic_string<char>, std::__1::basic_string<char> >
+__construct<std::__1::basic_string<char>, std::__1::basic_string<char> >
+construct<std::__1::basic_string<char>, const std::__1::basic_string<char> &>
+__construct<std::__1::basic_string<char>, const std::__1::basic_string<char> &>
+str
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/sstream
+basic_string<char *>
+__init<char *>
+distance<char *>
+__distance<char *>
+__pad_and_output<char, std::__1::char_traits<char> >
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/locale
+width
+sputn
+__put_character_sequence<char, std::__1::char_traits<char> >
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/ostream
+failed
+fill
+widen
+use_facet<std::__1::ctype<char> >
+flags
+ostreambuf_iterator
+sputc
+max<char *>
+max<char *, std::__1::__less<char *, char *> >
+__get_long_cap
+~basic_stringbuf
+_ZTv0_n24_NSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEED0Ev
+~basic_ostringstream
+_ZTv0_n24_NSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEED1Ev
+~InvalidTextDictionary
+InvalidTextDictionary
+basic_ostringstream
+operator<<<char, std::__1::char_traits<char>, std::__1::allocator<char> >
+operator<<<std::__1::char_traits<char> >
+basic_stringbuf
+basic_ostream
+New
+FindNextInline
+IsLineEndingOrFileEnding
+swap<opencc::DictEntry **>
+__construct_backward<opencc::DictEntry *>
+__push_back_slow_path<opencc::DictEntry *const &>
+construct<opencc::DictEntry *, opencc::DictEntry *const &>
+__construct<opencc::DictEntry *, opencc::DictEntry *const &>
+~Lexicon
+operator!=<opencc::DictEntry **>
+shared_ptr<opencc::Lexicon>
+Add
+_ZThn8_NK6opencc8TextDict15SerializeToFileEP7__sFILE
+operator!=<opencc::DictEntry *const *>
+PtrLessThan
+Optional
+lower_bound<std::__1::__wrap_iter<opencc::DictEntry *const *>, opencc::NoValueDictEntry *, bool (*)(const opencc::DictEntry *, const opencc::DictEntry *)>
+__lower_bound<bool (*&)(const opencc::DictEntry *, const opencc::DictEntry *), std::__1::__wrap_iter<opencc::DictEntry *const *>, opencc::NoValueDictEntry *>
+advance<std::__1::__wrap_iter<opencc::DictEntry *const *> >
+__advance<std::__1::__wrap_iter<opencc::DictEntry *const *> >
+distance<std::__1::__wrap_iter<opencc::DictEntry *const *> >
+__distance<std::__1::__wrap_iter<opencc::DictEntry *const *> >
+operator-<opencc::DictEntry *const *, opencc::DictEntry *const *>
+NoValueDictEntry
+TextDict
+Sort
+sort<opencc::DictEntry *, bool (*)(const opencc::DictEntry *, const opencc::DictEntry *)>
+sort<opencc::DictEntry **, bool (*&)(const opencc::DictEntry *, const opencc::DictEntry *)>
+ParseLexiconFromFile
+ParseKeyValues
+Lexicon
+NewFromSortedFile
+~TextDict
+GetKeyMaxLength
+__GLOBAL__sub_I_SimpleConverter.cpp
+__ZL6cError
+/Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/SimpleConverter.cpp
+_GLOBAL__sub_I_SimpleConverter.cpp
+__cxx_global_var_init.1
+opencc_error
+opencc_convert_utf8_free
+opencc_convert_utf8
+opencc_convert_utf8_to_buffer
+opencc_close
+~SimpleConverter
+opencc_open
+opencc_open_internal
+SimpleConverter
+Convert
+~InternalData
+InternalData
+__ZN6opencc8Segments10AddSegmentEPKc
+__ZN6opencc20MaxMatchSegmentationD1Ev
+__ZN6opencc20MaxMatchSegmentationD0Ev
+__ZN6opencc8Segments10AddSegmentERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE
+__ZNSt3__120__shared_ptr_pointerIPN6opencc8SegmentsENS_14default_deleteIS2_EENS_9allocatorIS2_EEED1Ev
+__ZNSt3__120__shared_ptr_pointerIPN6opencc8SegmentsENS_14default_deleteIS2_EENS_9allocatorIS2_EEED0Ev
+__GLOBAL__sub_I_MaxMatchSegmentation.cpp
+__ZTSN6opencc12SegmentationE
+__ZTIN6opencc12SegmentationE
+__ZTSNSt3__120__shared_ptr_pointerIPN6opencc8SegmentsENS_14default_deleteIS2_EENS_9allocatorIS2_EEEE
+__ZTINSt3__120__shared_ptr_pointerIPN6opencc8SegmentsENS_14default_deleteIS2_EENS_9allocatorIS2_EEEE
+__ZTSNSt3__114default_deleteIN6opencc8SegmentsEEE
+/Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/MaxMatchSegmentation.cpp
+_GLOBAL__sub_I_MaxMatchSegmentation.cpp
+~Segments
+/Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/Segments.hpp
+shared_ptr<opencc::Segments>
+__push_back_slow_path<const char *const &>
+swap<std::__1::pair<unsigned long, bool> *>
+__construct_backward<std::__1::pair<unsigned long, bool> >
+__push_back_slow_path<std::__1::pair<unsigned long, bool> >
+construct<std::__1::pair<unsigned long, bool>, std::__1::pair<unsigned long, bool> >
+__construct<std::__1::pair<unsigned long, bool>, std::__1::pair<unsigned long, bool> >
+AddSegment
+~MaxMatchSegmentation
+Segment
+Segments
+__ZN6opencc16SerializableDict11NewFromFileINS_8TextDictEEENSt3__110shared_ptrIT_EERKNS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEE
+__ZN6opencc16SerializableDict11NewFromFileINS_9DartsDictEEENSt3__110shared_ptrIT_EERKNS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEE
+__GLOBAL__sub_I_DictConverter.cpp
+/Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/DictConverter.cpp
+_GLOBAL__sub_I_DictConverter.cpp
+ConvertDictionary
+ConvertDict
+NewFromFile<opencc::DartsDict>
+NewFromFile<opencc::TextDict>
+LoadDictionary
+__ZNK6opencc8Segments8ToStringEv
+__ZNK6opencc8Segments8iteratordeEv
+__GLOBAL__sub_I_Converter.cpp
+/Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/Converter.cpp
+_GLOBAL__sub_I_Converter.cpp
+iterator
+__ZN6opencc10BinaryDictD1Ev
+__ZN6opencc10BinaryDictD0Ev
+__ZN6opencc12PtrDictEntryD1Ev
+__ZN6opencc12PtrDictEntryD0Ev
+__ZNK6opencc12PtrDictEntry3KeyEv
+__ZNK6opencc12PtrDictEntry6ValuesEv
+__ZNK6opencc12PtrDictEntry9NumValuesEv
+__ZN6opencc10BinaryDictD2Ev
+__GLOBAL__sub_I_BinaryDict.cpp
+__ZTSN6opencc12PtrDictEntryE
+__ZTIN6opencc12PtrDictEntryE
+/Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/BinaryDict.cpp
+_GLOBAL__sub_I_BinaryDict.cpp
+swap<unsigned long *>
+__construct_backward<unsigned long>
+__push_back_slow_path<unsigned long>
+construct<unsigned long, unsigned long>
+__construct<unsigned long, unsigned long>
+~BinaryDict
+__construct_at_end<const char **>
+__construct_range_forward<const char *>
+~PtrDictEntry
+PtrDictEntry
+ConstructBuffer
+operator!=<const char **>
+__GLOBAL__sub_I_ConversionChain.cpp
+/Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/ConversionChain.cpp
+_GLOBAL__sub_I_ConversionChain.cpp
+swap<opencc::Segments *>
+ConversionChain
+__GLOBAL__sub_I_Conversion.cpp
+/Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/Conversion.cpp
+_GLOBAL__sub_I_Conversion.cpp
+-[ObjcConverter initWithConfig:error:]
+-[ObjcConverter convert:error:]
+-[ObjcConverter dealloc]
+-[ObjcConverter .cxx_destruct]
+-[ObjcConverter .cxx_construct]
+__GLOBAL__sub_I_ObjcConverter.mm
+_OBJC_IVAR_$_ObjcConverter.converter
+/Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/Sources/ObjcConverter.mm
+_GLOBAL__sub_I_ObjcConverter.mm
+swap<opencc::Converter *>
+__ZN6opencc19MultiValueDictEntryD1Ev
+__ZN6opencc19MultiValueDictEntryD0Ev
+__GLOBAL__sub_I_DictEntry.cpp
+/Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/DictEntry.cpp
+_GLOBAL__sub_I_DictEntry.cpp
+~MultiValueDictEntry
+__GLOBAL__sub_I_UTF8StringSlice.cpp
+/Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/UTF8StringSlice.cpp
+_GLOBAL__sub_I_UTF8StringSlice.cpp
+__ZN6opencc16DictEntryFactory3NewEPKNS_9DictEntryE
+__ZN6opencc22StrMultiValueDictEntryC2ERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEERKNS1_6vectorIPKcNS5_ISC_EEEE
+__GLOBAL__sub_I_DictGroup.cpp
+/Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/OpenCC/src/DictGroup.cpp
+_GLOBAL__sub_I_DictGroup.cpp
+__tree_right_rotate<std::__1::__tree_node_base<void *> *>
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/__tree
+__set_parent
+__tree_is_left_child<std::__1::__tree_node_base<void *> *>
+__tree_left_rotate<std::__1::__tree_node_base<void *> *>
+__tree_balance_after_insert<std::__1::__tree_node_base<void *> *>
+__parent_unsafe
+__insert_node_at
+__begin_node
+__emplace_unique_key_args<unsigned long, const std::__1::piecewise_construct_t &, std::__1::tuple<const unsigned long &>, std::__1::tuple<> >
+__tree_iterator
+__construct_node<const std::__1::piecewise_construct_t &, std::__1::tuple<const unsigned long &>, std::__1::tuple<> >
+construct<std::__1::pair<const unsigned long, const opencc::DictEntry *>, const std::__1::piecewise_construct_t &, std::__1::tuple<const unsigned long &>, std::__1::tuple<> >
+__construct<std::__1::pair<const unsigned long, const opencc::DictEntry *>, const std::__1::piecewise_construct_t &, std::__1::tuple<const unsigned long &>, std::__1::tuple<> >
+pair<const unsigned long &>
+pair<const unsigned long &, 0>
+__find_equal<unsigned long>
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/map
+__root_ptr
+__root
+__end_node
+__push_back_slow_path<std::__1::basic_string<char> >
+operator!=<const char *const *>
+DictGroup
+~map
+~__tree
+operator!=<std::__1::__map_iterator<std::__1::__tree_iterator<std::__1::__value_type<unsigned long, const opencc::DictEntry *>, std::__1::__tree_node<std::__1::__value_type<unsigned long, const opencc::DictEntry *>, void *> *, long> >, std::__1::__map_iterator<std::__1::__tree_iterator<std::__1::__value_type<unsigned long, const opencc::DictEntry *>, std::__1::__tree_node<std::__1::__value_type<unsigned long, const opencc::DictEntry *>, void *> *, long> > >
+rend
+operator--
+__tree_prev_iter<std::__1::__tree_node_base<void *> *, std::__1::__tree_end_node<std::__1::__tree_node_base<void *> *> *>
+__tree_max<std::__1::__tree_node_base<void *> *>
+operator!=<const opencc::DictEntry *const *>
+__get_np
+find
+find<unsigned long>
+__lower_bound<unsigned long>
+map
+__tree
+__tree_end_node
+~DictGroup
+_swift_rt_swift_allocObject
+__T06OpenCC16ChineseConverterC7OptionsV9configUrl10Foundation3URLVfg
+__T0s5Error_pMa
+_swift_rt_swift_getExistentialTypeMetadata
+__T0So7NSErrorCMa
+_swift_rt_swift_getInitializedObjCClass
+_swift_rt_swift_dynamicCast
+__T06OpenCC16ChineseConverterC7OptionsV11normalizingAEyF
+__T06OpenCC16ChineseConverterC7OptionsVs9OptionSetAAsAFPx8RawValueQz03rawI0_tcfCTW
+__T06OpenCC16ChineseConverterC7OptionsVs10SetAlgebraAAsAFPxycfCTW
+__T06OpenCC16ChineseConverterC7OptionsVs10SetAlgebraAAsAFP5unionxxFTW
+__T06OpenCC16ChineseConverterC7OptionsVs10SetAlgebraAAsAFP12intersectionxxFTW
+__T06OpenCC16ChineseConverterC7OptionsVs10SetAlgebraAAsAFP19symmetricDifferencexxFTW
+__T06OpenCC16ChineseConverterC7OptionsVs10SetAlgebraAAsAFP6insertSb8inserted_7ElementQz17memberAfterInserttAKFTW
+__T06OpenCC16ChineseConverterC7OptionsVs10SetAlgebraAAsAFP6remove7ElementQzSgAJFTW
+__T06OpenCC16ChineseConverterC7OptionsVs10SetAlgebraAAsAFP6update7ElementQzSgAJ4with_tFTW
+__T06OpenCC16ChineseConverterC7OptionsVs10SetAlgebraAAsAFP9formUnionyxFTW
+__T06OpenCC16ChineseConverterC7OptionsVs10SetAlgebraAAsAFP16formIntersectionyxFTW
+__T06OpenCC16ChineseConverterC7OptionsVs10SetAlgebraAAsAFP23formSymmetricDifferenceyxFTW
+__T06OpenCC16ChineseConverterC7OptionsVs10SetAlgebraAAsAFP11subtractingxxFTW
+__T06OpenCC16ChineseConverterC7OptionsVs10SetAlgebraAAsAFP8isSubsetSbx2of_tFTW
+__T06OpenCC16ChineseConverterC7OptionsVs10SetAlgebraAAsAFP10isDisjointSbx4with_tFTW
+__T06OpenCC16ChineseConverterC7OptionsVs10SetAlgebraAAsAFP10isSupersetSbx2of_tFTW
+__T06OpenCC16ChineseConverterC7OptionsVs10SetAlgebraAAsAFP7isEmptySbfgTW
+__T06OpenCC16ChineseConverterC7OptionsVs10SetAlgebraAAsAFPxqd__cs8SequenceRd__7ElementQyd__AIRtzlufCTW
+__T06OpenCC16ChineseConverterC7OptionsVs10SetAlgebraAAsAFP8subtractyxFTW
+__T06OpenCC16ChineseConverterC7OptionsVs16RawRepresentableAAsAFPxSg0F5ValueQz03rawH0_tcfCTW
+__T06OpenCC16ChineseConverterC7OptionsVs16RawRepresentableAAsAFP8rawValue0fI0QzfgTW
+__T06OpenCC16ChineseConverterC7OptionsVs9EquatableAAsAFP2eeoiSbx_xtFZTW
+__T06OpenCC16ChineseConverterC7OptionsVs25ExpressibleByArrayLiteralAAsAFPxSay0hI7ElementQzG05arrayI0d_tcfCTW
+___swift_noop_void_return
+___swift_memcpy8_8
+___swift_noop_self_return
+___swift_memcpy_array8_8
+___swift_memmove_array8_8
+_swift_rt_swift_slowAlloc
+_swift_rt_swift_slowDealloc
+__T0s11_StringCoreV6appendyABFTfq4gXn_n
+__T0s11_StringCoreV13_copyElementsySv_Si15srcElementWidthSv8dstStartSi0hfG0Si5counttFZTfq4nnnnnd_n
+__T0s10SetAlgebraPssAARz7ElementQz012ArrayLiteralC0RtzlExSayAFG05arrayE0d_tcfC6OpenCC16ChineseConverterC7OptionsV_Tg5Tf4gd_n
+__T06OpenCC16ChineseConverterC7OptionsVs10SetAlgebraAAsAFP8containsSb7ElementQzFTW
+__T0s5Error_pML
+__T0So7NSErrorCML
+__T06OpenCC16ChineseConverterC9converterSo04ObjcD0CvWvd
+__T06OpenCC16ChineseConverterCML
+__T06OpenCC16ChineseConverterCMf
+__T06OpenCC16ChineseConverterCMF
+__T06OpenCC16ChineseConverterC7OptionsVWV
+__T06OpenCC16ChineseConverterC7OptionsVML
+__T06OpenCC16ChineseConverterC7OptionsVMf
+__T06OpenCC16ChineseConverterC7OptionsVMF
+__swift_FORCE_LOAD_$_swiftFoundation_$_OpenCC
+__swift_FORCE_LOAD_$_swiftObjectiveC_$_OpenCC
+__swift_FORCE_LOAD_$_swiftDarwin_$_OpenCC
+__swift_FORCE_LOAD_$_swiftCoreFoundation_$_OpenCC
+__swift_FORCE_LOAD_$_swiftDispatch_$_OpenCC
+__T0So13ObjcConverterCML
+__T0s23_ContiguousArrayStorageCy6OpenCC16ChineseConverterC7OptionsVGML
+__T06OpenCC16ChineseConverterC7OptionsVs9OptionSetAAMA
+__T06OpenCC16ChineseConverterC7OptionsVs10SetAlgebraAAMA
+__T06OpenCC16ChineseConverterC7OptionsVs16RawRepresentableAAMA
+__T06OpenCC16ChineseConverterC7OptionsVs25ExpressibleByArrayLiteralAAMA
+___swift_reflection_version
+__T0So13ObjcConverterCMF
+_objc_classes
+-emit-bc /Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/Sources/ChineseConverter.swift -target arm64-apple-ios8.0 -Xllvm -aarch64-use-tbi -enable-objc-interop -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk -I "/Users/lucky138200/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/SwiftyOpenCC/v0.2.2/Build/Intermediates.noindex/ArchiveIntermediates/OpenCC iOS/BuildProductsPath/Release-iphoneos" -I /Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/Sources -F "/Users/lucky138200/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/SwiftyOpenCC/v0.2.2/Build/Intermediates.noindex/ArchiveIntermediates/OpenCC iOS/BuildProductsPath/Release-iphoneos" -g -import-underlying-module -module-cache-path /Users/lucky138200/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/SwiftyOpenCC/v0.2.2/ModuleCache -swift-version 3 -serialize-debugging-options -report-errors-to-debugger -Xcc "-I/Users/lucky138200/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/SwiftyOpenCC/v0.2.2/Build/Intermediates.noindex/ArchiveIntermediates/OpenCC iOS/IntermediateBuildFilesPath/OpenCC.build/Release-iphoneos/OpenCC iOS.build/swift-overrides.hmap" -Xcc -iquote -Xcc "/Users/lucky138200/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/SwiftyOpenCC/v0.2.2/Build/Intermediates.noindex/ArchiveIntermediates/OpenCC iOS/IntermediateBuildFilesPath/OpenCC.build/Release-iphoneos/OpenCC iOS.build/OpenCC-generated-files.hmap" -Xcc "-I/Users/lucky138200/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/SwiftyOpenCC/v0.2.2/Build/Intermediates.noindex/ArchiveIntermediates/OpenCC iOS/IntermediateBuildFilesPath/OpenCC.build/Release-iphoneos/OpenCC iOS.build/OpenCC-own-target-headers.hmap" -Xcc "-I/Users/lucky138200/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/SwiftyOpenCC/v0.2.2/Build/Intermediates.noindex/ArchiveIntermediates/OpenCC iOS/IntermediateBuildFilesPath/OpenCC.build/Release-iphoneos/OpenCC iOS.build/OpenCC-all-non-framework-target-headers.hmap" -Xcc -ivfsoverlay -Xcc "/Users/lucky138200/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/SwiftyOpenCC/v0.2.2/Build/Intermediates.noindex/ArchiveIntermediates/OpenCC iOS/IntermediateBuildFilesPath/OpenCC.build/all-product-headers.yaml" -Xcc -iquote -Xcc "/Users/lucky138200/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/SwiftyOpenCC/v0.2.2/Build/Intermediates.noindex/ArchiveIntermediates/OpenCC iOS/IntermediateBuildFilesPath/OpenCC.build/Release-iphoneos/OpenCC iOS.build/OpenCC-project-headers.hmap" -Xcc "-I/Users/lucky138200/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/SwiftyOpenCC/v0.2.2/Build/Intermediates.noindex/ArchiveIntermediates/OpenCC iOS/BuildProductsPath/Release-iphoneos/include" -Xcc "-I/Users/lucky138200/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/SwiftyOpenCC/v0.2.2/Build/Intermediates.noindex/ArchiveIntermediates/OpenCC iOS/IntermediateBuildFilesPath/OpenCC.build/Release-iphoneos/OpenCC iOS.build/DerivedSources/arm64" -Xcc "-I/Users/lucky138200/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/SwiftyOpenCC/v0.2.2/Build/Intermediates.noindex/ArchiveIntermediates/OpenCC iOS/IntermediateBuildFilesPath/OpenCC.build/Release-iphoneos/OpenCC iOS.build/DerivedSources" -Xcc -ivfsoverlay -Xcc "/Users/lucky138200/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/SwiftyOpenCC/v0.2.2/Build/Intermediates.noindex/ArchiveIntermediates/OpenCC iOS/IntermediateBuildFilesPath/OpenCC.build/Release-iphoneos/OpenCC iOS.build/unextended-module-overlay.yaml" -Xcc -working-directory/Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC -emit-module-doc-path "/Users/lucky138200/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/SwiftyOpenCC/v0.2.2/Build/Intermediates.noindex/ArchiveIntermediates/OpenCC iOS/IntermediateBuildFilesPath/OpenCC.build/Release-iphoneos/OpenCC iOS.build/Objects-normal/arm64/OpenCC.swiftdoc" -serialize-diagnostics-path "/Users/lucky138200/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/SwiftyOpenCC/v0.2.2/Build/Intermediates.noindex/ArchiveIntermediates/OpenCC iOS/IntermediateBuildFilesPath/OpenCC.build/Release-iphoneos/OpenCC iOS.build/Objects-normal/arm64/ChineseConverter.dia" -O -parse-as-library -module-name OpenCC -emit-module-path "/Users/lucky138200/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/SwiftyOpenCC/v0.2.2/Build/Intermediates.noindex/ArchiveIntermediates/OpenCC iOS/IntermediateBuildFilesPath/OpenCC.build/Release-iphoneos/OpenCC iOS.build/Objects-normal/arm64/OpenCC.swiftmodule" -emit-objc-header-path "/Users/lucky138200/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/SwiftyOpenCC/v0.2.2/Build/Intermediates.noindex/ArchiveIntermediates/OpenCC iOS/IntermediateBuildFilesPath/OpenCC.build/Release-iphoneos/OpenCC iOS.build/Objects-normal/arm64/OpenCC-Swift.h" -emit-dependencies-path "/Users/lucky138200/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/SwiftyOpenCC/v0.2.2/Build/Intermediates.noindex/ArchiveIntermediates/OpenCC iOS/IntermediateBuildFilesPath/OpenCC.build/Release-iphoneos/OpenCC iOS.build/Objects-normal/arm64/ChineseConverter.d" -num-threads 8 -o "/Users/lucky138200/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/SwiftyOpenCC/v0.2.2/Build/Intermediates.noindex/ArchiveIntermediates/OpenCC iOS/IntermediateBuildFilesPath/OpenCC.build/Release-iphoneos/OpenCC iOS.build/Objects-normal/arm64/ChineseConverter.bc" -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift
+<swift-imported-modules>
+Apple Swift version 4.0.3 effective-3.2.3 (swiftlang-900.0.74.1 clang-900.0.39.2)
+/Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/Sources/ChineseConverter.swift
+ChineseConverter.swift
+/Users/lucky138200/Documents_Local/air/Carthage/Checkouts/SwiftyOpenCC/Sources
+_T0s16IndexingIteratorVyxGs0B8Protocolss14_IndexableBaseRzlsADP4next7ElementQzSgyFTWSay6OpenCC16ChineseConverterC7OptionsVG_Tg5
+_T0s16IndexingIteratorV4next7ElementQzSgyFSay6OpenCC16ChineseConverterC7OptionsVG_Tg5
+_T0Sis9EquatablessAAP2eeoiSbx_xtFZTW
+_T0SayxGs14_IndexableBaseslsABP9formIndexy0D0Qzz5after_tFTW6OpenCC16ChineseConverterC7OptionsV_Tg5
+_T0Sa9formIndexySiz5after_tF6OpenCC16ChineseConverterC7OptionsV_Tg5
+formUnion
+_T0Sis13BinaryIntegerssAAP1ooixx_xtFZTW
+_T0SayxGs14_IndexableBaseslsABP9subscript7ElementQz5IndexQzcfgTW6OpenCC16ChineseConverterC7OptionsV_Tg5
+_T0Sa9subscriptxSicfg6OpenCC16ChineseConverterC7OptionsV_Tg5
+_T0Sa11_getElementxSi_Sb20wasNativeTypeCheckeds16_DependenceTokenV22matchingSubscriptChecktF6OpenCC16ChineseConverterC7OptionsV_Tg5
+_T0SayxGs14_IndexableBaseslsABP8endIndex0D0QzfgTW6OpenCC16ChineseConverterC7OptionsV_Tg5
+_T0Sa8endIndexSifg6OpenCC16ChineseConverterC7OptionsV_Tg5
+_T0Sa9_getCountSiyF6OpenCC16ChineseConverterC7OptionsV_Tg5
+_T0s11_StringCoreV13_copyElementsySv_Si15srcElementWidthSv8dstStartSi0hfG0Si5counttFZTfq4nnnnnd_n
+_T0s11_StringCoreV6appendyABFTfq4gXn_n
+_T0s20ManagedBufferPointerV08_elementC0Spyq_Gfgs05_HeapB6HeaderVys07_StringB5IVarsVG_s6UInt16VTgq5
+_T0s11_StringCoreV22isRepresentableAsASCIISbyFTfq4x_n
+_T0s8SequencePsE8containsS2b7ElementQzKc5where_tKFSRys6UInt16VG_Tgq505_T0s6E37VSbs5Error_pIxydzo_ABSbsAC_pIxidzo_TRAHSbs0H0_pIxydzo_Tfq1cn_nTfq4ng_n
+_T0s11_StringCoreV22isRepresentableAsASCIISbyFSbs6UInt16VcfU_
+_T0S2RyxGSPyxGSg5start_Si5counttcfCs6UInt16V_Tgq5Tfq4nnd_n
+initialize_metadata_Options
+_T06OpenCC16ChineseConverterCMa
+get_field_types_Options
+__swift_memmove_array8_8
+__swift_memcpy_array8_8
+__swift_noop_self_return
+__swift_memcpy8_8
+__swift_noop_void_return
+get_field_types_ChineseConverter
+_T0So13ObjcConverterCMa
+_T06OpenCC16ChineseConverterC7OptionsVs25ExpressibleByArrayLiteralAAWa
+_T06OpenCC16ChineseConverterC7OptionsVs9EquatableAAWa
+==
+_T0s2eeoiSbx_xts16RawRepresentableRzs9Equatable0B5ValueRpzlFTfq4gg_n6OpenCC16ChineseConverterC7OptionsV_Tg5
+_T06OpenCC16ChineseConverterC7OptionsVs16RawRepresentableAAWa
+rawValue.get
+_T06OpenCC16ChineseConverterC7OptionsVs10SetAlgebraAAWa
+subtract
+formIntersection
+_T0Sis13BinaryIntegerssAAP1aoixx_xtFZTW
+isEmpty.get
+isSuperset
+_T0s10SetAlgebraPsE10isSupersetSbx2of_tFTfq4gn_n6OpenCC16ChineseConverterC7OptionsV_Tg5
+isSubset
+intersection
+isDisjoint
+subtracting
+formSymmetricDifference
+_T0Sis13BinaryIntegerssAAP1xoixx_xtFZTW
+update
+remove
+symmetricDifference
+union
+_T06OpenCC16ChineseConverterC7OptionsVs9OptionSetAAWa
+normalizing
+_allocateUninitializedArray
+_T0Sa13_adoptStorageSayxG_SpyxGts016_ContiguousArrayB0CyxG_Si5counttFZ6OpenCC16ChineseConverterC7OptionsV_Tg5
+_T0Sa13_adoptStorageSayxG_SpyxGts016_ContiguousArrayB0CyxG_Si5counttFZTfq4gnn_n6OpenCC16ChineseConverterC7OptionsV_Tg5
+contains
+_T06OpenCC16ChineseConverterC7OptionsV7TWIdiomAEfG
+_T0s23_ContiguousArrayStorageCy6OpenCC16ChineseConverterC7OptionsVGMa
+_T06OpenCC16ChineseConverterC7OptionsVMa
+_T06OpenCC16ChineseConverterC7OptionsV8textDictAEfau
+_T06OpenCC16ChineseConverterC7OptionsV7TWIdiomAEfau
+_T06OpenCC16ChineseConverterC7OptionsV10HKStandardAEfau
+_T06OpenCC16ChineseConverterC7OptionsV10TWStandardAEfau
+_T06OpenCC16ChineseConverterC7OptionsV8simplifyAEfau
+_T06OpenCC16ChineseConverterC7OptionsV14traditionalizeAEfau
+deinit
+convert
+_T0So7NSErrorCMa
+_T0s5Error_pMa
+configUrl.get
++=
+/Users/lucky138200/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/SwiftyOpenCC/v0.2.2/Build/Intermediates.noindex/ArchiveIntermediates/OpenCC iOS/IntermediateBuildFilesPath/OpenCC.build/Release-iphoneos/OpenCC iOS.build/DerivedSources/OpenCC_vers.c
+__ZL15__ARCLite__loadv
+__ZL58__arclite_NSMutableDictionary__setObject_forKeyedSubscriptP19NSMutableDictionaryP13objc_selectorP11objc_objectS4_
+__ZL22add_image_hook_swiftV1PK11mach_headerl
+__ZL42__arclite_NSUndoManagerProxy_isKindOfClassP11objc_objectP13objc_selectorP10objc_class
+__ZL13replaceMethodP10objc_classP13objc_selectorPFP11objc_objectS4_S2_zEPS6_
+__ZL30__arclite_NSManagedObject_initP11objc_objectP13objc_selector
+__ZL41__arclite_NSManagedObject_allocWithEntityP11objc_objectP13objc_selectorS0_
+__ZL36__arclite_NSManagedObject_allocBatchP11objc_objectP13objc_selectorPS0_S0_j
+__ZL37__arclite_NSKKMS_fastIndexForKnownKeyP11objc_objectP13objc_selectorS0_
+__ZL28__arclite_NSKKMS_indexForKeyP11objc_objectP13objc_selectorS0_
+__ZL29__arclite_NSKKsD_objectForKeyP11objc_objectP13objc_selectorS0_
+__ZL35__arclite_NSKKsD_removeObjectForKeyP11objc_objectP13objc_selectorS0_
+__ZL33__arclite_NSKKsD_setObject_forKeyP11objc_objectP13objc_selectorS0_S0_
+__ZL41__arclite_NSKKsD_addEntriesFromDictionaryP11objc_objectP13objc_selectorP12NSDictionary
+__ZL28__arclite_objc_readClassPairP10objc_classPK15objc_image_info
+__ZL32__arclite_objc_allocateClassPairP10objc_classPKcm
+__ZL32__arclite_object_getIndexedIvarsP11objc_object
+__ZL23__arclite_objc_getClassPKc
+__ZL27__arclite_objc_getMetaClassPKc
+__ZL31__arclite_objc_getRequiredClassPKc
+__ZL26__arclite_objc_lookUpClassPKc
+__ZL26__arclite_objc_getProtocolPKc
+__ZL23__arclite_class_getNameP10objc_class
+__ZL26__arclite_protocol_getNameP8Protocol
+__ZL37__arclite_objc_copyClassNamesForImagePKcPj
+__ZL17transcribeMethodsP10objc_classP15glue_class_ro_t
+__ZL19transcribeProtocolsP10objc_classP15glue_class_ro_t
+__ZL20transcribePropertiesP10objc_classP15glue_class_ro_t
+__ZL14initialize_impP11objc_objectP13objc_selector
+__ZL18allocateMaybeSwiftP18glue_swift_class_tm
+__ZL22copySwiftV1MangledNamePKcb
+__ZL13demangledNamePKcb
+__ZL16scanMangledFieldRPKcS0_S1_Ri
+__ZL30arclite_uninitialized_functionv
+__ZL12cxxConstructP11objc_object
+__ZL20fixStringForCoreDataP11objc_object
+_OBJC_METACLASS_$___ARCLite__
+__ZL24OBJC_CLASS_$___ARCLite__
+__ZL31OBJC_METACLASS_RO_$___ARCLite__
+__non_lazy_classes
+__ZL27OBJC_CLASS_RO_$___ARCLite__
+__ZL11_class_name
+__ZL32OBJC_$_CLASS_METHODS___ARCLite__
+__ZL17_load_method_name
+__ZL17_load_method_type
+l_OBJC_PROTOCOL_$___ARCLiteKeyedSubscripting__
+l_OBJC_LABEL_PROTOCOL_$___ARCLiteKeyedSubscripting__
+l_OBJC_PROTOCOL_REFERENCE_$___ARCLiteKeyedSubscripting__
+__ZL30NSUndoManagerProxy_targetClass
+__ZL29original_NSManagedObject_init
+__ZL40original_NSManagedObject_allocWithEntity
+__ZL35original_NSManagedObject_allocBatch
+__ZL25NSMutableDictionary_class
+__ZL22NSConstantString_class
+__ZL14NSString_class
+__ZL36original_NSKKMS_fastIndexForKnownKey
+__ZL27original_NSKKMS_indexForKey
+__ZL28original_NSKKsD_objectForKey
+__ZL34original_NSKKsD_removeObjectForKey
+__ZL32original_NSKKsD_setObject_forKey
+__ZL40original_NSKKsD_addEntriesFromDictionary
+__ZZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZGVZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZL31original_objc_allocateClassPair
+__ZL31original_object_getIndexedIvars
+__ZL22original_objc_getClass
+__ZL26original_objc_getMetaClass
+__ZL30original_objc_getRequiredClass
+__ZL25original_objc_lookUpClass
+__ZL25original_objc_getProtocol
+__ZL22original_class_getName
+__ZL25original_protocol_getName
+__ZL36original_objc_copyClassNamesForImage
+__ZL12demangleLock
+__ZL9Demangled
+Apple LLVM version 9.0.0 (clang-900.0.39)
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -Wno-trigraphs -fno-exceptions -fno-rtti -fno-sanitize=vptr -mpascal-strings -Os -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -D NDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.Internal.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -miphoneos-version-min=4.3 -g -fno-threadsafe-statics -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -fembed-bitcode=all -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-generated-files.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-own-target-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-all-target-headers.hmap -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-project-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/Symbols/BuiltProducts/include -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources/arm64 -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources -F/Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/Symbols/BuiltProducts -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.Internal.sdk/System/Library/PrivateFrameworks -Wall -Wextra -Wno-gcc-compat -Wno-error=incomplete-umbrella -Wno-error=invalid-ios-deployment-target -Wno-error=incomplete-umbrella -Wno-error=invalid-ios-deployment-target -MMD -MT dependencies -MF /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.d --serialize-diagnostics /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.dia -c /Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-67/source/arclite.mm -o /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.o -mlinker-version=305
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-67/source/arclite.mm
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-67
+fixStringForCoreData
+cxxConstruct
+arclite_uninitialized_function
+scanMangledField
+isdigit
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.Internal.sdk/usr/include/ctype.h
+__isctype
+demangledName
+copySwiftV1DemangledName
+copySwiftV1MangledName
+allocateMaybeSwift
+word_align
+isSwift
+initialize_imp
+transcribeProperties
+property_list_nth
+transcribeProtocols
+transcribeMethods
+method_list_nth
+__arclite_objc_copyClassNamesForImage
+__arclite_protocol_getName
+__arclite_class_getName
+__arclite_objc_getProtocol
+__arclite_objc_lookUpClass
+__arclite_objc_getRequiredClass
+__arclite_objc_getMetaClass
+__arclite_objc_getClass
+__arclite_object_getIndexedIvars
+__arclite_objc_allocateClassPair
+metaclass
+__arclite_objc_readClassPair
+transcribeIvars
+ivar_list_nth
+max
+alignment
+ro
+fastFlags
+__arclite_NSKKsD_addEntriesFromDictionary
+__arclite_NSKKsD_setObject_forKey
+__arclite_NSKKsD_removeObjectForKey
+__arclite_NSKKsD_objectForKey
+__arclite_NSKKMS_indexForKey
+__arclite_NSKKMS_fastIndexForKnownKey
+__arclite_NSManagedObject_allocBatch
+__arclite_NSManagedObject_allocWithEntity
+__arclite_NSManagedObject_init
+replaceMethod
+__arclite_NSUndoManagerProxy_isKindOfClass
+add_image_hook_swiftV1
+patch_lazy_pointers
+patch_t<const char **(const char *, unsigned int *)>
+patch_t<const char *(Protocol *)>
+patch_t<const char *(Class)>
+patch_t<Protocol *(const char *)>
+patch_t<Class (const char *)>
+patch_t<void *(id)>
+patch_t<Class (Class, const char *, unsigned long)>
+patch_t<Class (Class, const objc_image_info *)>
+__arclite_NSMutableDictionary__setObject_forKeyedSubscript
+__ARCLite__load
+install_swiftV1
+install_dict_nil_value
+addOrReplaceMethod
+keyedGetter

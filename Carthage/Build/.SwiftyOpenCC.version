@@ -1,0 +1,24 @@
+{
+  "Mac" : [
+    {
+      "name" : "OpenCC",
+      "hash" : "f5071f5d0ca66104601a643200278f8c68733c4dc813d64e6abd0d44731945d1"
+    }
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+    {
+      "name" : "OpenCC",
+      "hash" : "1cf466fd373f7209d8bc715bb2778fbacc15c675b6b2b425b0d4885e18f92d66"
+    }
+  ],
+  "commitish" : "v0.2.2",
+  "iOS" : [
+    {
+      "name" : "OpenCC",
+      "hash" : "86864e5cf226dac44cd97e70832751a6491a6ee69bda03093f5308f8d2d590ac"
+    }
+  ]
+}
