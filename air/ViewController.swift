@@ -93,6 +93,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         
         
         //Set up the location manager here.
+        
         locationManager.delegate = self
         locationManager.desiredAccuracy = kCLLocationAccuracyKilometer
         locationManager.requestWhenInUseAuthorization()
@@ -113,6 +114,8 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     /***************************************************************/
     
     //Write the didUpdateLocations method here:
+
+    
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         
         let location = locations[locations.count - 1 ]
@@ -122,9 +125,12 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
             locationManager.stopUpdatingLocation()
             
             latLongLocation = "\(location.coordinate.latitude),\(location.coordinate.longitude)"
-        
+            
+            print(latLongLocation)
             
             let params : [String : String] = ["location" : latLongLocation, "key" : APP_ID, "lang" : "hk"]
+            
+            print(params)
             
             getWeatherData(url: WEATHER_URL, parameters: params)
             
@@ -155,7 +161,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     //Write the didFailWithError method here:
     func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
         print(error)
-        nowWeather.cityLabel.text = "天\n气\n不\n可\n用"
+        nowWeather.cityLabel.text = "位\n置\n不\n可\n用"
     }
     
     //MARK: - Networking
@@ -167,17 +173,17 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         Alamofire.request(url, method: .get, parameters: parameters).responseJSON {
             response in
             if response.result.isSuccess {
-//                print("Success! Got the weather data")
+                print("Success! Got the weather data")
                 
                 let weatherJSON : JSON = JSON(response.result.value!)
                 
-//                print(weatherJSON)
+                print(weatherJSON)
                 
                 self.nowWeather.updateNowWeatherData(json: weatherJSON)
                 self.forWeather.updateForcastWeatherData(json: weatherJSON)
             }
             else {
-//                print("Error \(String(describing: response.result.error))")
+                print("Error \(String(describing: response.result.error))")
                 self.nowWeather.cityLabel.text = "鏈\n接\n不\n可\n用"
             }
         }

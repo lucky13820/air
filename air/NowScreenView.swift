@@ -44,7 +44,7 @@ class NowScreenView: UIViewController, CLLocationManagerDelegate {
         cityLabel.numberOfLines = 0
         cityLabel.sizeToFit()
         
-        UIView.animate(withDuration: 0.5, delay: 1, options: .curveEaseIn, animations: {
+        UIView.animate(withDuration: 0.6, delay: 1, options: .curveEaseIn, animations: {
             self.cityLabel.alpha = 1
             self.feelLabel.alpha = 1
             self.feelTemp.alpha = 1

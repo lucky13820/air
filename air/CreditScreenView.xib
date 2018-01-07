@@ -10,8 +10,8 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
-        <array key="cwTeXFangSong-zhonly.ttf">
-            <string>cwTeXFangSong</string>
+        <array key="FZKTK.TTF">
+            <string>FZKTK--GBK1-0</string>
         </array>
     </customFonts>
     <objects>
@@ -39,7 +39,7 @@
                         <constraint firstAttribute="width" constant="45" id="c5G-Ii-f5W"/>
                         <constraint firstAttribute="height" constant="68" id="se9-Lz-I6V"/>
                     </constraints>
-                    <fontDescription key="fontDescription" name="cwTeXFangSong" family="cwTeXFangSong" pointSize="20"/>
+                    <fontDescription key="fontDescription" name="FZKTK--GBK1-0" family="FZKai-Z03" pointSize="18"/>
                     <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <state key="normal" title="Button">
                         <color key="titleColor" red="0.95939534900000001" green="0.95941776040000004" blue="0.95940560100000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -54,7 +54,7 @@
                         <constraint firstAttribute="height" constant="72" id="JQE-7z-UMp"/>
                         <constraint firstAttribute="width" constant="45" id="j89-Ow-eDx"/>
                     </constraints>
-                    <fontDescription key="fontDescription" name="cwTeXFangSong" family="cwTeXFangSong" pointSize="20"/>
+                    <fontDescription key="fontDescription" name="FZKTK--GBK1-0" family="FZKai-Z03" pointSize="18"/>
                     <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <state key="normal" title="Button">
                         <color key="titleColor" red="0.95939534900000001" green="0.95941776040000004" blue="0.95940560100000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -69,7 +69,7 @@
                         <constraint firstAttribute="height" constant="134" id="4b7-Z0-spv"/>
                         <constraint firstAttribute="width" constant="34" id="aq5-Xj-tmp"/>
                     </constraints>
-                    <fontDescription key="fontDescription" name="cwTeXFangSong" family="cwTeXFangSong" pointSize="13"/>
+                    <fontDescription key="fontDescription" name="FZKTK--GBK1-0" family="FZKai-Z03" pointSize="12"/>
                     <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <state key="normal" title="Button">
                         <color key="titleColor" red="0.95939534900000001" green="0.95941776040000004" blue="0.95940560100000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

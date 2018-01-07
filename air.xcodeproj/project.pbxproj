@@ -20,8 +20,8 @@
 		AB0919501FE1CCFA0018552D /* ForcastScreenView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB09194E1FE1CCFA0018552D /* ForcastScreenView.xib */; };
 		AB0919531FE1CD0B0018552D /* NowScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0919511FE1CD0B0018552D /* NowScreenView.swift */; };
 		AB0919541FE1CD0B0018552D /* NowScreenView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB0919521FE1CD0B0018552D /* NowScreenView.xib */; };
+		AB35055A1FF8484E002B921D /* FZKTK.TTF in Resources */ = {isa = PBXBuildFile; fileRef = AB3505591FF8484E002B921D /* FZKTK.TTF */; };
 		AB39F77E1FE5ECC500C6F4FC /* Crimson-Roman.otf in Resources */ = {isa = PBXBuildFile; fileRef = AB39F77D1FE5ECC500C6F4FC /* Crimson-Roman.otf */; };
-		ABE1F5471FF08A4400DAD429 /* cwTeXFangSong-zhonly.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ABE1F5461FF08A4400DAD429 /* cwTeXFangSong-zhonly.ttf */; };
 		ABE1F54C1FF08E9100DAD429 /* OpenCC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABE1F5481FF08A7400DAD429 /* OpenCC.framework */; };
 /* End PBXBuildFile section */
 
@@ -54,8 +54,8 @@
 		AB09194E1FE1CCFA0018552D /* ForcastScreenView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForcastScreenView.xib; sourceTree = "<group>"; };
 		AB0919511FE1CD0B0018552D /* NowScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowScreenView.swift; sourceTree = "<group>"; };
 		AB0919521FE1CD0B0018552D /* NowScreenView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NowScreenView.xib; sourceTree = "<group>"; };
+		AB3505591FF8484E002B921D /* FZKTK.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = FZKTK.TTF; sourceTree = "<group>"; };
 		AB39F77D1FE5ECC500C6F4FC /* Crimson-Roman.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Crimson-Roman.otf"; sourceTree = "<group>"; };
-		ABE1F5461FF08A4400DAD429 /* cwTeXFangSong-zhonly.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "cwTeXFangSong-zhonly.ttf"; path = "../../../Library/Fonts/cwTeXFangSong-zhonly.ttf"; sourceTree = "<group>"; };
 		ABE1F5481FF08A7400DAD429 /* OpenCC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenCC.framework; path = Carthage/Build/iOS/OpenCC.framework; sourceTree = "<group>"; };
 		BA0E79800792E58B92AC6E6C /* Pods-air.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-air.debug.xcconfig"; path = "Pods/Target Support Files/Pods-air/Pods-air.debug.xcconfig"; sourceTree = "<group>"; };
 		BE5E0BD818991F041BE02FC5 /* Pods-air.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-air.release.xcconfig"; path = "Pods/Target Support Files/Pods-air/Pods-air.release.xcconfig"; sourceTree = "<group>"; };
@@ -125,7 +125,7 @@
 				AB09194E1FE1CCFA0018552D /* ForcastScreenView.xib */,
 				AB09191C1FE1BE4B0018552D /* Assets.xcassets */,
 				AB09191E1FE1BE4B0018552D /* LaunchScreen.storyboard */,
-				ABE1F5461FF08A4400DAD429 /* cwTeXFangSong-zhonly.ttf */,
+				AB3505591FF8484E002B921D /* FZKTK.TTF */,
 				AB39F77D1FE5ECC500C6F4FC /* Crimson-Roman.otf */,
 				AB0919211FE1BE4B0018552D /* Info.plist */,
 			);
@@ -197,9 +197,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB0919201FE1BE4B0018552D /* LaunchScreen.storyboard in Resources */,
+				AB35055A1FF8484E002B921D /* FZKTK.TTF in Resources */,
 				AB09191D1FE1BE4B0018552D /* Assets.xcassets in Resources */,
 				AB09191B1FE1BE4B0018552D /* Main.storyboard in Resources */,
-				ABE1F5471FF08A4400DAD429 /* cwTeXFangSong-zhonly.ttf in Resources */,
 				AB0919541FE1CD0B0018552D /* NowScreenView.xib in Resources */,
 				AB39F77E1FE5ECC500C6F4FC /* Crimson-Roman.otf in Resources */,
 				AB0919501FE1CCFA0018552D /* ForcastScreenView.xib in Resources */,
@@ -440,7 +440,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -462,7 +462,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
